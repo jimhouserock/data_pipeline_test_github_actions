@@ -40,7 +40,8 @@ python data_pipeline.py
 
 ## Files Generated
 
-- `data/weather_data.json` - Weather data
-- `data/weather_data.csv` - Same data in CSV format
+- `data/weather_history.json` - All historical weather data (last 30 days)
+- `data/weather_history.csv` - Historical data in CSV format for analysis
+- `data/weather_latest.json` - Just the most recent weather data
 
 That's it! Simple GitHub Actions testing with real weather data.

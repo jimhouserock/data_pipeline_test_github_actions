@@ -139,23 +139,42 @@ class DataLoader:
             logger.error(f"Error logging pipeline run: {e}")
     
     def load_data(self, processed_data):
-        """Main loading method - saves data in 2 simple files."""
+        """Main loading method - accumulates historical data."""
         try:
             logger.info(f"Loading weather data")
 
-            # Save main data as JSON
-            main_file = f"weather_data.json"
-            success_json = self.save_to_json(processed_data, main_file)
+            # Add timestamp to new data
+            from datetime import datetime
+            processed_data['recorded_at'] = datetime.now().isoformat()
 
-            # Save as CSV for easy analysis
-            csv_file = f"weather_data.csv"
-            success_csv = self.save_to_csv(processed_data, csv_file)
+            # Load existing historical data
+            historical_data = self.load_from_json('weather_history.json') or []
+
+            # Append new data
+            historical_data.append(processed_data)
+
+            # Keep only last 30 days to prevent file from getting huge
+            if len(historical_data) > 30:
+                historical_data = historical_data[-30:]
+
+            # Save accumulated historical data
+            history_file = "weather_history.json"
+            success_json = self.save_to_json(historical_data, history_file)
+
+            # Save latest data only (for current weather)
+            latest_file = "weather_latest.json"
+            self.save_to_json(processed_data, latest_file)
+
+            # Create CSV with all historical data for analysis
+            csv_file = "weather_history.csv"
+            success_csv = self.save_historical_csv(historical_data, csv_file)
 
             # Log successful run
             self.log_pipeline_run({}, success=True)
 
             logger.info(f"Successfully loaded weather data")
-            logger.info(f"Files created: {main_file}, {csv_file}")
+            logger.info(f"Historical records: {len(historical_data)}")
+            logger.info(f"Files created: {history_file}, {latest_file}, {csv_file}")
 
             return True
 
@@ -168,9 +187,45 @@ class DataLoader:
 
             return False
     
+    def save_historical_csv(self, historical_data, filename):
+        """Save historical data as CSV for analysis."""
+        try:
+            # Flatten the data for CSV
+            rows = []
+            for entry in historical_data:
+                current = entry.get('current_weather', {})
+                analysis = entry.get('current_analysis', {})
+
+                row = {
+                    'recorded_at': entry.get('recorded_at'),
+                    'temperature': current.get('temperature'),
+                    'feels_like': current.get('feels_like'),
+                    'humidity': current.get('humidity'),
+                    'weather_description': current.get('weather_description'),
+                    'comfort_index': analysis.get('comfort_index'),
+                    'wind_description': analysis.get('wind_description'),
+                    'precipitation_status': analysis.get('precipitation_status')
+                }
+                rows.append(row)
+
+            # Save as CSV
+            filepath = os.path.join(self.data_dir, filename)
+            df = pd.DataFrame(rows)
+            df.to_csv(filepath, index=False, encoding='utf-8')
+            logger.info(f"Saved historical CSV to {filepath}")
+            return True
+
+        except Exception as e:
+            logger.error(f"Error saving historical CSV: {e}")
+            return False
+
     def get_latest_data(self):
         """Get the most recent data."""
-        return self.load_from_json('weather_data.json')
+        return self.load_from_json('weather_latest.json')
+
+    def get_historical_data(self):
+        """Get all historical data."""
+        return self.load_from_json('weather_history.json')
 
 
 def main():
