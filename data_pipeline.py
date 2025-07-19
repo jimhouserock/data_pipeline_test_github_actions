@@ -119,9 +119,8 @@ class WeatherDataPipeline:
     def load_data(self, processed_data):
         """Load weather data using the loader."""
         try:
-            # Convert to format expected by loader
-            data_for_loading = [processed_data] if processed_data else []
-            success = self.loader.load_data(data_for_loading)
+            # Pass processed data directly to loader
+            success = self.loader.load_data(processed_data)
             if success:
                 logger.info("Weather data loaded successfully")
             return success
