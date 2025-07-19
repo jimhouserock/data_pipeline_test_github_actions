@@ -40,7 +40,7 @@ python data_pipeline.py
 
 ## Files Generated
 
-- `data/video_data.json` - Weather data
-- `data/video_data.csv` - Same data in CSV format
+- `data/weather_data.json` - Weather data
+- `data/weather_data.csv` - Same data in CSV format
 
 That's it! Simple GitHub Actions testing with real weather data.

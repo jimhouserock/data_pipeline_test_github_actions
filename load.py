@@ -139,68 +139,38 @@ class DataLoader:
             logger.error(f"Error logging pipeline run: {e}")
     
     def load_data(self, processed_data):
-        """Main loading method - saves data in multiple formats."""
+        """Main loading method - saves data in 2 simple files."""
         try:
-            logger.info(f"Loading {len(processed_data)} processed videos")
-            
-            # Create timestamp for this run
-            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-            
+            logger.info(f"Loading weather data")
+
             # Save main data as JSON
-            main_file = f"video_data.json"
+            main_file = f"weather_data.json"
             success_json = self.save_to_json(processed_data, main_file)
-            
-            # Save timestamped backup
-            backup_file = f"video_data_{timestamp}.json"
-            self.save_to_json(processed_data, backup_file)
-            
+
             # Save as CSV for easy analysis
-            csv_file = f"video_data.csv"
+            csv_file = f"weather_data.csv"
             success_csv = self.save_to_csv(processed_data, csv_file)
-            
-            # Create and save summary statistics
-            stats = self.create_summary_stats(processed_data)
-            stats_file = f"summary_stats.json"
-            self.save_to_json(stats, stats_file)
-            
-            # Extract embeddings separately for ML use
-            embeddings_data = []
-            for video in processed_data:
-                if video.get('embeddings'):
-                    embeddings_data.append({
-                        'video_id': video['video_id'],
-                        'title': video['title'],
-                        'embeddings': video['embeddings']
-                    })
-            
-            if embeddings_data:
-                embeddings_file = f"embeddings.json"
-                self.save_to_json(embeddings_data, embeddings_file)
-            
+
             # Log successful run
-            self.log_pipeline_run(stats, success=True)
-            
-            logger.info(f"Successfully loaded data: {len(processed_data)} videos")
-            logger.info(f"Files created: {main_file}, {csv_file}, {stats_file}")
-            
+            self.log_pipeline_run({}, success=True)
+
+            logger.info(f"Successfully loaded weather data")
+            logger.info(f"Files created: {main_file}, {csv_file}")
+
             return True
-            
+
         except Exception as e:
             error_msg = f"Error in data loading: {e}"
             logger.error(error_msg)
-            
+
             # Log failed run
             self.log_pipeline_run({}, success=False, error_msg=str(e))
-            
+
             return False
     
     def get_latest_data(self):
         """Get the most recent data."""
-        return self.load_from_json('video_data.json')
-    
-    def get_summary_stats(self):
-        """Get the latest summary statistics."""
-        return self.load_from_json('summary_stats.json')
+        return self.load_from_json('weather_data.json')
 
 
 def main():
