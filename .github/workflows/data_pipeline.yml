@@ -1,0 +1,63 @@
+name: Weather Data Pipeline Workflow
+
+# Define when this workflow runs
+on:
+  # Run on push to main branch
+  push:
+    branches: [ main ]
+
+  # Allow manual triggering
+  workflow_dispatch:
+
+  # Schedule to run daily at 12:35 AM UTC (7:35 AM Toronto time)
+  schedule:
+    - cron: '35 0 * * *'
+
+jobs:
+  run-weather-pipeline:
+    runs-on: ubuntu-latest
+
+    steps:
+    # Step 1: Checkout repository content
+    - name: Checkout repo content
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+
+    # Step 2: Set up Python
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.9'
+        cache: 'pip'
+
+    # Step 3: Install dependencies
+    - name: Install dependencies
+      run: |
+        pip install --upgrade pip
+        pip install -r requirements.txt
+
+    # Step 4: Run weather data pipeline
+    - name: Run weather data pipeline
+      run: |
+        python data_pipeline.py
+    
+    # Step 5: Check for changes
+    - name: Check for changes
+      id: verify-changed-files
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        git add .
+        if git diff --staged --quiet; then
+          echo "changes=false" >> $GITHUB_ENV
+        else
+          echo "changes=true" >> $GITHUB_ENV
+        fi
+    
+    # Step 6: Commit and push if changes
+    - name: Commit and push if changes
+      if: env.changes == 'true'
+      run: |
+        git commit -m "Automated data pipeline update - $(date '+%Y-%m-%d %H:%M:%S')"
+        git push
