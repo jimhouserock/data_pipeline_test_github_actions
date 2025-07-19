@@ -9,9 +9,10 @@ on:
   # Allow manual triggering
   workflow_dispatch:
 
-  # Schedule to run daily at 12:35 AM UTC (7:35 AM Toronto time)
+  # TESTING: Run every 5 minutes (change back to daily after testing)
+  # For daily: '35 0 * * *' (12:35 AM UTC / 7:35 AM Toronto time)
   schedule:
-    - cron: '35 0 * * *'
+    - cron: '*/5 * * * *'
 
 jobs:
   run-weather-pipeline:
