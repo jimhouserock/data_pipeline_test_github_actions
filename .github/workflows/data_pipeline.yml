@@ -9,10 +9,10 @@ on:
   # Allow manual triggering
   workflow_dispatch:
 
-  # TESTING: Run every 5 minutes (change back to daily after testing)
+  # TESTING: Run every 10 minutes (more reliable than 5 minutes)
   # For daily: '35 0 * * *' (12:35 AM UTC / 7:35 AM Toronto time)
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: '*/10 * * * *'
 
 # Prevent multiple workflows from running simultaneously
 concurrency:

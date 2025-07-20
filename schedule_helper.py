@@ -23,43 +23,43 @@ def write_workflow_file(content):
         f.write(content)
 
 def set_testing_schedule():
-    """Set schedule to run every 5 minutes for testing."""
+    """Set schedule to run every 10 minutes for testing."""
     content = read_workflow_file()
-    
-    # Replace daily schedule with 5-minute schedule
+
+    # Replace daily schedule with 10-minute schedule
     if "'35 0 * * *'" in content:
         content = content.replace(
             "- cron: '35 0 * * *'",
-            "- cron: '*/5 * * * *'"
+            "- cron: '*/10 * * * *'"
         )
         content = content.replace(
             "# Schedule to run daily at 12:35 AM UTC (7:35 AM Toronto time)",
-            "# TESTING: Run every 5 minutes (change back to daily after testing)\n  # For daily: '35 0 * * *' (12:35 AM UTC / 7:35 AM Toronto time)"
+            "# TESTING: Run every 10 minutes (more reliable than 5 minutes)\n  # For daily: '35 0 * * *' (12:35 AM UTC / 7:35 AM Toronto time)"
         )
-    elif "'*/5 * * * *'" in content:
-        print("⚠️ Already set to testing schedule (every 5 minutes)")
+    elif "'*/10 * * * *'" in content:
+        print("⚠️ Already set to testing schedule (every 10 minutes)")
         return False
     else:
         print("❌ Could not find schedule pattern to replace")
         return False
-    
+
     write_workflow_file(content)
-    print("✅ Schedule set to TESTING mode: every 5 minutes")
+    print("✅ Schedule set to TESTING mode: every 10 minutes")
     print("⚠️ Remember to change back to daily schedule after testing!")
     return True
 
 def set_daily_schedule():
     """Set schedule to run daily (production)."""
     content = read_workflow_file()
-    
-    # Replace 5-minute schedule with daily schedule
-    if "'*/5 * * * *'" in content:
+
+    # Replace 10-minute schedule with daily schedule
+    if "'*/10 * * * *'" in content:
         content = content.replace(
-            "- cron: '*/5 * * * *'",
+            "- cron: '*/10 * * * *'",
             "- cron: '35 0 * * *'"
         )
         content = content.replace(
-            "# TESTING: Run every 5 minutes (change back to daily after testing)\n  # For daily: '35 0 * * *' (12:35 AM UTC / 7:35 AM Toronto time)",
+            "# TESTING: Run every 10 minutes (more reliable than 5 minutes)\n  # For daily: '35 0 * * *' (12:35 AM UTC / 7:35 AM Toronto time)",
             "# Schedule to run daily at 12:35 AM UTC (7:35 AM Toronto time)"
         )
     elif "'35 0 * * *'" in content:
@@ -68,7 +68,7 @@ def set_daily_schedule():
     else:
         print("❌ Could not find schedule pattern to replace")
         return False
-    
+
     write_workflow_file(content)
     print("✅ Schedule set to PRODUCTION mode: daily at 7:35 AM Toronto time")
     return True
@@ -76,9 +76,9 @@ def set_daily_schedule():
 def show_current_schedule():
     """Show the current schedule setting."""
     content = read_workflow_file()
-    
-    if "'*/5 * * * *'" in content:
-        print("📅 Current schedule: TESTING (every 5 minutes)")
+
+    if "'*/10 * * * *'" in content:
+        print("📅 Current schedule: TESTING (every 10 minutes)")
         print("⚠️ This will use GitHub Actions minutes quickly!")
     elif "'35 0 * * *'" in content:
         print("📅 Current schedule: PRODUCTION (daily at 7:35 AM Toronto time)")
