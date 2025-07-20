@@ -8,7 +8,7 @@ on:
     branches: [ main ]
   workflow_dispatch:
   schedule:
-    - cron: '*/5 * * * *'  # Every 5 minutes (minimum allowed by GitHub)
+    - cron: '*/6 * * * *'  # Every 6 minutes (force GitHub to re-register schedule)
 
 jobs:
   run-weather-pipeline:
