@@ -1376,5 +1376,159 @@
       "completeness": "Good"
     },
     "recorded_at": "2025-07-20T03:53:22.379499"
+  },
+  {
+    "location": {
+      "city": "Toronto",
+      "country": "Canada",
+      "latitude": 43.6532,
+      "longitude": -79.3832
+    },
+    "extraction_info": {
+      "timestamp": "2025-07-20T04:38:02.220167",
+      "current_available": true,
+      "forecast_days": 7,
+      "source": "Open-Meteo API"
+    },
+    "current_weather": {
+      "timestamp": "2025-07-20T00:30",
+      "city": "Toronto",
+      "country": "Canada",
+      "latitude": 43.6532,
+      "longitude": -79.3832,
+      "temperature": 19.4,
+      "feels_like": 20.9,
+      "humidity": 85,
+      "precipitation": 0.0,
+      "weather_code": 3,
+      "wind_speed": 6.1,
+      "wind_direction": 3,
+      "extracted_at": "2025-07-20T04:38:01.833997"
+    },
+    "current_analysis": {
+      "temperature_celsius": 19.4,
+      "temperature_fahrenheit": 66.9,
+      "feels_like_celsius": 20.9,
+      "feels_like_fahrenheit": 69.6,
+      "humidity_level": "Very High (Humid)",
+      "weather_description": "Overcast",
+      "wind_description": "Light breeze",
+      "comfort_index": "Acceptable",
+      "precipitation_status": "No"
+    },
+    "forecast_data": [
+      {
+        "date": "2025-07-20",
+        "city": "Toronto",
+        "country": "Canada",
+        "temp_max": 25.4,
+        "temp_min": 17.0,
+        "precipitation": 15.5,
+        "weather_code": 65,
+        "wind_speed_max": 17.6,
+        "wind_direction": 313,
+        "extracted_at": "2025-07-20T04:38:02.219865"
+      },
+      {
+        "date": "2025-07-21",
+        "city": "Toronto",
+        "country": "Canada",
+        "temp_max": 20.8,
+        "temp_min": 14.6,
+        "precipitation": 0.0,
+        "weather_code": 3,
+        "wind_speed_max": 15.1,
+        "wind_direction": 4,
+        "extracted_at": "2025-07-20T04:38:02.219878"
+      },
+      {
+        "date": "2025-07-22",
+        "city": "Toronto",
+        "country": "Canada",
+        "temp_max": 22.6,
+        "temp_min": 15.7,
+        "precipitation": 0.0,
+        "weather_code": 3,
+        "wind_speed_max": 18.4,
+        "wind_direction": 76,
+        "extracted_at": "2025-07-20T04:38:02.219882"
+      },
+      {
+        "date": "2025-07-23",
+        "city": "Toronto",
+        "country": "Canada",
+        "temp_max": 26.1,
+        "temp_min": 18.1,
+        "precipitation": 0.0,
+        "weather_code": 3,
+        "wind_speed_max": 15.1,
+        "wind_direction": 131,
+        "extracted_at": "2025-07-20T04:38:02.219885"
+      },
+      {
+        "date": "2025-07-24",
+        "city": "Toronto",
+        "country": "Canada",
+        "temp_max": 36.7,
+        "temp_min": 22.1,
+        "precipitation": 0.3,
+        "weather_code": 51,
+        "wind_speed_max": 21.5,
+        "wind_direction": 233,
+        "extracted_at": "2025-07-20T04:38:02.219888"
+      },
+      {
+        "date": "2025-07-25",
+        "city": "Toronto",
+        "country": "Canada",
+        "temp_max": 31.0,
+        "temp_min": 22.7,
+        "precipitation": 2.1,
+        "weather_code": 51,
+        "wind_speed_max": 19.6,
+        "wind_direction": 319,
+        "extracted_at": "2025-07-20T04:38:02.219891"
+      },
+      {
+        "date": "2025-07-26",
+        "city": "Toronto",
+        "country": "Canada",
+        "temp_max": 27.4,
+        "temp_min": 20.9,
+        "precipitation": 0.0,
+        "weather_code": 3,
+        "wind_speed_max": 12.5,
+        "wind_direction": 84,
+        "extracted_at": "2025-07-20T04:38:02.219893"
+      }
+    ],
+    "forecast_analysis": {
+      "temperature_trend": "Warming trend",
+      "temperature_range": {
+        "highest": 36.7,
+        "lowest": 14.6,
+        "average_high": 27.1,
+        "average_low": 18.7
+      },
+      "precipitation_forecast": {
+        "total_expected": 17.9,
+        "rainy_days": 3,
+        "heaviest_day": 15.5
+      },
+      "weather_summary": "4 cloudy days, 3 rainy days",
+      "alerts": [
+        "Heavy precipitation expected on 2025-07-20: 15.5mm",
+        "Hot weather expected on 2025-07-24: 36.7°C",
+        "Hot weather expected on 2025-07-25: 31.0°C"
+      ]
+    },
+    "transformation_timestamp": "2025-07-20T04:38:02.220599",
+    "data_quality": {
+      "current_available": true,
+      "forecast_available": true,
+      "forecast_days": 7,
+      "completeness": "Good"
+    },
+    "recorded_at": "2025-07-20T04:38:02.220738"
   }
 ]
