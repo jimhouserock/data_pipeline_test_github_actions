@@ -1,21 +1,18 @@
 name: Weather Data Pipeline Workflow
 
-# Define when this workflow runs
+permissions:
+  contents: write  # Needed for pushing commits
+
 on:
-  # Run on push to main branch
   push:
     branches: [ main ]
-
-  # Allow manual triggering
   workflow_dispatch:
-
-  # TESTING: Run every 2 minutes to test if schedule works at all
-  # For daily: '35 0 * * *' (12:35 AM UTC / 7:35 AM Toronto time)
   schedule:
-    - cron: '*/2 * * * *'
+    - cron: '*/5 * * * *'  # Every 5 minutes (minimum allowed by GitHub)
 
 jobs:
   run-weather-pipeline:
+    name: Run Weather Pipeline
     runs-on: ubuntu-latest
 
     steps:
@@ -42,6 +39,7 @@ jobs:
     # Step 4: Run weather data pipeline
     - name: Run weather data pipeline
       run: |
+        set -e
         python data_pipeline.py
     
     # Step 5: Check for changes and commit
@@ -54,5 +52,5 @@ jobs:
           echo "No changes to commit"
         else
           git commit -m "Automated weather data update - $(date '+%Y-%m-%d %H:%M:%S')"
-          git push
+          git push origin main
         fi
