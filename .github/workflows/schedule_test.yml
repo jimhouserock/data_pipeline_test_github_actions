@@ -1,0 +1,14 @@
+name: Schedule Test
+
+on:
+  schedule:
+    - cron: '*/3 * * * *'  # Every 3 minutes
+
+jobs:
+  test-schedule:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Test scheduled run
+      run: |
+        echo "Scheduled run working at $(date)"
+        echo "This proves GitHub Actions scheduling is functional"

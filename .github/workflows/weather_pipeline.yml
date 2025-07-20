@@ -1,49 +1,44 @@
-name: Weather Data Pipeline Workflow
+name: Toronto Weather Pipeline
 
 permissions:
-  contents: write  # Needed for pushing commits
+  contents: write
 
 on:
   push:
     branches: [ main ]
   workflow_dispatch:
   schedule:
-    - cron: '*/6 * * * *'  # Every 6 minutes (force GitHub to re-register schedule)
+    - cron: '*/10 * * * *'  # Every 10 minutes - more reliable
 
 jobs:
-  run-weather-pipeline:
-    name: Run Weather Pipeline
+  collect-weather:
+    name: Collect Toronto Weather Data
     runs-on: ubuntu-latest
 
     steps:
-    # Step 1: Checkout repository content
-    - name: Checkout repo content
+    - name: Checkout repository
       uses: actions/checkout@v4
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
         fetch-depth: 0
 
-    # Step 2: Set up Python
-    - name: Set up Python
+    - name: Setup Python
       uses: actions/setup-python@v5
       with:
         python-version: '3.9'
         cache: 'pip'
 
-    # Step 3: Install dependencies
     - name: Install dependencies
       run: |
         pip install --upgrade pip
         pip install -r requirements.txt
 
-    # Step 4: Run weather data pipeline
-    - name: Run weather data pipeline
+    - name: Run weather pipeline
       run: |
         set -e
         python data_pipeline.py
-    
-    # Step 5: Check for changes and commit
-    - name: Check for changes and commit
+
+    - name: Commit weather data
       run: |
         git config --local user.name 'github-actions[bot]'
         git config --local user.email 'github-actions[bot]@users.noreply.github.com'
@@ -51,6 +46,6 @@ jobs:
         if git diff --staged --quiet; then
           echo "No changes to commit"
         else
-          git commit -m "Automated weather data update - $(date '+%Y-%m-%d %H:%M:%S')"
+          git commit -m "Weather data update - $(date '+%Y-%m-%d %H:%M:%S')"
           git push origin main
         fi
