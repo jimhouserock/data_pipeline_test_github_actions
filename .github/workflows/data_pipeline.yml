@@ -9,15 +9,10 @@ on:
   # Allow manual triggering
   workflow_dispatch:
 
-  # TESTING: Run every 10 minutes (more reliable than 5 minutes)
+  # TESTING: Run every 2 minutes to test if schedule works at all
   # For daily: '35 0 * * *' (12:35 AM UTC / 7:35 AM Toronto time)
   schedule:
-    - cron: '*/10 * * * *'
-
-# Prevent multiple workflows from running simultaneously
-concurrency:
-  group: weather-pipeline
-  cancel-in-progress: false
+    - cron: '*/2 * * * *'
 
 jobs:
   run-weather-pipeline:
