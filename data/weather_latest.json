@@ -6,35 +6,35 @@
     "longitude": -79.3832
   },
   "extraction_info": {
-    "timestamp": "2025-07-21T17:11:20.699928",
+    "timestamp": "2025-07-21T17:35:49.126746",
     "current_available": true,
     "forecast_days": 7,
     "source": "Open-Meteo API"
   },
   "current_weather": {
-    "timestamp": "2025-07-21T13:00",
+    "timestamp": "2025-07-21T13:30",
     "city": "Toronto",
     "country": "Canada",
     "latitude": 43.6532,
     "longitude": -79.3832,
-    "temperature": 23.2,
-    "feels_like": 23.3,
-    "humidity": 36,
+    "temperature": 23.4,
+    "feels_like": 25.8,
+    "humidity": 44,
     "precipitation": 0.0,
     "weather_code": 0,
-    "wind_speed": 9.9,
-    "wind_direction": 350,
-    "extracted_at": "2025-07-21T17:11:20.239537"
+    "wind_speed": 3.4,
+    "wind_direction": 32,
+    "extracted_at": "2025-07-21T17:35:48.734590"
   },
   "current_analysis": {
-    "temperature_celsius": 23.2,
-    "temperature_fahrenheit": 73.8,
-    "feels_like_celsius": 23.3,
-    "feels_like_fahrenheit": 73.9,
+    "temperature_celsius": 23.4,
+    "temperature_fahrenheit": 74.1,
+    "feels_like_celsius": 25.8,
+    "feels_like_fahrenheit": 78.4,
     "humidity_level": "Comfortable",
     "weather_description": "Clear sky",
-    "wind_description": "Light breeze",
-    "comfort_index": "Comfortable",
+    "wind_description": "Calm",
+    "comfort_index": "Very Comfortable",
     "precipitation_status": "No"
   },
   "forecast_data": [
@@ -45,22 +45,22 @@
       "temp_max": 23.2,
       "temp_min": 15.8,
       "precipitation": 0.0,
-      "weather_code": 0,
+      "weather_code": 2,
       "wind_speed_max": 15.3,
       "wind_direction": 330,
-      "extracted_at": "2025-07-21T17:11:20.699641"
+      "extracted_at": "2025-07-21T17:35:49.126474"
     },
     {
       "date": "2025-07-22",
       "city": "Toronto",
       "country": "Canada",
       "temp_max": 23.0,
-      "temp_min": 14.4,
+      "temp_min": 13.8,
       "precipitation": 0.0,
       "weather_code": 3,
       "wind_speed_max": 16.7,
       "wind_direction": 60,
-      "extracted_at": "2025-07-21T17:11:20.699654"
+      "extracted_at": "2025-07-21T17:35:49.126488"
     },
     {
       "date": "2025-07-23",
@@ -72,7 +72,7 @@
       "weather_code": 3,
       "wind_speed_max": 14.2,
       "wind_direction": 111,
-      "extracted_at": "2025-07-21T17:11:20.699658"
+      "extracted_at": "2025-07-21T17:35:49.126491"
     },
     {
       "date": "2025-07-24",
@@ -84,7 +84,7 @@
       "weather_code": 53,
       "wind_speed_max": 23.7,
       "wind_direction": 225,
-      "extracted_at": "2025-07-21T17:11:20.699661"
+      "extracted_at": "2025-07-21T17:35:49.126494"
     },
     {
       "date": "2025-07-25",
@@ -96,7 +96,7 @@
       "weather_code": 80,
       "wind_speed_max": 16.6,
       "wind_direction": 264,
-      "extracted_at": "2025-07-21T17:11:20.699665"
+      "extracted_at": "2025-07-21T17:35:49.126496"
     },
     {
       "date": "2025-07-26",
@@ -108,7 +108,7 @@
       "weather_code": 51,
       "wind_speed_max": 12.5,
       "wind_direction": 197,
-      "extracted_at": "2025-07-21T17:11:20.699668"
+      "extracted_at": "2025-07-21T17:35:49.126499"
     },
     {
       "date": "2025-07-27",
@@ -120,14 +120,14 @@
       "weather_code": 3,
       "wind_speed_max": 15.8,
       "wind_direction": 210,
-      "extracted_at": "2025-07-21T17:11:20.699671"
+      "extracted_at": "2025-07-21T17:35:49.126501"
     }
   ],
   "forecast_analysis": {
     "temperature_trend": "Warming trend",
     "temperature_range": {
       "highest": 36.1,
-      "lowest": 14.4,
+      "lowest": 13.8,
       "average_high": 28.8,
       "average_low": 19.1
     },
@@ -136,19 +136,19 @@
       "rainy_days": 3,
       "heaviest_day": 2.2
     },
-    "weather_summary": "1 clear day, 3 cloudy days, 3 rainy days, 1 snowy day",
+    "weather_summary": "4 cloudy days, 3 rainy days, 1 snowy day",
     "alerts": [
       "Hot weather expected on 2025-07-24: 36.1°C",
       "Hot weather expected on 2025-07-25: 31.1°C",
       "Hot weather expected on 2025-07-27: 32.1°C"
     ]
   },
-  "transformation_timestamp": "2025-07-21T17:11:20.700550",
+  "transformation_timestamp": "2025-07-21T17:35:49.127196",
   "data_quality": {
     "current_available": true,
     "forecast_available": true,
     "forecast_days": 7,
     "completeness": "Good"
   },
-  "recorded_at": "2025-07-21T17:11:20.700711"
+  "recorded_at": "2025-07-21T17:35:49.127338"
 }
