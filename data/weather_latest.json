@@ -6,35 +6,35 @@
     "longitude": -79.3832
   },
   "extraction_info": {
-    "timestamp": "2025-07-29T23:17:06.789454",
+    "timestamp": "2025-07-29T23:35:42.349550",
     "current_available": true,
     "forecast_days": 7,
     "source": "Open-Meteo API"
   },
   "current_weather": {
-    "timestamp": "2025-07-29T19:15",
+    "timestamp": "2025-07-29T19:30",
     "city": "Toronto",
     "country": "Canada",
     "latitude": 43.6532,
     "longitude": -79.3832,
-    "temperature": 27.7,
-    "feels_like": 30.3,
-    "humidity": 59,
+    "temperature": 26.7,
+    "feels_like": 29.7,
+    "humidity": 64,
     "precipitation": 0.0,
     "weather_code": 0,
-    "wind_speed": 5.6,
-    "wind_direction": 117,
-    "extracted_at": "2025-07-29T23:17:06.329105"
+    "wind_speed": 3.6,
+    "wind_direction": 143,
+    "extracted_at": "2025-07-29T23:35:41.802280"
   },
   "current_analysis": {
-    "temperature_celsius": 27.7,
-    "temperature_fahrenheit": 81.9,
-    "feels_like_celsius": 30.3,
-    "feels_like_fahrenheit": 86.5,
-    "humidity_level": "Comfortable",
+    "temperature_celsius": 26.7,
+    "temperature_fahrenheit": 80.1,
+    "feels_like_celsius": 29.7,
+    "feels_like_fahrenheit": 85.5,
+    "humidity_level": "High",
     "weather_description": "Clear sky",
-    "wind_description": "Light breeze",
-    "comfort_index": "Acceptable",
+    "wind_description": "Calm",
+    "comfort_index": "Comfortable",
     "precipitation_status": "No"
   },
   "forecast_data": [
@@ -42,25 +42,25 @@
       "date": "2025-07-29",
       "city": "Toronto",
       "country": "Canada",
-      "temp_max": 29.2,
+      "temp_max": 30.1,
       "temp_min": 21.5,
       "precipitation": 0.0,
-      "weather_code": 3,
+      "weather_code": 0,
       "wind_speed_max": 15.4,
-      "wind_direction": 203,
-      "extracted_at": "2025-07-29T23:17:06.789134"
+      "wind_direction": 210,
+      "extracted_at": "2025-07-29T23:35:42.349320"
     },
     {
       "date": "2025-07-30",
       "city": "Toronto",
       "country": "Canada",
       "temp_max": 27.4,
-      "temp_min": 19.4,
+      "temp_min": 19.6,
       "precipitation": 0.0,
       "weather_code": 3,
       "wind_speed_max": 15.0,
-      "wind_direction": 323,
-      "extracted_at": "2025-07-29T23:17:06.789148"
+      "wind_direction": 326,
+      "extracted_at": "2025-07-29T23:35:42.349331"
     },
     {
       "date": "2025-07-31",
@@ -72,7 +72,7 @@
       "weather_code": 3,
       "wind_speed_max": 18.7,
       "wind_direction": 52,
-      "extracted_at": "2025-07-29T23:17:06.789151"
+      "extracted_at": "2025-07-29T23:35:42.349334"
     },
     {
       "date": "2025-08-01",
@@ -84,7 +84,7 @@
       "weather_code": 0,
       "wind_speed_max": 21.7,
       "wind_direction": 45,
-      "extracted_at": "2025-07-29T23:17:06.789154"
+      "extracted_at": "2025-07-29T23:35:42.349337"
     },
     {
       "date": "2025-08-02",
@@ -96,7 +96,7 @@
       "weather_code": 3,
       "wind_speed_max": 22.7,
       "wind_direction": 125,
-      "extracted_at": "2025-07-29T23:17:06.789157"
+      "extracted_at": "2025-07-29T23:35:42.349340"
     },
     {
       "date": "2025-08-03",
@@ -108,7 +108,7 @@
       "weather_code": 3,
       "wind_speed_max": 17.9,
       "wind_direction": 210,
-      "extracted_at": "2025-07-29T23:17:06.789159"
+      "extracted_at": "2025-07-29T23:35:42.349346"
     },
     {
       "date": "2025-08-04",
@@ -120,15 +120,15 @@
       "weather_code": 3,
       "wind_speed_max": 15.4,
       "wind_direction": 66,
-      "extracted_at": "2025-07-29T23:17:06.789162"
+      "extracted_at": "2025-07-29T23:35:42.349349"
     }
   ],
   "forecast_analysis": {
     "temperature_trend": "Stable",
     "temperature_range": {
-      "highest": 29.6,
+      "highest": 30.1,
       "lowest": 17.0,
-      "average_high": 27.4,
+      "average_high": 27.5,
       "average_low": 19.4
     },
     "precipitation_forecast": {
@@ -136,17 +136,17 @@
       "rainy_days": 0,
       "heaviest_day": 0.0
     },
-    "weather_summary": "1 clear day, 6 cloudy days",
+    "weather_summary": "2 clear days, 5 cloudy days",
     "alerts": [
-      "No weather alerts"
+      "Hot weather expected on 2025-07-29: 30.1°C"
     ]
   },
-  "transformation_timestamp": "2025-07-29T23:17:06.789960",
+  "transformation_timestamp": "2025-07-29T23:35:42.349995",
   "data_quality": {
     "current_available": true,
     "forecast_available": true,
     "forecast_days": 7,
     "completeness": "Good"
   },
-  "recorded_at": "2025-07-29T23:17:06.790119"
+  "recorded_at": "2025-07-29T23:35:42.350150"
 }
