@@ -6,36 +6,36 @@
     "longitude": -79.3832
   },
   "extraction_info": {
-    "timestamp": "2025-08-12T20:17:26.148762",
+    "timestamp": "2025-08-12T20:38:22.186128",
     "current_available": true,
     "forecast_days": 7,
     "source": "Open-Meteo API"
   },
   "current_weather": {
-    "timestamp": "2025-08-12T16:15",
+    "timestamp": "2025-08-12T16:30",
     "city": "Toronto",
     "country": "Canada",
     "latitude": 43.6532,
     "longitude": -79.3832,
-    "temperature": 23.6,
-    "feels_like": 26.4,
-    "humidity": 93,
-    "precipitation": 1.2,
-    "weather_code": 63,
-    "wind_speed": 15.6,
-    "wind_direction": 157,
-    "extracted_at": "2025-08-12T20:17:25.668661"
+    "temperature": 25.5,
+    "feels_like": 26.9,
+    "humidity": 83,
+    "precipitation": 0.0,
+    "weather_code": 3,
+    "wind_speed": 25.7,
+    "wind_direction": 198,
+    "extracted_at": "2025-08-12T20:38:21.709076"
   },
   "current_analysis": {
-    "temperature_celsius": 23.6,
-    "temperature_fahrenheit": 74.5,
-    "feels_like_celsius": 26.4,
-    "feels_like_fahrenheit": 79.5,
+    "temperature_celsius": 25.5,
+    "temperature_fahrenheit": 77.9,
+    "feels_like_celsius": 26.9,
+    "feels_like_fahrenheit": 80.4,
     "humidity_level": "Very High (Humid)",
-    "weather_description": "Moderate rain",
-    "wind_description": "Moderate wind",
+    "weather_description": "Overcast",
+    "wind_description": "Strong wind",
     "comfort_index": "Acceptable",
-    "precipitation_status": "Yes"
+    "precipitation_status": "No"
   },
   "forecast_data": [
     {
@@ -44,11 +44,11 @@
       "country": "Canada",
       "temp_max": 31.7,
       "temp_min": 22.5,
-      "precipitation": 52.0,
+      "precipitation": 17.7,
       "weather_code": 81,
-      "wind_speed_max": 34.3,
-      "wind_direction": 196,
-      "extracted_at": "2025-08-12T20:17:26.148449"
+      "wind_speed_max": 34.6,
+      "wind_direction": 193,
+      "extracted_at": "2025-08-12T20:38:22.185918"
     },
     {
       "date": "2025-08-13",
@@ -59,8 +59,8 @@
       "precipitation": 42.5,
       "weather_code": 81,
       "wind_speed_max": 13.6,
-      "wind_direction": 260,
-      "extracted_at": "2025-08-12T20:17:26.148465"
+      "wind_direction": 263,
+      "extracted_at": "2025-08-12T20:38:22.185927"
     },
     {
       "date": "2025-08-14",
@@ -72,7 +72,7 @@
       "weather_code": 0,
       "wind_speed_max": 15.9,
       "wind_direction": 316,
-      "extracted_at": "2025-08-12T20:17:26.148468"
+      "extracted_at": "2025-08-12T20:38:22.185931"
     },
     {
       "date": "2025-08-15",
@@ -84,7 +84,7 @@
       "weather_code": 3,
       "wind_speed_max": 21.8,
       "wind_direction": 92,
-      "extracted_at": "2025-08-12T20:17:26.148471"
+      "extracted_at": "2025-08-12T20:38:22.185934"
     },
     {
       "date": "2025-08-16",
@@ -96,7 +96,7 @@
       "weather_code": 3,
       "wind_speed_max": 24.9,
       "wind_direction": 201,
-      "extracted_at": "2025-08-12T20:17:26.148474"
+      "extracted_at": "2025-08-12T20:38:22.185937"
     },
     {
       "date": "2025-08-17",
@@ -108,7 +108,7 @@
       "weather_code": 3,
       "wind_speed_max": 17.0,
       "wind_direction": 297,
-      "extracted_at": "2025-08-12T20:17:26.148476"
+      "extracted_at": "2025-08-12T20:38:22.185940"
     },
     {
       "date": "2025-08-18",
@@ -120,7 +120,7 @@
       "weather_code": 3,
       "wind_speed_max": 17.3,
       "wind_direction": 77,
-      "extracted_at": "2025-08-12T20:17:26.148479"
+      "extracted_at": "2025-08-12T20:38:22.185943"
     }
   ],
   "forecast_analysis": {
@@ -132,25 +132,25 @@
       "average_low": 20.7
     },
     "precipitation_forecast": {
-      "total_expected": 94.5,
+      "total_expected": 60.2,
       "rainy_days": 2,
-      "heaviest_day": 52.0
+      "heaviest_day": 42.5
     },
     "weather_summary": "1 clear day, 4 cloudy days, 2 rainy days, 2 snowy days",
     "alerts": [
       "Hot weather expected on 2025-08-12: 31.7°C",
-      "Heavy precipitation expected on 2025-08-12: 52.0mm",
+      "Heavy precipitation expected on 2025-08-12: 17.7mm",
       "Heavy precipitation expected on 2025-08-13: 42.5mm",
       "Hot weather expected on 2025-08-16: 31.3°C",
       "Hot weather expected on 2025-08-17: 31.1°C"
     ]
   },
-  "transformation_timestamp": "2025-08-12T20:17:26.149231",
+  "transformation_timestamp": "2025-08-12T20:38:22.186668",
   "data_quality": {
     "current_available": true,
     "forecast_available": true,
     "forecast_days": 7,
     "completeness": "Good"
   },
-  "recorded_at": "2025-08-12T20:17:26.149436"
+  "recorded_at": "2025-08-12T20:38:22.186836"
 }
