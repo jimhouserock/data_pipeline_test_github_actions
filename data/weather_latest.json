@@ -6,36 +6,36 @@
     "longitude": -79.3832
   },
   "extraction_info": {
-    "timestamp": "2025-08-19T21:14:21.617232",
+    "timestamp": "2025-08-19T21:32:05.859188",
     "current_available": true,
     "forecast_days": 7,
     "source": "Open-Meteo API"
   },
   "current_weather": {
-    "timestamp": "2025-08-19T17:00",
+    "timestamp": "2025-08-19T17:30",
     "city": "Toronto",
     "country": "Canada",
     "latitude": 43.6532,
     "longitude": -79.3832,
-    "temperature": 19.9,
-    "feels_like": 21.0,
-    "humidity": 92,
-    "precipitation": 0.0,
-    "weather_code": 3,
-    "wind_speed": 14.4,
-    "wind_direction": 68,
-    "extracted_at": "2025-08-19T21:14:20.957987"
+    "temperature": 20.2,
+    "feels_like": 21.4,
+    "humidity": 91,
+    "precipitation": 0.1,
+    "weather_code": 51,
+    "wind_speed": 14.2,
+    "wind_direction": 60,
+    "extracted_at": "2025-08-19T21:32:05.478494"
   },
   "current_analysis": {
-    "temperature_celsius": 19.9,
-    "temperature_fahrenheit": 67.8,
-    "feels_like_celsius": 21.0,
-    "feels_like_fahrenheit": 69.8,
+    "temperature_celsius": 20.2,
+    "temperature_fahrenheit": 68.4,
+    "feels_like_celsius": 21.4,
+    "feels_like_fahrenheit": 70.5,
     "humidity_level": "Very High (Humid)",
-    "weather_description": "Overcast",
+    "weather_description": "Light drizzle",
     "wind_description": "Light breeze",
     "comfort_index": "Acceptable",
-    "precipitation_status": "No"
+    "precipitation_status": "Yes"
   },
   "forecast_data": [
     {
@@ -44,11 +44,11 @@
       "country": "Canada",
       "temp_max": 21.4,
       "temp_min": 16.3,
-      "precipitation": 15.9,
-      "weather_code": 63,
-      "wind_speed_max": 21.3,
-      "wind_direction": 75,
-      "extracted_at": "2025-08-19T21:14:21.616218"
+      "precipitation": 3.3,
+      "weather_code": 61,
+      "wind_speed_max": 18.0,
+      "wind_direction": 74,
+      "extracted_at": "2025-08-19T21:32:05.858158"
     },
     {
       "date": "2025-08-20",
@@ -56,11 +56,11 @@
       "country": "Canada",
       "temp_max": 20.6,
       "temp_min": 17.0,
-      "precipitation": 9.4,
-      "weather_code": 63,
-      "wind_speed_max": 20.3,
-      "wind_direction": 32,
-      "extracted_at": "2025-08-19T21:14:21.616231"
+      "precipitation": 3.6,
+      "weather_code": 61,
+      "wind_speed_max": 19.9,
+      "wind_direction": 30,
+      "extracted_at": "2025-08-19T21:32:05.858171"
     },
     {
       "date": "2025-08-21",
@@ -72,7 +72,7 @@
       "weather_code": 3,
       "wind_speed_max": 17.4,
       "wind_direction": 37,
-      "extracted_at": "2025-08-19T21:14:21.616234"
+      "extracted_at": "2025-08-19T21:32:05.858175"
     },
     {
       "date": "2025-08-22",
@@ -84,7 +84,7 @@
       "weather_code": 3,
       "wind_speed_max": 11.0,
       "wind_direction": 105,
-      "extracted_at": "2025-08-19T21:14:21.616237"
+      "extracted_at": "2025-08-19T21:32:05.858179"
     },
     {
       "date": "2025-08-23",
@@ -96,7 +96,7 @@
       "weather_code": 53,
       "wind_speed_max": 29.6,
       "wind_direction": 216,
-      "extracted_at": "2025-08-19T21:14:21.616240"
+      "extracted_at": "2025-08-19T21:32:05.858182"
     },
     {
       "date": "2025-08-24",
@@ -108,7 +108,7 @@
       "weather_code": 3,
       "wind_speed_max": 16.9,
       "wind_direction": 267,
-      "extracted_at": "2025-08-19T21:14:21.616242"
+      "extracted_at": "2025-08-19T21:32:05.858186"
     },
     {
       "date": "2025-08-25",
@@ -120,7 +120,7 @@
       "weather_code": 3,
       "wind_speed_max": 22.2,
       "wind_direction": 304,
-      "extracted_at": "2025-08-19T21:14:21.616245"
+      "extracted_at": "2025-08-19T21:32:05.858190"
     }
   ],
   "forecast_analysis": {
@@ -132,21 +132,21 @@
       "average_low": 16.7
     },
     "precipitation_forecast": {
-      "total_expected": 26.4,
+      "total_expected": 8.0,
       "rainy_days": 3,
-      "heaviest_day": 15.9
+      "heaviest_day": 3.6
     },
     "weather_summary": "4 cloudy days, 3 rainy days",
     "alerts": [
-      "Heavy precipitation expected on 2025-08-19: 15.9mm"
+      "No weather alerts"
     ]
   },
-  "transformation_timestamp": "2025-08-19T21:14:21.617942",
+  "transformation_timestamp": "2025-08-19T21:32:05.859907",
   "data_quality": {
     "current_available": true,
     "forecast_available": true,
     "forecast_days": 7,
     "completeness": "Good"
   },
-  "recorded_at": "2025-08-19T21:14:21.618108"
+  "recorded_at": "2025-08-19T21:32:05.860057"
 }
