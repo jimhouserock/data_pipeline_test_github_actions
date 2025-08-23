@@ -6,50 +6,38 @@
     "longitude": -79.3832
   },
   "extraction_info": {
-    "timestamp": "2025-08-23T03:58:23.861317",
+    "timestamp": "2025-08-23T04:19:23.562148",
     "current_available": true,
     "forecast_days": 7,
     "source": "Open-Meteo API"
   },
   "current_weather": {
-    "timestamp": "2025-08-22T23:45",
+    "timestamp": "2025-08-23T00:15",
     "city": "Toronto",
     "country": "Canada",
     "latitude": 43.6532,
     "longitude": -79.3832,
-    "temperature": 20.1,
-    "feels_like": 21.4,
+    "temperature": 19.8,
+    "feels_like": 21.1,
     "humidity": 84,
     "precipitation": 0.0,
-    "weather_code": 2,
-    "wind_speed": 8.7,
-    "wind_direction": 197,
-    "extracted_at": "2025-08-23T03:58:23.474287"
+    "weather_code": 3,
+    "wind_speed": 7.6,
+    "wind_direction": 225,
+    "extracted_at": "2025-08-23T04:19:23.175225"
   },
   "current_analysis": {
-    "temperature_celsius": 20.1,
-    "temperature_fahrenheit": 68.2,
-    "feels_like_celsius": 21.4,
-    "feels_like_fahrenheit": 70.5,
+    "temperature_celsius": 19.8,
+    "temperature_fahrenheit": 67.6,
+    "feels_like_celsius": 21.1,
+    "feels_like_fahrenheit": 70.0,
     "humidity_level": "Very High (Humid)",
-    "weather_description": "Partly cloudy",
+    "weather_description": "Overcast",
     "wind_description": "Light breeze",
     "comfort_index": "Acceptable",
     "precipitation_status": "No"
   },
   "forecast_data": [
-    {
-      "date": "2025-08-22",
-      "city": "Toronto",
-      "country": "Canada",
-      "temp_max": 25.9,
-      "temp_min": 15.1,
-      "precipitation": 0.0,
-      "weather_code": 2,
-      "wind_speed_max": 14.5,
-      "wind_direction": 179,
-      "extracted_at": "2025-08-23T03:58:23.860240"
-    },
     {
       "date": "2025-08-23",
       "city": "Toronto",
@@ -60,7 +48,7 @@
       "weather_code": 3,
       "wind_speed_max": 26.8,
       "wind_direction": 210,
-      "extracted_at": "2025-08-23T03:58:23.860254"
+      "extracted_at": "2025-08-23T04:19:23.561517"
     },
     {
       "date": "2025-08-24",
@@ -72,7 +60,7 @@
       "weather_code": 3,
       "wind_speed_max": 18.4,
       "wind_direction": 255,
-      "extracted_at": "2025-08-23T03:58:23.860257"
+      "extracted_at": "2025-08-23T04:19:23.561525"
     },
     {
       "date": "2025-08-25",
@@ -84,7 +72,7 @@
       "weather_code": 3,
       "wind_speed_max": 26.7,
       "wind_direction": 287,
-      "extracted_at": "2025-08-23T03:58:23.860260"
+      "extracted_at": "2025-08-23T04:19:23.561528"
     },
     {
       "date": "2025-08-26",
@@ -96,7 +84,7 @@
       "weather_code": 3,
       "wind_speed_max": 20.4,
       "wind_direction": 313,
-      "extracted_at": "2025-08-23T03:58:23.860262"
+      "extracted_at": "2025-08-23T04:19:23.561531"
     },
     {
       "date": "2025-08-27",
@@ -108,7 +96,7 @@
       "weather_code": 3,
       "wind_speed_max": 19.2,
       "wind_direction": 287,
-      "extracted_at": "2025-08-23T03:58:23.860265"
+      "extracted_at": "2025-08-23T04:19:23.561533"
     },
     {
       "date": "2025-08-28",
@@ -120,16 +108,28 @@
       "weather_code": 3,
       "wind_speed_max": 15.3,
       "wind_direction": 282,
-      "extracted_at": "2025-08-23T03:58:23.860268"
+      "extracted_at": "2025-08-23T04:19:23.561536"
+    },
+    {
+      "date": "2025-08-29",
+      "city": "Toronto",
+      "country": "Canada",
+      "temp_max": 23.5,
+      "temp_min": 16.9,
+      "precipitation": 0.0,
+      "weather_code": 3,
+      "wind_speed_max": 14.2,
+      "wind_direction": 71,
+      "extracted_at": "2025-08-23T04:19:23.561539"
     }
   ],
   "forecast_analysis": {
-    "temperature_trend": "Cooling trend",
+    "temperature_trend": "Stable",
     "temperature_range": {
-      "highest": 25.9,
+      "highest": 25.7,
       "lowest": 13.5,
-      "average_high": 24.2,
-      "average_low": 15.5
+      "average_high": 23.8,
+      "average_low": 15.7
     },
     "precipitation_forecast": {
       "total_expected": 0.0,
@@ -141,12 +141,12 @@
       "No weather alerts"
     ]
   },
-  "transformation_timestamp": "2025-08-23T03:58:23.862020",
+  "transformation_timestamp": "2025-08-23T04:19:23.562766",
   "data_quality": {
     "current_available": true,
     "forecast_available": true,
     "forecast_days": 7,
     "completeness": "Good"
   },
-  "recorded_at": "2025-08-23T03:58:23.862152"
+  "recorded_at": "2025-08-23T04:19:23.562946"
 }
