@@ -6,31 +6,31 @@
     "longitude": -79.3832
   },
   "extraction_info": {
-    "timestamp": "2025-08-25T03:41:10.171325",
+    "timestamp": "2025-08-25T04:04:31.426372",
     "current_available": true,
     "forecast_days": 7,
     "source": "Open-Meteo API"
   },
   "current_weather": {
-    "timestamp": "2025-08-24T23:30",
+    "timestamp": "2025-08-25T00:00",
     "city": "Toronto",
     "country": "Canada",
     "latitude": 43.6532,
     "longitude": -79.3832,
-    "temperature": 17.5,
-    "feels_like": 18.1,
+    "temperature": 17.7,
+    "feels_like": 18.5,
     "humidity": 85,
     "precipitation": 0.0,
     "weather_code": 3,
-    "wind_speed": 7.2,
-    "wind_direction": 243,
-    "extracted_at": "2025-08-25T03:41:09.787265"
+    "wind_speed": 6.8,
+    "wind_direction": 267,
+    "extracted_at": "2025-08-25T04:04:30.926616"
   },
   "current_analysis": {
-    "temperature_celsius": 17.5,
-    "temperature_fahrenheit": 63.5,
-    "feels_like_celsius": 18.1,
-    "feels_like_fahrenheit": 64.6,
+    "temperature_celsius": 17.7,
+    "temperature_fahrenheit": 63.9,
+    "feels_like_celsius": 18.5,
+    "feels_like_fahrenheit": 65.3,
     "humidity_level": "Very High (Humid)",
     "weather_description": "Overcast",
     "wind_description": "Light breeze",
@@ -38,18 +38,6 @@
     "precipitation_status": "No"
   },
   "forecast_data": [
-    {
-      "date": "2025-08-24",
-      "city": "Toronto",
-      "country": "Canada",
-      "temp_max": 25.2,
-      "temp_min": 16.2,
-      "precipitation": 0.2,
-      "weather_code": 51,
-      "wind_speed_max": 20.5,
-      "wind_direction": 228,
-      "extracted_at": "2025-08-25T03:41:10.170632"
-    },
     {
       "date": "2025-08-25",
       "city": "Toronto",
@@ -60,7 +48,7 @@
       "weather_code": 51,
       "wind_speed_max": 18.4,
       "wind_direction": 272,
-      "extracted_at": "2025-08-25T03:41:10.170640"
+      "extracted_at": "2025-08-25T04:04:31.425280"
     },
     {
       "date": "2025-08-26",
@@ -72,7 +60,7 @@
       "weather_code": 55,
       "wind_speed_max": 17.0,
       "wind_direction": 288,
-      "extracted_at": "2025-08-25T03:41:10.170643"
+      "extracted_at": "2025-08-25T04:04:31.425293"
     },
     {
       "date": "2025-08-27",
@@ -84,7 +72,7 @@
       "weather_code": 3,
       "wind_speed_max": 20.3,
       "wind_direction": 280,
-      "extracted_at": "2025-08-25T03:41:10.170646"
+      "extracted_at": "2025-08-25T04:04:31.425296"
     },
     {
       "date": "2025-08-28",
@@ -96,7 +84,7 @@
       "weather_code": 80,
       "wind_speed_max": 17.8,
       "wind_direction": 289,
-      "extracted_at": "2025-08-25T03:41:10.170649"
+      "extracted_at": "2025-08-25T04:04:31.425299"
     },
     {
       "date": "2025-08-29",
@@ -108,7 +96,7 @@
       "weather_code": 51,
       "wind_speed_max": 14.0,
       "wind_direction": 68,
-      "extracted_at": "2025-08-25T03:41:10.170651"
+      "extracted_at": "2025-08-25T04:04:31.425301"
     },
     {
       "date": "2025-08-30",
@@ -120,33 +108,45 @@
       "weather_code": 3,
       "wind_speed_max": 18.2,
       "wind_direction": 68,
-      "extracted_at": "2025-08-25T03:41:10.170654"
+      "extracted_at": "2025-08-25T04:04:31.425304"
+    },
+    {
+      "date": "2025-08-31",
+      "city": "Toronto",
+      "country": "Canada",
+      "temp_max": 23.6,
+      "temp_min": 16.2,
+      "precipitation": 0.0,
+      "weather_code": 3,
+      "wind_speed_max": 15.7,
+      "wind_direction": 71,
+      "extracted_at": "2025-08-25T04:04:31.425307"
     }
   ],
   "forecast_analysis": {
     "temperature_trend": "Stable",
     "temperature_range": {
-      "highest": 25.2,
+      "highest": 24.2,
       "lowest": 11.1,
-      "average_high": 21.9,
+      "average_high": 21.7,
       "average_low": 13.9
     },
     "precipitation_forecast": {
-      "total_expected": 8.9,
-      "rainy_days": 5,
+      "total_expected": 8.7,
+      "rainy_days": 4,
       "heaviest_day": 7.1
     },
-    "weather_summary": "2 cloudy days, 5 rainy days, 1 snowy day",
+    "weather_summary": "3 cloudy days, 4 rainy days, 1 snowy day",
     "alerts": [
       "No weather alerts"
     ]
   },
-  "transformation_timestamp": "2025-08-25T03:41:10.171990",
+  "transformation_timestamp": "2025-08-25T04:04:31.427102",
   "data_quality": {
     "current_available": true,
     "forecast_available": true,
     "forecast_days": 7,
     "completeness": "Good"
   },
-  "recorded_at": "2025-08-25T03:41:10.172161"
+  "recorded_at": "2025-08-25T04:04:31.427279"
 }
