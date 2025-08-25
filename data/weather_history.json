@@ -7,158 +7,6 @@
       "longitude": -79.3832
     },
     "extraction_info": {
-      "timestamp": "2025-08-24T23:31:45.046012",
-      "current_available": true,
-      "forecast_days": 7,
-      "source": "Open-Meteo API"
-    },
-    "current_weather": {
-      "timestamp": "2025-08-24T19:30",
-      "city": "Toronto",
-      "country": "Canada",
-      "latitude": 43.6532,
-      "longitude": -79.3832,
-      "temperature": 23.0,
-      "feels_like": 21.7,
-      "humidity": 47,
-      "precipitation": 0.0,
-      "weather_code": 2,
-      "wind_speed": 11.2,
-      "wind_direction": 270,
-      "extracted_at": "2025-08-24T23:31:44.532997"
-    },
-    "current_analysis": {
-      "temperature_celsius": 23.0,
-      "temperature_fahrenheit": 73.4,
-      "feels_like_celsius": 21.7,
-      "feels_like_fahrenheit": 71.1,
-      "humidity_level": "Comfortable",
-      "weather_description": "Partly cloudy",
-      "wind_description": "Light breeze",
-      "comfort_index": "Very Comfortable",
-      "precipitation_status": "No"
-    },
-    "forecast_data": [
-      {
-        "date": "2025-08-24",
-        "city": "Toronto",
-        "country": "Canada",
-        "temp_max": 25.2,
-        "temp_min": 16.2,
-        "precipitation": 0.7,
-        "weather_code": 53,
-        "wind_speed_max": 20.5,
-        "wind_direction": 229,
-        "extracted_at": "2025-08-24T23:31:45.045074"
-      },
-      {
-        "date": "2025-08-25",
-        "city": "Toronto",
-        "country": "Canada",
-        "temp_max": 21.2,
-        "temp_min": 13.4,
-        "precipitation": 0.0,
-        "weather_code": 3,
-        "wind_speed_max": 21.3,
-        "wind_direction": 264,
-        "extracted_at": "2025-08-24T23:31:45.045086"
-      },
-      {
-        "date": "2025-08-26",
-        "city": "Toronto",
-        "country": "Canada",
-        "temp_max": 21.4,
-        "temp_min": 11.7,
-        "precipitation": 0.0,
-        "weather_code": 3,
-        "wind_speed_max": 19.3,
-        "wind_direction": 294,
-        "extracted_at": "2025-08-24T23:31:45.045090"
-      },
-      {
-        "date": "2025-08-27",
-        "city": "Toronto",
-        "country": "Canada",
-        "temp_max": 22.9,
-        "temp_min": 12.6,
-        "precipitation": 0.0,
-        "weather_code": 3,
-        "wind_speed_max": 17.8,
-        "wind_direction": 271,
-        "extracted_at": "2025-08-24T23:31:45.045093"
-      },
-      {
-        "date": "2025-08-28",
-        "city": "Toronto",
-        "country": "Canada",
-        "temp_max": 20.0,
-        "temp_min": 14.9,
-        "precipitation": 2.7,
-        "weather_code": 55,
-        "wind_speed_max": 17.9,
-        "wind_direction": 295,
-        "extracted_at": "2025-08-24T23:31:45.045095"
-      },
-      {
-        "date": "2025-08-29",
-        "city": "Toronto",
-        "country": "Canada",
-        "temp_max": 19.4,
-        "temp_min": 12.5,
-        "precipitation": 0.0,
-        "weather_code": 3,
-        "wind_speed_max": 12.8,
-        "wind_direction": 66,
-        "extracted_at": "2025-08-24T23:31:45.045098"
-      },
-      {
-        "date": "2025-08-30",
-        "city": "Toronto",
-        "country": "Canada",
-        "temp_max": 21.5,
-        "temp_min": 13.6,
-        "precipitation": 0.0,
-        "weather_code": 2,
-        "wind_speed_max": 15.6,
-        "wind_direction": 69,
-        "extracted_at": "2025-08-24T23:31:45.045101"
-      }
-    ],
-    "forecast_analysis": {
-      "temperature_trend": "Stable",
-      "temperature_range": {
-        "highest": 25.2,
-        "lowest": 11.7,
-        "average_high": 21.7,
-        "average_low": 13.6
-      },
-      "precipitation_forecast": {
-        "total_expected": 3.4,
-        "rainy_days": 2,
-        "heaviest_day": 2.7
-      },
-      "weather_summary": "5 cloudy days, 2 rainy days",
-      "alerts": [
-        "No weather alerts"
-      ]
-    },
-    "transformation_timestamp": "2025-08-24T23:31:45.046607",
-    "data_quality": {
-      "current_available": true,
-      "forecast_available": true,
-      "forecast_days": 7,
-      "completeness": "Good"
-    },
-    "recorded_at": "2025-08-24T23:31:45.046779"
-  },
-  {
-    "location": {
-      "city": "Toronto",
-      "country": "Canada",
-      "latitude": 43.6532,
-      "longitude": -79.3832
-    },
-    "extraction_info": {
       "timestamp": "2025-08-24T23:42:37.615062",
       "current_available": true,
       "forecast_days": 7,
@@ -4558,5 +4406,157 @@
       "completeness": "Good"
     },
     "recorded_at": "2025-08-25T10:59:47.044685"
+  },
+  {
+    "location": {
+      "city": "Toronto",
+      "country": "Canada",
+      "latitude": 43.6532,
+      "longitude": -79.3832
+    },
+    "extraction_info": {
+      "timestamp": "2025-08-25T11:17:51.169448",
+      "current_available": true,
+      "forecast_days": 7,
+      "source": "Open-Meteo API"
+    },
+    "current_weather": {
+      "timestamp": "2025-08-25T07:15",
+      "city": "Toronto",
+      "country": "Canada",
+      "latitude": 43.6532,
+      "longitude": -79.3832,
+      "temperature": 14.0,
+      "feels_like": 13.2,
+      "humidity": 86,
+      "precipitation": 0.0,
+      "weather_code": 0,
+      "wind_speed": 8.7,
+      "wind_direction": 253,
+      "extracted_at": "2025-08-25T11:17:50.774884"
+    },
+    "current_analysis": {
+      "temperature_celsius": 14.0,
+      "temperature_fahrenheit": 57.2,
+      "feels_like_celsius": 13.2,
+      "feels_like_fahrenheit": 55.8,
+      "humidity_level": "Very High (Humid)",
+      "weather_description": "Clear sky",
+      "wind_description": "Light breeze",
+      "comfort_index": "Acceptable",
+      "precipitation_status": "No"
+    },
+    "forecast_data": [
+      {
+        "date": "2025-08-25",
+        "city": "Toronto",
+        "country": "Canada",
+        "temp_max": 21.9,
+        "temp_min": 13.7,
+        "precipitation": 0.1,
+        "weather_code": 51,
+        "wind_speed_max": 23.3,
+        "wind_direction": 273,
+        "extracted_at": "2025-08-25T11:17:51.168810"
+      },
+      {
+        "date": "2025-08-26",
+        "city": "Toronto",
+        "country": "Canada",
+        "temp_max": 21.7,
+        "temp_min": 10.9,
+        "precipitation": 0.0,
+        "weather_code": 3,
+        "wind_speed_max": 21.5,
+        "wind_direction": 280,
+        "extracted_at": "2025-08-25T11:17:51.168817"
+      },
+      {
+        "date": "2025-08-27",
+        "city": "Toronto",
+        "country": "Canada",
+        "temp_max": 24.2,
+        "temp_min": 11.5,
+        "precipitation": 0.0,
+        "weather_code": 3,
+        "wind_speed_max": 19.1,
+        "wind_direction": 273,
+        "extracted_at": "2025-08-25T11:17:51.168820"
+      },
+      {
+        "date": "2025-08-28",
+        "city": "Toronto",
+        "country": "Canada",
+        "temp_max": 21.1,
+        "temp_min": 13.6,
+        "precipitation": 5.9,
+        "weather_code": 80,
+        "wind_speed_max": 19.0,
+        "wind_direction": 292,
+        "extracted_at": "2025-08-25T11:17:51.168823"
+      },
+      {
+        "date": "2025-08-29",
+        "city": "Toronto",
+        "country": "Canada",
+        "temp_max": 18.9,
+        "temp_min": 9.8,
+        "precipitation": 0.0,
+        "weather_code": 3,
+        "wind_speed_max": 21.4,
+        "wind_direction": 39,
+        "extracted_at": "2025-08-25T11:17:51.168826"
+      },
+      {
+        "date": "2025-08-30",
+        "city": "Toronto",
+        "country": "Canada",
+        "temp_max": 19.8,
+        "temp_min": 13.3,
+        "precipitation": 0.0,
+        "weather_code": 3,
+        "wind_speed_max": 13.0,
+        "wind_direction": 73,
+        "extracted_at": "2025-08-25T11:17:51.168828"
+      },
+      {
+        "date": "2025-08-31",
+        "city": "Toronto",
+        "country": "Canada",
+        "temp_max": 22.0,
+        "temp_min": 17.2,
+        "precipitation": 0.0,
+        "weather_code": 3,
+        "wind_speed_max": 22.0,
+        "wind_direction": 79,
+        "extracted_at": "2025-08-25T11:17:51.168831"
+      }
+    ],
+    "forecast_analysis": {
+      "temperature_trend": "Cooling trend",
+      "temperature_range": {
+        "highest": 24.2,
+        "lowest": 9.8,
+        "average_high": 21.4,
+        "average_low": 12.9
+      },
+      "precipitation_forecast": {
+        "total_expected": 6.0,
+        "rainy_days": 2,
+        "heaviest_day": 5.9
+      },
+      "weather_summary": "5 cloudy days, 2 rainy days, 1 snowy day",
+      "alerts": [
+        "No weather alerts"
+      ]
+    },
+    "transformation_timestamp": "2025-08-25T11:17:51.170042",
+    "data_quality": {
+      "current_available": true,
+      "forecast_available": true,
+      "forecast_days": 7,
+      "completeness": "Good"
+    },
+    "recorded_at": "2025-08-25T11:17:51.170173"
   }
 ]
