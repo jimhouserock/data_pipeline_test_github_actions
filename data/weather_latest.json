@@ -6,35 +6,35 @@
     "longitude": -79.3832
   },
   "extraction_info": {
-    "timestamp": "2025-08-28T13:05:36.362936",
+    "timestamp": "2025-08-28T13:37:53.342756",
     "current_available": true,
     "forecast_days": 7,
     "source": "Open-Meteo API"
   },
   "current_weather": {
-    "timestamp": "2025-08-28T09:00",
+    "timestamp": "2025-08-28T09:30",
     "city": "Toronto",
     "country": "Canada",
     "latitude": 43.6532,
     "longitude": -79.3832,
-    "temperature": 17.1,
-    "feels_like": 15.0,
-    "humidity": 73,
+    "temperature": 17.0,
+    "feels_like": 14.8,
+    "humidity": 70,
     "precipitation": 0.0,
     "weather_code": 0,
-    "wind_speed": 18.8,
-    "wind_direction": 209,
-    "extracted_at": "2025-08-28T13:05:35.703009"
+    "wind_speed": 17.7,
+    "wind_direction": 218,
+    "extracted_at": "2025-08-28T13:37:52.676459"
   },
   "current_analysis": {
-    "temperature_celsius": 17.1,
-    "temperature_fahrenheit": 62.8,
-    "feels_like_celsius": 15.0,
-    "feels_like_fahrenheit": 59.0,
+    "temperature_celsius": 17.0,
+    "temperature_fahrenheit": 62.6,
+    "feels_like_celsius": 14.8,
+    "feels_like_fahrenheit": 58.6,
     "humidity_level": "High",
     "weather_description": "Clear sky",
     "wind_description": "Moderate wind",
-    "comfort_index": "Acceptable",
+    "comfort_index": "Comfortable",
     "precipitation_status": "No"
   },
   "forecast_data": [
@@ -42,13 +42,13 @@
       "date": "2025-08-28",
       "city": "Toronto",
       "country": "Canada",
-      "temp_max": 20.1,
-      "temp_min": 13.2,
-      "precipitation": 4.6,
-      "weather_code": 61,
-      "wind_speed_max": 21.6,
-      "wind_direction": 265,
-      "extracted_at": "2025-08-28T13:05:36.361905"
+      "temp_max": 18.9,
+      "temp_min": 12.8,
+      "precipitation": 2.3,
+      "weather_code": 53,
+      "wind_speed_max": 19.9,
+      "wind_direction": 264,
+      "extracted_at": "2025-08-28T13:37:53.341747"
     },
     {
       "date": "2025-08-29",
@@ -58,9 +58,9 @@
       "temp_min": 8.7,
       "precipitation": 0.0,
       "weather_code": 3,
-      "wind_speed_max": 14.6,
+      "wind_speed_max": 15.6,
       "wind_direction": 317,
-      "extracted_at": "2025-08-28T13:05:36.361918"
+      "extracted_at": "2025-08-28T13:37:53.341761"
     },
     {
       "date": "2025-08-30",
@@ -70,9 +70,9 @@
       "temp_min": 9.8,
       "precipitation": 0.0,
       "weather_code": 3,
-      "wind_speed_max": 23.0,
-      "wind_direction": 305,
-      "extracted_at": "2025-08-28T13:05:36.361922"
+      "wind_speed_max": 16.6,
+      "wind_direction": 307,
+      "extracted_at": "2025-08-28T13:37:53.341764"
     },
     {
       "date": "2025-08-31",
@@ -82,9 +82,9 @@
       "temp_min": 13.9,
       "precipitation": 0.0,
       "weather_code": 1,
-      "wind_speed_max": 10.2,
-      "wind_direction": 182,
-      "extracted_at": "2025-08-28T13:05:36.361925"
+      "wind_speed_max": 11.9,
+      "wind_direction": 236,
+      "extracted_at": "2025-08-28T13:37:53.341767"
     },
     {
       "date": "2025-09-01",
@@ -94,9 +94,9 @@
       "temp_min": 16.8,
       "precipitation": 0.0,
       "weather_code": 0,
-      "wind_speed_max": 17.7,
-      "wind_direction": 80,
-      "extracted_at": "2025-08-28T13:05:36.361928"
+      "wind_speed_max": 16.9,
+      "wind_direction": 82,
+      "extracted_at": "2025-08-28T13:37:53.341770"
     },
     {
       "date": "2025-09-02",
@@ -106,9 +106,9 @@
       "temp_min": 18.0,
       "precipitation": 0.0,
       "weather_code": 3,
-      "wind_speed_max": 15.3,
-      "wind_direction": 104,
-      "extracted_at": "2025-08-28T13:05:36.361930"
+      "wind_speed_max": 17.8,
+      "wind_direction": 99,
+      "extracted_at": "2025-08-28T13:37:53.341773"
     },
     {
       "date": "2025-09-03",
@@ -118,9 +118,9 @@
       "temp_min": 16.1,
       "precipitation": 14.7,
       "weather_code": 55,
-      "wind_speed_max": 22.5,
-      "wind_direction": 194,
-      "extracted_at": "2025-08-28T13:05:36.361933"
+      "wind_speed_max": 30.2,
+      "wind_direction": 172,
+      "extracted_at": "2025-08-28T13:37:53.341776"
     }
   ],
   "forecast_analysis": {
@@ -128,11 +128,11 @@
     "temperature_range": {
       "highest": 24.5,
       "lowest": 8.7,
-      "average_high": 21.6,
-      "average_low": 13.8
+      "average_high": 21.4,
+      "average_low": 13.7
     },
     "precipitation_forecast": {
-      "total_expected": 19.3,
+      "total_expected": 17.0,
       "rainy_days": 2,
       "heaviest_day": 14.7
     },
@@ -141,12 +141,12 @@
       "Heavy precipitation expected on 2025-09-03: 14.7mm"
     ]
   },
-  "transformation_timestamp": "2025-08-28T13:05:36.363628",
+  "transformation_timestamp": "2025-08-28T13:37:53.343471",
   "data_quality": {
     "current_available": true,
     "forecast_available": true,
     "forecast_days": 7,
     "completeness": "Good"
   },
-  "recorded_at": "2025-08-28T13:05:36.363751"
+  "recorded_at": "2025-08-28T13:37:53.343673"
 }
