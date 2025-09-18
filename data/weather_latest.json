@@ -6,29 +6,29 @@
     "longitude": -79.3832
   },
   "extraction_info": {
-    "timestamp": "2025-09-18T03:59:50.834418",
+    "timestamp": "2025-09-18T04:23:45.055890",
     "current_available": true,
     "forecast_days": 7,
     "source": "Open-Meteo API"
   },
   "current_weather": {
-    "timestamp": "2025-09-17T23:45",
+    "timestamp": "2025-09-18T00:15",
     "city": "Toronto",
     "country": "Canada",
     "latitude": 43.6532,
     "longitude": -79.3832,
-    "temperature": 16.0,
+    "temperature": 15.9,
     "feels_like": 16.5,
     "humidity": 94,
     "precipitation": 0.0,
     "weather_code": 0,
-    "wind_speed": 8.0,
-    "wind_direction": 8,
-    "extracted_at": "2025-09-18T03:59:50.428503"
+    "wind_speed": 7.2,
+    "wind_direction": 360,
+    "extracted_at": "2025-09-18T04:23:44.477720"
   },
   "current_analysis": {
-    "temperature_celsius": 16.0,
-    "temperature_fahrenheit": 60.8,
+    "temperature_celsius": 15.9,
+    "temperature_fahrenheit": 60.6,
     "feels_like_celsius": 16.5,
     "feels_like_fahrenheit": 61.7,
     "humidity_level": "Very High (Humid)",
@@ -39,18 +39,6 @@
   },
   "forecast_data": [
     {
-      "date": "2025-09-17",
-      "city": "Toronto",
-      "country": "Canada",
-      "temp_max": 23.3,
-      "temp_min": 12.3,
-      "precipitation": 0.0,
-      "weather_code": 3,
-      "wind_speed_max": 9.4,
-      "wind_direction": 51,
-      "extracted_at": "2025-09-18T03:59:50.833336"
-    },
-    {
       "date": "2025-09-18",
       "city": "Toronto",
       "country": "Canada",
@@ -60,7 +48,7 @@
       "weather_code": 45,
       "wind_speed_max": 18.1,
       "wind_direction": 282,
-      "extracted_at": "2025-09-18T03:59:50.833350"
+      "extracted_at": "2025-09-18T04:23:45.054837"
     },
     {
       "date": "2025-09-19",
@@ -72,7 +60,7 @@
       "weather_code": 3,
       "wind_speed_max": 14.5,
       "wind_direction": 1,
-      "extracted_at": "2025-09-18T03:59:50.833353"
+      "extracted_at": "2025-09-18T04:23:45.054851"
     },
     {
       "date": "2025-09-20",
@@ -84,7 +72,7 @@
       "weather_code": 3,
       "wind_speed_max": 22.7,
       "wind_direction": 77,
-      "extracted_at": "2025-09-18T03:59:50.833355"
+      "extracted_at": "2025-09-18T04:23:45.054854"
     },
     {
       "date": "2025-09-21",
@@ -96,7 +84,7 @@
       "weather_code": 51,
       "wind_speed_max": 23.8,
       "wind_direction": 97,
-      "extracted_at": "2025-09-18T03:59:50.833358"
+      "extracted_at": "2025-09-18T04:23:45.054857"
     },
     {
       "date": "2025-09-22",
@@ -108,7 +96,7 @@
       "weather_code": 51,
       "wind_speed_max": 17.1,
       "wind_direction": 200,
-      "extracted_at": "2025-09-18T03:59:50.833361"
+      "extracted_at": "2025-09-18T04:23:45.054860"
     },
     {
       "date": "2025-09-23",
@@ -120,16 +108,28 @@
       "weather_code": 51,
       "wind_speed_max": 13.2,
       "wind_direction": 209,
-      "extracted_at": "2025-09-18T03:59:50.833363"
+      "extracted_at": "2025-09-18T04:23:45.054862"
+    },
+    {
+      "date": "2025-09-24",
+      "city": "Toronto",
+      "country": "Canada",
+      "temp_max": 22.5,
+      "temp_min": 18.4,
+      "precipitation": 0.0,
+      "weather_code": 3,
+      "wind_speed_max": 24.6,
+      "wind_direction": 68,
+      "extracted_at": "2025-09-18T04:23:45.054865"
     }
   ],
   "forecast_analysis": {
-    "temperature_trend": "Stable",
+    "temperature_trend": "Warming trend",
     "temperature_range": {
       "highest": 26.6,
-      "lowest": 12.3,
-      "average_high": 22.7,
-      "average_low": 14.8
+      "lowest": 12.9,
+      "average_high": 22.6,
+      "average_low": 15.7
     },
     "precipitation_forecast": {
       "total_expected": 3.6,
@@ -141,12 +141,12 @@
       "No weather alerts"
     ]
   },
-  "transformation_timestamp": "2025-09-18T03:59:50.835102",
+  "transformation_timestamp": "2025-09-18T04:23:45.056583",
   "data_quality": {
     "current_available": true,
     "forecast_available": true,
     "forecast_days": 7,
     "completeness": "Good"
   },
-  "recorded_at": "2025-09-18T03:59:50.835255"
+  "recorded_at": "2025-09-18T04:23:45.056734"
 }
