@@ -6,31 +6,31 @@
     "longitude": -79.3832
   },
   "extraction_info": {
-    "timestamp": "2025-09-22T07:55:14.023454",
+    "timestamp": "2025-09-22T08:22:53.385642",
     "current_available": true,
     "forecast_days": 7,
     "source": "Open-Meteo API"
   },
   "current_weather": {
-    "timestamp": "2025-09-22T03:45",
+    "timestamp": "2025-09-22T04:15",
     "city": "Toronto",
     "country": "Canada",
     "latitude": 43.6532,
     "longitude": -79.3832,
-    "temperature": 18.0,
-    "feels_like": 19.0,
-    "humidity": 91,
+    "temperature": 17.8,
+    "feels_like": 19.1,
+    "humidity": 92,
     "precipitation": 0.0,
     "weather_code": 3,
-    "wind_speed": 9.0,
-    "wind_direction": 175,
-    "extracted_at": "2025-09-22T07:55:13.521826"
+    "wind_speed": 6.2,
+    "wind_direction": 173,
+    "extracted_at": "2025-09-22T08:22:52.833155"
   },
   "current_analysis": {
-    "temperature_celsius": 18.0,
-    "temperature_fahrenheit": 64.4,
-    "feels_like_celsius": 19.0,
-    "feels_like_fahrenheit": 66.2,
+    "temperature_celsius": 17.8,
+    "temperature_fahrenheit": 64.0,
+    "feels_like_celsius": 19.1,
+    "feels_like_fahrenheit": 66.4,
     "humidity_level": "Very High (Humid)",
     "weather_description": "Overcast",
     "wind_description": "Light breeze",
@@ -46,21 +46,21 @@
       "temp_min": 17.0,
       "precipitation": 3.1,
       "weather_code": 61,
-      "wind_speed_max": 11.7,
-      "wind_direction": 198,
-      "extracted_at": "2025-09-22T07:55:14.022437"
+      "wind_speed_max": 10.8,
+      "wind_direction": 181,
+      "extracted_at": "2025-09-22T08:22:53.384481"
     },
     {
       "date": "2025-09-23",
       "city": "Toronto",
       "country": "Canada",
-      "temp_max": 21.9,
-      "temp_min": 17.8,
-      "precipitation": 2.2,
-      "weather_code": 80,
-      "wind_speed_max": 10.6,
-      "wind_direction": 212,
-      "extracted_at": "2025-09-22T07:55:14.022450"
+      "temp_max": 22.7,
+      "temp_min": 18.1,
+      "precipitation": 45.8,
+      "weather_code": 65,
+      "wind_speed_max": 16.1,
+      "wind_direction": 202,
+      "extracted_at": "2025-09-22T08:22:53.384495"
     },
     {
       "date": "2025-09-24",
@@ -71,8 +71,8 @@
       "precipitation": 4.6,
       "weather_code": 80,
       "wind_speed_max": 21.4,
-      "wind_direction": 74,
-      "extracted_at": "2025-09-22T07:55:14.022453"
+      "wind_direction": 70,
+      "extracted_at": "2025-09-22T08:22:53.384498"
     },
     {
       "date": "2025-09-25",
@@ -84,7 +84,7 @@
       "weather_code": 81,
       "wind_speed_max": 25.8,
       "wind_direction": 106,
-      "extracted_at": "2025-09-22T07:55:14.022456"
+      "extracted_at": "2025-09-22T08:22:53.384501"
     },
     {
       "date": "2025-09-26",
@@ -96,7 +96,7 @@
       "weather_code": 51,
       "wind_speed_max": 10.6,
       "wind_direction": 283,
-      "extracted_at": "2025-09-22T07:55:14.022459"
+      "extracted_at": "2025-09-22T08:22:53.384504"
     },
     {
       "date": "2025-09-27",
@@ -108,7 +108,7 @@
       "weather_code": 0,
       "wind_speed_max": 17.6,
       "wind_direction": 229,
-      "extracted_at": "2025-09-22T07:55:14.022461"
+      "extracted_at": "2025-09-22T08:22:53.384506"
     },
     {
       "date": "2025-09-28",
@@ -120,7 +120,7 @@
       "weather_code": 3,
       "wind_speed_max": 16.9,
       "wind_direction": 341,
-      "extracted_at": "2025-09-22T07:55:14.022464"
+      "extracted_at": "2025-09-22T08:22:53.384509"
     }
   ],
   "forecast_analysis": {
@@ -128,25 +128,26 @@
     "temperature_range": {
       "highest": 24.3,
       "lowest": 15.1,
-      "average_high": 22.6,
+      "average_high": 22.8,
       "average_low": 16.9
     },
     "precipitation_forecast": {
-      "total_expected": 27.6,
+      "total_expected": 71.2,
       "rainy_days": 5,
-      "heaviest_day": 17.2
+      "heaviest_day": 45.8
     },
-    "weather_summary": "1 clear day, 1 cloudy day, 5 rainy days, 3 snowy days",
+    "weather_summary": "1 clear day, 1 cloudy day, 5 rainy days, 2 snowy days",
     "alerts": [
+      "Heavy precipitation expected on 2025-09-23: 45.8mm",
       "Heavy precipitation expected on 2025-09-25: 17.2mm"
     ]
   },
-  "transformation_timestamp": "2025-09-22T07:55:14.024103",
+  "transformation_timestamp": "2025-09-22T08:22:53.386336",
   "data_quality": {
     "current_available": true,
     "forecast_available": true,
     "forecast_days": 7,
     "completeness": "Good"
   },
-  "recorded_at": "2025-09-22T07:55:14.024266"
+  "recorded_at": "2025-09-22T08:22:53.386472"
 }
