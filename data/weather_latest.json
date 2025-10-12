@@ -6,9 +6,9 @@
     "longitude": -79.3832
   },
   "extraction_info": {
-    "timestamp": "2025-10-12T22:45:35.810320",
+    "timestamp": "2025-10-12T22:55:37.298711",
     "current_available": true,
-    "forecast_days": 7,
+    "forecast_days": 0,
     "source": "Open-Meteo API"
   },
   "current_weather": {
@@ -19,12 +19,12 @@
     "longitude": -79.3832,
     "temperature": 15.4,
     "feels_like": 13.2,
-    "humidity": 70,
+    "humidity": 71,
     "precipitation": 0.0,
     "weather_code": 0,
     "wind_speed": 15.0,
     "wind_direction": 63,
-    "extracted_at": "2025-10-12T22:45:35.306755"
+    "extracted_at": "2025-10-12T22:55:07.078947"
   },
   "current_analysis": {
     "temperature_celsius": 15.4,
@@ -34,119 +34,17 @@
     "humidity_level": "High",
     "weather_description": "Clear sky",
     "wind_description": "Moderate wind",
-    "comfort_index": "Comfortable",
+    "comfort_index": "Acceptable",
     "precipitation_status": "No"
   },
-  "forecast_data": [
-    {
-      "date": "2025-10-12",
-      "city": "Toronto",
-      "country": "Canada",
-      "temp_max": 17.9,
-      "temp_min": 10.9,
-      "precipitation": 0.0,
-      "weather_code": 3,
-      "wind_speed_max": 23.0,
-      "wind_direction": 54,
-      "extracted_at": "2025-10-12T22:45:35.809278"
-    },
-    {
-      "date": "2025-10-13",
-      "city": "Toronto",
-      "country": "Canada",
-      "temp_max": 16.9,
-      "temp_min": 12.1,
-      "precipitation": 0.0,
-      "weather_code": 3,
-      "wind_speed_max": 20.3,
-      "wind_direction": 75,
-      "extracted_at": "2025-10-12T22:45:35.809291"
-    },
-    {
-      "date": "2025-10-14",
-      "city": "Toronto",
-      "country": "Canada",
-      "temp_max": 20.9,
-      "temp_min": 9.0,
-      "precipitation": 0.0,
-      "weather_code": 3,
-      "wind_speed_max": 20.1,
-      "wind_direction": 335,
-      "extracted_at": "2025-10-12T22:45:35.809294"
-    },
-    {
-      "date": "2025-10-15",
-      "city": "Toronto",
-      "country": "Canada",
-      "temp_max": 15.3,
-      "temp_min": 10.0,
-      "precipitation": 0.0,
-      "weather_code": 3,
-      "wind_speed_max": 19.7,
-      "wind_direction": 351,
-      "extracted_at": "2025-10-12T22:45:35.809296"
-    },
-    {
-      "date": "2025-10-16",
-      "city": "Toronto",
-      "country": "Canada",
-      "temp_max": 15.8,
-      "temp_min": 7.1,
-      "precipitation": 0.0,
-      "weather_code": 3,
-      "wind_speed_max": 11.9,
-      "wind_direction": 355,
-      "extracted_at": "2025-10-12T22:45:35.809299"
-    },
-    {
-      "date": "2025-10-17",
-      "city": "Toronto",
-      "country": "Canada",
-      "temp_max": 13.8,
-      "temp_min": 9.6,
-      "precipitation": 0.0,
-      "weather_code": 3,
-      "wind_speed_max": 12.7,
-      "wind_direction": 96,
-      "extracted_at": "2025-10-12T22:45:35.809302"
-    },
-    {
-      "date": "2025-10-18",
-      "city": "Toronto",
-      "country": "Canada",
-      "temp_max": 17.2,
-      "temp_min": 12.6,
-      "precipitation": 0.0,
-      "weather_code": 3,
-      "wind_speed_max": 19.1,
-      "wind_direction": 113,
-      "extracted_at": "2025-10-12T22:45:35.809304"
-    }
-  ],
-  "forecast_analysis": {
-    "temperature_trend": "Cooling trend",
-    "temperature_range": {
-      "highest": 20.9,
-      "lowest": 7.1,
-      "average_high": 16.8,
-      "average_low": 10.2
-    },
-    "precipitation_forecast": {
-      "total_expected": 0.0,
-      "rainy_days": 0,
-      "heaviest_day": 0.0
-    },
-    "weather_summary": "7 cloudy days",
-    "alerts": [
-      "No weather alerts"
-    ]
-  },
-  "transformation_timestamp": "2025-10-12T22:45:35.811023",
+  "forecast_data": [],
+  "forecast_analysis": null,
+  "transformation_timestamp": "2025-10-12T22:55:37.298985",
   "data_quality": {
     "current_available": true,
-    "forecast_available": true,
-    "forecast_days": 7,
-    "completeness": "Good"
+    "forecast_available": false,
+    "forecast_days": 0,
+    "completeness": "Partial"
   },
-  "recorded_at": "2025-10-12T22:45:35.811164"
+  "recorded_at": "2025-10-12T22:55:37.299126"
 }
