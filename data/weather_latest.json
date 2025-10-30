@@ -6,36 +6,36 @@
     "longitude": -79.3832
   },
   "extraction_info": {
-    "timestamp": "2025-10-30T15:22:14.973789",
+    "timestamp": "2025-10-30T15:41:10.953412",
     "current_available": true,
     "forecast_days": 7,
     "source": "Open-Meteo API"
   },
   "current_weather": {
-    "timestamp": "2025-10-30T11:15",
+    "timestamp": "2025-10-30T11:30",
     "city": "Toronto",
     "country": "Canada",
     "latitude": 43.6532,
     "longitude": -79.3832,
-    "temperature": 8.2,
-    "feels_like": 3.6,
-    "humidity": 88,
-    "precipitation": 0.0,
-    "weather_code": 3,
-    "wind_speed": 24.7,
-    "wind_direction": 47,
-    "extracted_at": "2025-10-30T15:22:14.318329"
+    "temperature": 7.9,
+    "feels_like": 4.1,
+    "humidity": 92,
+    "precipitation": 0.2,
+    "weather_code": 53,
+    "wind_speed": 20.7,
+    "wind_direction": 35,
+    "extracted_at": "2025-10-30T15:41:10.558652"
   },
   "current_analysis": {
-    "temperature_celsius": 8.2,
-    "temperature_fahrenheit": 46.8,
-    "feels_like_celsius": 3.6,
-    "feels_like_fahrenheit": 38.5,
+    "temperature_celsius": 7.9,
+    "temperature_fahrenheit": 46.2,
+    "feels_like_celsius": 4.1,
+    "feels_like_fahrenheit": 39.4,
     "humidity_level": "Very High (Humid)",
-    "weather_description": "Overcast",
+    "weather_description": "Moderate drizzle",
     "wind_description": "Moderate wind",
     "comfort_index": "Uncomfortable",
-    "precipitation_status": "No"
+    "precipitation_status": "Yes"
   },
   "forecast_data": [
     {
@@ -43,12 +43,12 @@
       "city": "Toronto",
       "country": "Canada",
       "temp_max": 8.7,
-      "temp_min": 6.2,
-      "precipitation": 17.2,
-      "weather_code": 63,
-      "wind_speed_max": 26.0,
-      "wind_direction": 23,
-      "extracted_at": "2025-10-30T15:22:14.972761"
+      "temp_min": 6.3,
+      "precipitation": 12.3,
+      "weather_code": 61,
+      "wind_speed_max": 25.4,
+      "wind_direction": 21,
+      "extracted_at": "2025-10-30T15:41:10.952351"
     },
     {
       "date": "2025-10-31",
@@ -56,11 +56,11 @@
       "country": "Canada",
       "temp_max": 6.6,
       "temp_min": 5.1,
-      "precipitation": 12.4,
-      "weather_code": 63,
+      "precipitation": 6.1,
+      "weather_code": 61,
       "wind_speed_max": 27.3,
-      "wind_direction": 313,
-      "extracted_at": "2025-10-30T15:22:14.972774"
+      "wind_direction": 314,
+      "extracted_at": "2025-10-30T15:41:10.952365"
     },
     {
       "date": "2025-11-01",
@@ -72,7 +72,7 @@
       "weather_code": 3,
       "wind_speed_max": 15.3,
       "wind_direction": 323,
-      "extracted_at": "2025-10-30T15:22:14.972777"
+      "extracted_at": "2025-10-30T15:41:10.952369"
     },
     {
       "date": "2025-11-02",
@@ -84,7 +84,7 @@
       "weather_code": 3,
       "wind_speed_max": 17.3,
       "wind_direction": 233,
-      "extracted_at": "2025-10-30T15:22:14.972780"
+      "extracted_at": "2025-10-30T15:41:10.952372"
     },
     {
       "date": "2025-11-03",
@@ -96,7 +96,7 @@
       "weather_code": 53,
       "wind_speed_max": 37.3,
       "wind_direction": 236,
-      "extracted_at": "2025-10-30T15:22:14.972783"
+      "extracted_at": "2025-10-30T15:41:10.952375"
     },
     {
       "date": "2025-11-04",
@@ -108,7 +108,7 @@
       "weather_code": 1,
       "wind_speed_max": 33.7,
       "wind_direction": 286,
-      "extracted_at": "2025-10-30T15:22:14.972786"
+      "extracted_at": "2025-10-30T15:41:10.952380"
     },
     {
       "date": "2025-11-05",
@@ -120,7 +120,7 @@
       "weather_code": 3,
       "wind_speed_max": 27.7,
       "wind_direction": 230,
-      "extracted_at": "2025-10-30T15:22:14.972789"
+      "extracted_at": "2025-10-30T15:41:10.952384"
     }
   ],
   "forecast_analysis": {
@@ -132,22 +132,21 @@
       "average_low": 6.0
     },
     "precipitation_forecast": {
-      "total_expected": 31.7,
+      "total_expected": 20.5,
       "rainy_days": 3,
-      "heaviest_day": 17.2
+      "heaviest_day": 12.3
     },
     "weather_summary": "1 clear day, 3 cloudy days, 3 rainy days",
     "alerts": [
-      "Heavy precipitation expected on 2025-10-30: 17.2mm",
-      "Heavy precipitation expected on 2025-10-31: 12.4mm"
+      "Heavy precipitation expected on 2025-10-30: 12.3mm"
     ]
   },
-  "transformation_timestamp": "2025-10-30T15:22:14.974549",
+  "transformation_timestamp": "2025-10-30T15:41:10.954057",
   "data_quality": {
     "current_available": true,
     "forecast_available": true,
     "forecast_days": 7,
     "completeness": "Good"
   },
-  "recorded_at": "2025-10-30T15:22:14.974723"
+  "recorded_at": "2025-10-30T15:41:10.954223"
 }
