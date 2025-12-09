@@ -6,49 +6,49 @@
     "longitude": -79.3832
   },
   "extraction_info": {
-    "timestamp": "2025-12-09T23:15:28.486291",
+    "timestamp": "2025-12-09T23:33:16.881290",
     "current_available": true,
     "forecast_days": 7,
     "source": "Open-Meteo API"
   },
   "current_weather": {
-    "timestamp": "2025-12-09T18:15",
+    "timestamp": "2025-12-09T18:30",
     "city": "Toronto",
     "country": "Canada",
     "latitude": 43.6532,
     "longitude": -79.3832,
-    "temperature": -0.6,
-    "feels_like": -7.6,
+    "temperature": -0.1,
+    "feels_like": -7.0,
     "humidity": 87,
-    "precipitation": 0.1,
-    "weather_code": 73,
-    "wind_speed": 30.9,
+    "precipitation": 0.0,
+    "weather_code": 3,
+    "wind_speed": 31.2,
     "wind_direction": 216,
-    "extracted_at": "2025-12-09T23:15:27.930868"
+    "extracted_at": "2025-12-09T23:33:16.488720"
   },
   "current_analysis": {
-    "temperature_celsius": -0.6,
-    "temperature_fahrenheit": 30.9,
-    "feels_like_celsius": -7.6,
-    "feels_like_fahrenheit": 18.3,
+    "temperature_celsius": -0.1,
+    "temperature_fahrenheit": 31.8,
+    "feels_like_celsius": -7.0,
+    "feels_like_fahrenheit": 19.4,
     "humidity_level": "Very High (Humid)",
-    "weather_description": "Moderate snow",
+    "weather_description": "Overcast",
     "wind_description": "Strong wind",
     "comfort_index": "Uncomfortable",
-    "precipitation_status": "Yes"
+    "precipitation_status": "No"
   },
   "forecast_data": [
     {
       "date": "2025-12-09",
       "city": "Toronto",
       "country": "Canada",
-      "temp_max": -0.1,
+      "temp_max": -0.0,
       "temp_min": -10.2,
-      "precipitation": 1.9,
+      "precipitation": 1.7,
       "weather_code": 73,
-      "wind_speed_max": 32.9,
-      "wind_direction": 206,
-      "extracted_at": "2025-12-09T23:15:28.485349"
+      "wind_speed_max": 34.8,
+      "wind_direction": 204,
+      "extracted_at": "2025-12-09T23:33:16.880302"
     },
     {
       "date": "2025-12-10",
@@ -56,11 +56,11 @@
       "country": "Canada",
       "temp_max": 1.6,
       "temp_min": -6.8,
-      "precipitation": 12.17,
+      "precipitation": 11.72,
       "weather_code": 73,
       "wind_speed_max": 27.4,
-      "wind_direction": 245,
-      "extracted_at": "2025-12-09T23:15:28.485361"
+      "wind_direction": 242,
+      "extracted_at": "2025-12-09T23:33:16.880316"
     },
     {
       "date": "2025-12-11",
@@ -72,7 +72,7 @@
       "weather_code": 73,
       "wind_speed_max": 27.9,
       "wind_direction": 303,
-      "extracted_at": "2025-12-09T23:15:28.485364"
+      "extracted_at": "2025-12-09T23:33:16.880319"
     },
     {
       "date": "2025-12-12",
@@ -84,7 +84,7 @@
       "weather_code": 71,
       "wind_speed_max": 14.3,
       "wind_direction": 264,
-      "extracted_at": "2025-12-09T23:15:28.485367"
+      "extracted_at": "2025-12-09T23:33:16.880322"
     },
     {
       "date": "2025-12-13",
@@ -96,7 +96,7 @@
       "weather_code": 73,
       "wind_speed_max": 32.4,
       "wind_direction": 256,
-      "extracted_at": "2025-12-09T23:15:28.485370"
+      "extracted_at": "2025-12-09T23:33:16.880325"
     },
     {
       "date": "2025-12-14",
@@ -108,7 +108,7 @@
       "weather_code": 3,
       "wind_speed_max": 26.3,
       "wind_direction": 303,
-      "extracted_at": "2025-12-09T23:15:28.485372"
+      "extracted_at": "2025-12-09T23:33:16.880328"
     },
     {
       "date": "2025-12-15",
@@ -120,7 +120,7 @@
       "weather_code": 3,
       "wind_speed_max": 20.8,
       "wind_direction": 310,
-      "extracted_at": "2025-12-09T23:15:28.485375"
+      "extracted_at": "2025-12-09T23:33:16.880330"
     }
   ],
   "forecast_analysis": {
@@ -132,24 +132,24 @@
       "average_low": -8.6
     },
     "precipitation_forecast": {
-      "total_expected": 17.3,
+      "total_expected": 16.6,
       "rainy_days": 4,
-      "heaviest_day": 12.17
+      "heaviest_day": 11.72
     },
     "weather_summary": "2 cloudy days, 5 rainy days, 5 snowy days",
     "alerts": [
       "Very cold weather expected on 2025-12-09: -10.2°C",
-      "Heavy precipitation expected on 2025-12-10: 12.17mm",
+      "Heavy precipitation expected on 2025-12-10: 11.72mm",
       "Very cold weather expected on 2025-12-11: -10.9°C",
       "Very cold weather expected on 2025-12-15: -11.1°C"
     ]
   },
-  "transformation_timestamp": "2025-12-09T23:15:28.486951",
+  "transformation_timestamp": "2025-12-09T23:33:16.881939",
   "data_quality": {
     "current_available": true,
     "forecast_available": true,
     "forecast_days": 7,
     "completeness": "Good"
   },
-  "recorded_at": "2025-12-09T23:15:28.487122"
+  "recorded_at": "2025-12-09T23:33:16.882106"
 }
