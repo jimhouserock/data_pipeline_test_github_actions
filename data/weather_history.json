@@ -7,162 +7,6 @@
       "longitude": -79.3832
     },
     "extraction_info": {
-      "timestamp": "2025-12-10T19:32:44.224503",
-      "current_available": true,
-      "forecast_days": 7,
-      "source": "Open-Meteo API"
-    },
-    "current_weather": {
-      "timestamp": "2025-12-10T14:30",
-      "city": "Toronto",
-      "country": "Canada",
-      "latitude": 43.6532,
-      "longitude": -79.3832,
-      "temperature": 1.1,
-      "feels_like": -2.3,
-      "humidity": 97,
-      "precipitation": 0.0,
-      "weather_code": 3,
-      "wind_speed": 9.4,
-      "wind_direction": 252,
-      "extracted_at": "2025-12-10T19:32:43.832191"
-    },
-    "current_analysis": {
-      "temperature_celsius": 1.1,
-      "temperature_fahrenheit": 34.0,
-      "feels_like_celsius": -2.3,
-      "feels_like_fahrenheit": 27.9,
-      "humidity_level": "Very High (Humid)",
-      "weather_description": "Overcast",
-      "wind_description": "Light breeze",
-      "comfort_index": "Uncomfortable",
-      "precipitation_status": "No"
-    },
-    "forecast_data": [
-      {
-        "date": "2025-12-10",
-        "city": "Toronto",
-        "country": "Canada",
-        "temp_max": 1.8,
-        "temp_min": -6.1,
-        "precipitation": 11.9,
-        "weather_code": 75,
-        "wind_speed_max": 24.8,
-        "wind_direction": 277,
-        "extracted_at": "2025-12-10T19:32:44.223457"
-      },
-      {
-        "date": "2025-12-11",
-        "city": "Toronto",
-        "country": "Canada",
-        "temp_max": -5.2,
-        "temp_min": -13.2,
-        "precipitation": 0.15,
-        "weather_code": 71,
-        "wind_speed_max": 19.1,
-        "wind_direction": 311,
-        "extracted_at": "2025-12-10T19:32:44.223471"
-      },
-      {
-        "date": "2025-12-12",
-        "city": "Toronto",
-        "country": "Canada",
-        "temp_max": -2.7,
-        "temp_min": -12.3,
-        "precipitation": 0.0,
-        "weather_code": 3,
-        "wind_speed_max": 16.9,
-        "wind_direction": 270,
-        "extracted_at": "2025-12-10T19:32:44.223475"
-      },
-      {
-        "date": "2025-12-13",
-        "city": "Toronto",
-        "country": "Canada",
-        "temp_max": -2.8,
-        "temp_min": -8.1,
-        "precipitation": 0.0,
-        "weather_code": 3,
-        "wind_speed_max": 27.2,
-        "wind_direction": 250,
-        "extracted_at": "2025-12-10T19:32:44.223478"
-      },
-      {
-        "date": "2025-12-14",
-        "city": "Toronto",
-        "country": "Canada",
-        "temp_max": -4.7,
-        "temp_min": -10.2,
-        "precipitation": 0.0,
-        "weather_code": 3,
-        "wind_speed_max": 24.1,
-        "wind_direction": 299,
-        "extracted_at": "2025-12-10T19:32:44.223481"
-      },
-      {
-        "date": "2025-12-15",
-        "city": "Toronto",
-        "country": "Canada",
-        "temp_max": -4.1,
-        "temp_min": -10.4,
-        "precipitation": 0.3,
-        "weather_code": 71,
-        "wind_speed_max": 24.1,
-        "wind_direction": 269,
-        "extracted_at": "2025-12-10T19:32:44.223484"
-      },
-      {
-        "date": "2025-12-16",
-        "city": "Toronto",
-        "country": "Canada",
-        "temp_max": -2.8,
-        "temp_min": -6.8,
-        "precipitation": 0.0,
-        "weather_code": 3,
-        "wind_speed_max": 23.2,
-        "wind_direction": 260,
-        "extracted_at": "2025-12-10T19:32:44.223487"
-      }
-    ],
-    "forecast_analysis": {
-      "temperature_trend": "Stable",
-      "temperature_range": {
-        "highest": 1.8,
-        "lowest": -13.2,
-        "average_high": -2.9,
-        "average_low": -9.6
-      },
-      "precipitation_forecast": {
-        "total_expected": 12.4,
-        "rainy_days": 3,
-        "heaviest_day": 11.9
-      },
-      "weather_summary": "4 cloudy days, 3 rainy days, 3 snowy days",
-      "alerts": [
-        "Heavy precipitation expected on 2025-12-10: 11.9mm",
-        "Very cold weather expected on 2025-12-11: -13.2°C",
-        "Very cold weather expected on 2025-12-12: -12.3°C",
-        "Very cold weather expected on 2025-12-14: -10.2°C",
-        "Very cold weather expected on 2025-12-15: -10.4°C"
-      ]
-    },
-    "transformation_timestamp": "2025-12-10T19:32:44.225262",
-    "data_quality": {
-      "current_available": true,
-      "forecast_available": true,
-      "forecast_days": 7,
-      "completeness": "Good"
-    },
-    "recorded_at": "2025-12-10T19:32:44.225438"
-  },
-  {
-    "location": {
-      "city": "Toronto",
-      "country": "Canada",
-      "latitude": 43.6532,
-      "longitude": -79.3832
-    },
-    "extraction_info": {
       "timestamp": "2025-12-10T19:46:07.499253",
       "current_available": true,
       "forecast_days": 7,
@@ -4643,5 +4487,158 @@
       "completeness": "Good"
     },
     "recorded_at": "2025-12-11T07:51:04.727877"
+  },
+  {
+    "location": {
+      "city": "Toronto",
+      "country": "Canada",
+      "latitude": 43.6532,
+      "longitude": -79.3832
+    },
+    "extraction_info": {
+      "timestamp": "2025-12-11T07:58:47.831163",
+      "current_available": true,
+      "forecast_days": 7,
+      "source": "Open-Meteo API"
+    },
+    "current_weather": {
+      "timestamp": "2025-12-11T02:45",
+      "city": "Toronto",
+      "country": "Canada",
+      "latitude": 43.6532,
+      "longitude": -79.3832,
+      "temperature": -8.0,
+      "feels_like": -13.1,
+      "humidity": 80,
+      "precipitation": 0.0,
+      "weather_code": 0,
+      "wind_speed": 12.1,
+      "wind_direction": 297,
+      "extracted_at": "2025-12-11T07:58:47.233524"
+    },
+    "current_analysis": {
+      "temperature_celsius": -8.0,
+      "temperature_fahrenheit": 17.6,
+      "feels_like_celsius": -13.1,
+      "feels_like_fahrenheit": 8.4,
+      "humidity_level": "Very High (Humid)",
+      "weather_description": "Clear sky",
+      "wind_description": "Light breeze",
+      "comfort_index": "Uncomfortable",
+      "precipitation_status": "No"
+    },
+    "forecast_data": [
+      {
+        "date": "2025-12-11",
+        "city": "Toronto",
+        "country": "Canada",
+        "temp_max": -4.4,
+        "temp_min": -12.1,
+        "precipitation": 0.2,
+        "weather_code": 71,
+        "wind_speed_max": 21.0,
+        "wind_direction": 300,
+        "extracted_at": "2025-12-11T07:58:47.830152"
+      },
+      {
+        "date": "2025-12-12",
+        "city": "Toronto",
+        "country": "Canada",
+        "temp_max": -1.7,
+        "temp_min": -11.9,
+        "precipitation": 0.0,
+        "weather_code": 3,
+        "wind_speed_max": 12.5,
+        "wind_direction": 266,
+        "extracted_at": "2025-12-11T07:58:47.830166"
+      },
+      {
+        "date": "2025-12-13",
+        "city": "Toronto",
+        "country": "Canada",
+        "temp_max": -2.4,
+        "temp_min": -8.7,
+        "precipitation": 0.0,
+        "weather_code": 3,
+        "wind_speed_max": 29.6,
+        "wind_direction": 252,
+        "extracted_at": "2025-12-11T07:58:47.830169"
+      },
+      {
+        "date": "2025-12-14",
+        "city": "Toronto",
+        "country": "Canada",
+        "temp_max": -4.9,
+        "temp_min": -9.2,
+        "precipitation": 0.0,
+        "weather_code": 3,
+        "wind_speed_max": 29.0,
+        "wind_direction": 289,
+        "extracted_at": "2025-12-11T07:58:47.830172"
+      },
+      {
+        "date": "2025-12-15",
+        "city": "Toronto",
+        "country": "Canada",
+        "temp_max": -3.9,
+        "temp_min": -9.4,
+        "precipitation": 0.3,
+        "weather_code": 71,
+        "wind_speed_max": 31.1,
+        "wind_direction": 260,
+        "extracted_at": "2025-12-11T07:58:47.830175"
+      },
+      {
+        "date": "2025-12-16",
+        "city": "Toronto",
+        "country": "Canada",
+        "temp_max": 0.4,
+        "temp_min": -6.9,
+        "precipitation": 0.0,
+        "weather_code": 3,
+        "wind_speed_max": 27.8,
+        "wind_direction": 239,
+        "extracted_at": "2025-12-11T07:58:47.830177"
+      },
+      {
+        "date": "2025-12-17",
+        "city": "Toronto",
+        "country": "Canada",
+        "temp_max": 3.6,
+        "temp_min": 0.7,
+        "precipitation": 0.0,
+        "weather_code": 45,
+        "wind_speed_max": 34.1,
+        "wind_direction": 230,
+        "extracted_at": "2025-12-11T07:58:47.830180"
+      }
+    ],
+    "forecast_analysis": {
+      "temperature_trend": "Stable",
+      "temperature_range": {
+        "highest": 3.6,
+        "lowest": -12.1,
+        "average_high": -1.9,
+        "average_low": -8.2
+      },
+      "precipitation_forecast": {
+        "total_expected": 0.5,
+        "rainy_days": 2,
+        "heaviest_day": 0.3
+      },
+      "weather_summary": "4 cloudy days, 2 rainy days, 2 snowy days",
+      "alerts": [
+        "Very cold weather expected on 2025-12-11: -12.1°C",
+        "Very cold weather expected on 2025-12-12: -11.9°C"
+      ]
+    },
+    "transformation_timestamp": "2025-12-11T07:58:47.831829",
+    "data_quality": {
+      "current_available": true,
+      "forecast_available": true,
+      "forecast_days": 7,
+      "completeness": "Good"
+    },
+    "recorded_at": "2025-12-11T07:58:47.832010"
   }
 ]
