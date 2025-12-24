@@ -6,31 +6,31 @@
     "longitude": -79.3832
   },
   "extraction_info": {
-    "timestamp": "2025-12-24T13:43:18.099876",
+    "timestamp": "2025-12-24T13:57:00.814832",
     "current_available": true,
     "forecast_days": 7,
     "source": "Open-Meteo API"
   },
   "current_weather": {
-    "timestamp": "2025-12-24T08:30",
+    "timestamp": "2025-12-24T08:45",
     "city": "Toronto",
     "country": "Canada",
     "latitude": 43.6532,
     "longitude": -79.3832,
     "temperature": -0.3,
-    "feels_like": -4.2,
-    "humidity": 72,
+    "feels_like": -4.5,
+    "humidity": 68,
     "precipitation": 0.0,
     "weather_code": 0,
-    "wind_speed": 8.1,
-    "wind_direction": 315,
-    "extracted_at": "2025-12-24T13:43:17.699383"
+    "wind_speed": 9.2,
+    "wind_direction": 318,
+    "extracted_at": "2025-12-24T13:57:00.175699"
   },
   "current_analysis": {
     "temperature_celsius": -0.3,
     "temperature_fahrenheit": 31.5,
-    "feels_like_celsius": -4.2,
-    "feels_like_fahrenheit": 24.4,
+    "feels_like_celsius": -4.5,
+    "feels_like_fahrenheit": 23.9,
     "humidity_level": "High",
     "weather_description": "Clear sky",
     "wind_description": "Light breeze",
@@ -48,31 +48,31 @@
       "weather_code": 3,
       "wind_speed_max": 25.5,
       "wind_direction": 294,
-      "extracted_at": "2025-12-24T13:43:18.098829"
+      "extracted_at": "2025-12-24T13:57:00.814051"
     },
     {
       "date": "2025-12-25",
       "city": "Toronto",
       "country": "Canada",
-      "temp_max": 1.8,
-      "temp_min": -9.4,
+      "temp_max": 1.5,
+      "temp_min": -10.4,
       "precipitation": 0.0,
       "weather_code": 3,
-      "wind_speed_max": 20.4,
-      "wind_direction": 332,
-      "extracted_at": "2025-12-24T13:43:18.098845"
+      "wind_speed_max": 21.1,
+      "wind_direction": 333,
+      "extracted_at": "2025-12-24T13:57:00.814062"
     },
     {
       "date": "2025-12-26",
       "city": "Toronto",
       "country": "Canada",
       "temp_max": -2.4,
-      "temp_min": -8.4,
+      "temp_min": -11.4,
       "precipitation": 15.1,
       "weather_code": 75,
       "wind_speed_max": 39.7,
-      "wind_direction": 82,
-      "extracted_at": "2025-12-24T13:43:18.098848"
+      "wind_direction": 79,
+      "extracted_at": "2025-12-24T13:57:00.814065"
     },
     {
       "date": "2025-12-27",
@@ -84,7 +84,7 @@
       "weather_code": 73,
       "wind_speed_max": 31.8,
       "wind_direction": 55,
-      "extracted_at": "2025-12-24T13:43:18.098851"
+      "extracted_at": "2025-12-24T13:57:00.814068"
     },
     {
       "date": "2025-12-28",
@@ -96,7 +96,7 @@
       "weather_code": 55,
       "wind_speed_max": 21.4,
       "wind_direction": 109,
-      "extracted_at": "2025-12-24T13:43:18.098854"
+      "extracted_at": "2025-12-24T13:57:00.814071"
     },
     {
       "date": "2025-12-29",
@@ -108,7 +108,7 @@
       "weather_code": 55,
       "wind_speed_max": 39.0,
       "wind_direction": 271,
-      "extracted_at": "2025-12-24T13:43:18.098856"
+      "extracted_at": "2025-12-24T13:57:00.814074"
     },
     {
       "date": "2025-12-30",
@@ -120,16 +120,16 @@
       "weather_code": 3,
       "wind_speed_max": 33.4,
       "wind_direction": 281,
-      "extracted_at": "2025-12-24T13:43:18.098859"
+      "extracted_at": "2025-12-24T13:57:00.814077"
     }
   ],
   "forecast_analysis": {
     "temperature_trend": "Stable",
     "temperature_range": {
       "highest": 4.5,
-      "lowest": -9.4,
-      "average_high": 1.0,
-      "average_low": -5.2
+      "lowest": -11.4,
+      "average_high": 0.9,
+      "average_low": -5.8
     },
     "precipitation_forecast": {
       "total_expected": 22.4,
@@ -138,15 +138,17 @@
     },
     "weather_summary": "3 cloudy days, 4 rainy days, 2 snowy days",
     "alerts": [
+      "Very cold weather expected on 2025-12-25: -10.4°C",
+      "Very cold weather expected on 2025-12-26: -11.4°C",
       "Heavy precipitation expected on 2025-12-26: 15.1mm"
     ]
   },
-  "transformation_timestamp": "2025-12-24T13:43:18.100671",
+  "transformation_timestamp": "2025-12-24T13:57:00.815428",
   "data_quality": {
     "current_available": true,
     "forecast_available": true,
     "forecast_days": 7,
     "completeness": "Good"
   },
-  "recorded_at": "2025-12-24T13:43:18.100812"
+  "recorded_at": "2025-12-24T13:57:00.815545"
 }
