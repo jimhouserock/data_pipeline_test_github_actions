@@ -6,31 +6,31 @@
     "longitude": -79.3832
   },
   "extraction_info": {
-    "timestamp": "2026-01-07T13:26:14.505441",
+    "timestamp": "2026-01-07T13:56:36.026894",
     "current_available": true,
     "forecast_days": 7,
     "source": "Open-Meteo API"
   },
   "current_weather": {
-    "timestamp": "2026-01-07T08:15",
+    "timestamp": "2026-01-07T08:45",
     "city": "Toronto",
     "country": "Canada",
     "latitude": 43.6532,
     "longitude": -79.3832,
-    "temperature": 0.4,
-    "feels_like": -2.8,
-    "humidity": 90,
+    "temperature": 0.5,
+    "feels_like": -2.9,
+    "humidity": 89,
     "precipitation": 0.0,
     "weather_code": 3,
-    "wind_speed": 6.5,
-    "wind_direction": 276,
-    "extracted_at": "2026-01-07T13:26:14.113459"
+    "wind_speed": 7.2,
+    "wind_direction": 288,
+    "extracted_at": "2026-01-07T13:56:35.353445"
   },
   "current_analysis": {
-    "temperature_celsius": 0.4,
-    "temperature_fahrenheit": 32.7,
-    "feels_like_celsius": -2.8,
-    "feels_like_fahrenheit": 27.0,
+    "temperature_celsius": 0.5,
+    "temperature_fahrenheit": 32.9,
+    "feels_like_celsius": -2.9,
+    "feels_like_fahrenheit": 26.8,
     "humidity_level": "Very High (Humid)",
     "weather_description": "Overcast",
     "wind_description": "Light breeze",
@@ -48,19 +48,19 @@
       "weather_code": 73,
       "wind_speed_max": 10.2,
       "wind_direction": 263,
-      "extracted_at": "2026-01-07T13:26:14.504442"
+      "extracted_at": "2026-01-07T13:56:36.024284"
     },
     {
       "date": "2026-01-08",
       "city": "Toronto",
       "country": "Canada",
-      "temp_max": 5.8,
-      "temp_min": 1.0,
+      "temp_max": 5.2,
+      "temp_min": 0.5,
       "precipitation": 0.0,
       "weather_code": 3,
-      "wind_speed_max": 17.1,
-      "wind_direction": 183,
-      "extracted_at": "2026-01-07T13:26:14.504456"
+      "wind_speed_max": 12.3,
+      "wind_direction": 169,
+      "extracted_at": "2026-01-07T13:56:36.024299"
     },
     {
       "date": "2026-01-09",
@@ -68,11 +68,11 @@
       "country": "Canada",
       "temp_max": 10.7,
       "temp_min": 2.9,
-      "precipitation": 3.75,
-      "weather_code": 53,
+      "precipitation": 16.7,
+      "weather_code": 65,
       "wind_speed_max": 32.4,
-      "wind_direction": 234,
-      "extracted_at": "2026-01-07T13:26:14.504459"
+      "wind_direction": 247,
+      "extracted_at": "2026-01-07T13:56:36.024302"
     },
     {
       "date": "2026-01-10",
@@ -84,7 +84,7 @@
       "weather_code": 80,
       "wind_speed_max": 41.8,
       "wind_direction": 71,
-      "extracted_at": "2026-01-07T13:26:14.504463"
+      "extracted_at": "2026-01-07T13:56:36.024305"
     },
     {
       "date": "2026-01-11",
@@ -96,7 +96,7 @@
       "weather_code": 51,
       "wind_speed_max": 40.2,
       "wind_direction": 248,
-      "extracted_at": "2026-01-07T13:26:14.504466"
+      "extracted_at": "2026-01-07T13:56:36.024308"
     },
     {
       "date": "2026-01-12",
@@ -108,7 +108,7 @@
       "weather_code": 3,
       "wind_speed_max": 24.0,
       "wind_direction": 265,
-      "extracted_at": "2026-01-07T13:26:14.504469"
+      "extracted_at": "2026-01-07T13:56:36.024311"
     },
     {
       "date": "2026-01-13",
@@ -120,7 +120,7 @@
       "weather_code": 3,
       "wind_speed_max": 29.4,
       "wind_direction": 219,
-      "extracted_at": "2026-01-07T13:26:14.504472"
+      "extracted_at": "2026-01-07T13:56:36.024314"
     }
   ],
   "forecast_analysis": {
@@ -128,25 +128,26 @@
     "temperature_range": {
       "highest": 10.7,
       "lowest": -4.6,
-      "average_high": 4.4,
-      "average_low": -0.4
+      "average_high": 4.3,
+      "average_low": -0.5
     },
     "precipitation_forecast": {
-      "total_expected": 21.4,
+      "total_expected": 34.4,
       "rainy_days": 4,
-      "heaviest_day": 15.2
+      "heaviest_day": 16.7
     },
     "weather_summary": "3 cloudy days, 4 rainy days, 2 snowy days",
     "alerts": [
+      "Heavy precipitation expected on 2026-01-09: 16.7mm",
       "Heavy precipitation expected on 2026-01-10: 15.2mm"
     ]
   },
-  "transformation_timestamp": "2026-01-07T13:26:14.506168",
+  "transformation_timestamp": "2026-01-07T13:56:36.027928",
   "data_quality": {
     "current_available": true,
     "forecast_available": true,
     "forecast_days": 7,
     "completeness": "Good"
   },
-  "recorded_at": "2026-01-07T13:26:14.506301"
+  "recorded_at": "2026-01-07T13:56:36.028084"
 }
