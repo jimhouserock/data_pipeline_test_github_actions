@@ -7,56 +7,6 @@
       "longitude": -79.3832
     },
     "extraction_info": {
-      "timestamp": "2026-01-06T15:30:08.531443",
-      "current_available": true,
-      "forecast_days": 0,
-      "source": "Open-Meteo API"
-    },
-    "current_weather": {
-      "timestamp": "2026-01-06T10:30",
-      "city": "Toronto",
-      "country": "Canada",
-      "latitude": 43.6532,
-      "longitude": -79.3832,
-      "temperature": 0.5,
-      "feels_like": -4.1,
-      "humidity": 93,
-      "precipitation": 0.0,
-      "weather_code": 3,
-      "wind_speed": 16.6,
-      "wind_direction": 89,
-      "extracted_at": "2026-01-06T15:30:08.108456"
-    },
-    "current_analysis": {
-      "temperature_celsius": 0.5,
-      "temperature_fahrenheit": 32.9,
-      "feels_like_celsius": -4.1,
-      "feels_like_fahrenheit": 24.6,
-      "humidity_level": "Very High (Humid)",
-      "weather_description": "Overcast",
-      "wind_description": "Moderate wind",
-      "comfort_index": "Uncomfortable",
-      "precipitation_status": "No"
-    },
-    "forecast_data": [],
-    "forecast_analysis": null,
-    "transformation_timestamp": "2026-01-06T15:30:08.531711",
-    "data_quality": {
-      "current_available": true,
-      "forecast_available": false,
-      "forecast_days": 0,
-      "completeness": "Partial"
-    },
-    "recorded_at": "2026-01-06T15:30:08.531855"
-  },
-  {
-    "location": {
-      "city": "Toronto",
-      "country": "Canada",
-      "latitude": 43.6532,
-      "longitude": -79.3832
-    },
-    "extraction_info": {
       "timestamp": "2026-01-06T15:47:23.457978",
       "current_available": true,
       "forecast_days": 7,
@@ -4478,5 +4428,158 @@
       "completeness": "Good"
     },
     "recorded_at": "2026-01-07T03:05:45.920336"
+  },
+  {
+    "location": {
+      "city": "Toronto",
+      "country": "Canada",
+      "latitude": 43.6532,
+      "longitude": -79.3832
+    },
+    "extraction_info": {
+      "timestamp": "2026-01-07T04:09:16.248850",
+      "current_available": true,
+      "forecast_days": 7,
+      "source": "Open-Meteo API"
+    },
+    "current_weather": {
+      "timestamp": "2026-01-06T23:00",
+      "city": "Toronto",
+      "country": "Canada",
+      "latitude": 43.6532,
+      "longitude": -79.3832,
+      "temperature": 0.3,
+      "feels_like": -3.7,
+      "humidity": 95,
+      "precipitation": 0.3,
+      "weather_code": 55,
+      "wind_speed": 12.3,
+      "wind_direction": 7,
+      "extracted_at": "2026-01-07T04:09:15.727554"
+    },
+    "current_analysis": {
+      "temperature_celsius": 0.3,
+      "temperature_fahrenheit": 32.5,
+      "feels_like_celsius": -3.7,
+      "feels_like_fahrenheit": 25.3,
+      "humidity_level": "Very High (Humid)",
+      "weather_description": "Dense drizzle",
+      "wind_description": "Light breeze",
+      "comfort_index": "Uncomfortable",
+      "precipitation_status": "Yes"
+    },
+    "forecast_data": [
+      {
+        "date": "2026-01-06",
+        "city": "Toronto",
+        "country": "Canada",
+        "temp_max": 1.6,
+        "temp_min": -2.7,
+        "precipitation": 15.3,
+        "weather_code": 73,
+        "wind_speed_max": 23.8,
+        "wind_direction": 58,
+        "extracted_at": "2026-01-07T04:09:16.247904"
+      },
+      {
+        "date": "2026-01-07",
+        "city": "Toronto",
+        "country": "Canada",
+        "temp_max": 3.5,
+        "temp_min": -1.1,
+        "precipitation": 1.6,
+        "weather_code": 73,
+        "wind_speed_max": 11.5,
+        "wind_direction": 263,
+        "extracted_at": "2026-01-07T04:09:16.247918"
+      },
+      {
+        "date": "2026-01-08",
+        "city": "Toronto",
+        "country": "Canada",
+        "temp_max": 6.2,
+        "temp_min": 0.8,
+        "precipitation": 0.0,
+        "weather_code": 3,
+        "wind_speed_max": 14.4,
+        "wind_direction": 173,
+        "extracted_at": "2026-01-07T04:09:16.247921"
+      },
+      {
+        "date": "2026-01-09",
+        "city": "Toronto",
+        "country": "Canada",
+        "temp_max": 11.1,
+        "temp_min": 3.5,
+        "precipitation": 5.6,
+        "weather_code": 61,
+        "wind_speed_max": 32.4,
+        "wind_direction": 224,
+        "extracted_at": "2026-01-07T04:09:16.247924"
+      },
+      {
+        "date": "2026-01-10",
+        "city": "Toronto",
+        "country": "Canada",
+        "temp_max": 3.1,
+        "temp_min": 1.1,
+        "precipitation": 13.6,
+        "weather_code": 85,
+        "wind_speed_max": 34.5,
+        "wind_direction": 68,
+        "extracted_at": "2026-01-07T04:09:16.247927"
+      },
+      {
+        "date": "2026-01-11",
+        "city": "Toronto",
+        "country": "Canada",
+        "temp_max": 4.2,
+        "temp_min": -3.0,
+        "precipitation": 0.0,
+        "weather_code": 51,
+        "wind_speed_max": 36.7,
+        "wind_direction": 252,
+        "extracted_at": "2026-01-07T04:09:16.247929"
+      },
+      {
+        "date": "2026-01-12",
+        "city": "Toronto",
+        "country": "Canada",
+        "temp_max": 2.1,
+        "temp_min": -3.9,
+        "precipitation": 0.0,
+        "weather_code": 3,
+        "wind_speed_max": 32.1,
+        "wind_direction": 248,
+        "extracted_at": "2026-01-07T04:09:16.247932"
+      }
+    ],
+    "forecast_analysis": {
+      "temperature_trend": "Stable",
+      "temperature_range": {
+        "highest": 11.1,
+        "lowest": -3.9,
+        "average_high": 4.5,
+        "average_low": -0.8
+      },
+      "precipitation_forecast": {
+        "total_expected": 36.1,
+        "rainy_days": 4,
+        "heaviest_day": 15.3
+      },
+      "weather_summary": "2 cloudy days, 4 rainy days, 3 snowy days",
+      "alerts": [
+        "Heavy precipitation expected on 2026-01-06: 15.3mm",
+        "Heavy precipitation expected on 2026-01-10: 13.6mm"
+      ]
+    },
+    "transformation_timestamp": "2026-01-07T04:09:16.249504",
+    "data_quality": {
+      "current_available": true,
+      "forecast_available": true,
+      "forecast_days": 7,
+      "completeness": "Good"
+    },
+    "recorded_at": "2026-01-07T04:09:16.249642"
   }
 ]
