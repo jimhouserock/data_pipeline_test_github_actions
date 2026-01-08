@@ -6,33 +6,33 @@
     "longitude": -79.3832
   },
   "extraction_info": {
-    "timestamp": "2026-01-08T21:19:08.810917",
+    "timestamp": "2026-01-08T21:38:47.762156",
     "current_available": true,
     "forecast_days": 7,
     "source": "Open-Meteo API"
   },
   "current_weather": {
-    "timestamp": "2026-01-08T16:15",
+    "timestamp": "2026-01-08T16:30",
     "city": "Toronto",
     "country": "Canada",
     "latitude": 43.6532,
     "longitude": -79.3832,
-    "temperature": 4.0,
-    "feels_like": 0.5,
-    "humidity": 88,
+    "temperature": 3.6,
+    "feels_like": 0.2,
+    "humidity": 86,
     "precipitation": 0.0,
-    "weather_code": 1,
-    "wind_speed": 12.0,
-    "wind_direction": 81,
-    "extracted_at": "2026-01-08T21:19:08.428691"
+    "weather_code": 2,
+    "wind_speed": 10.7,
+    "wind_direction": 78,
+    "extracted_at": "2026-01-08T21:38:47.237185"
   },
   "current_analysis": {
-    "temperature_celsius": 4.0,
-    "temperature_fahrenheit": 39.2,
-    "feels_like_celsius": 0.5,
-    "feels_like_fahrenheit": 32.9,
+    "temperature_celsius": 3.6,
+    "temperature_fahrenheit": 38.5,
+    "feels_like_celsius": 0.2,
+    "feels_like_fahrenheit": 32.4,
     "humidity_level": "Very High (Humid)",
-    "weather_description": "Mainly clear",
+    "weather_description": "Partly cloudy",
     "wind_description": "Light breeze",
     "comfort_index": "Uncomfortable",
     "precipitation_status": "No"
@@ -46,9 +46,9 @@
       "temp_min": 1.8,
       "precipitation": 0.0,
       "weather_code": 3,
-      "wind_speed_max": 14.8,
-      "wind_direction": 131,
-      "extracted_at": "2026-01-08T21:19:08.809864"
+      "wind_speed_max": 13.7,
+      "wind_direction": 125,
+      "extracted_at": "2026-01-08T21:38:47.761146"
     },
     {
       "date": "2026-01-09",
@@ -56,11 +56,11 @@
       "country": "Canada",
       "temp_max": 10.7,
       "temp_min": 1.2,
-      "precipitation": 6.85,
+      "precipitation": 11.22,
       "weather_code": 63,
       "wind_speed_max": 37.3,
-      "wind_direction": 212,
-      "extracted_at": "2026-01-08T21:19:08.809879"
+      "wind_direction": 219,
+      "extracted_at": "2026-01-08T21:38:47.761160"
     },
     {
       "date": "2026-01-10",
@@ -72,7 +72,7 @@
       "weather_code": 61,
       "wind_speed_max": 34.6,
       "wind_direction": 101,
-      "extracted_at": "2026-01-08T21:19:08.809883"
+      "extracted_at": "2026-01-08T21:38:47.761164"
     },
     {
       "date": "2026-01-11",
@@ -84,7 +84,7 @@
       "weather_code": 51,
       "wind_speed_max": 29.2,
       "wind_direction": 269,
-      "extracted_at": "2026-01-08T21:19:08.809886"
+      "extracted_at": "2026-01-08T21:38:47.761167"
     },
     {
       "date": "2026-01-12",
@@ -96,7 +96,7 @@
       "weather_code": 71,
       "wind_speed_max": 30.5,
       "wind_direction": 253,
-      "extracted_at": "2026-01-08T21:19:08.809890"
+      "extracted_at": "2026-01-08T21:38:47.761170"
     },
     {
       "date": "2026-01-13",
@@ -108,7 +108,7 @@
       "weather_code": 51,
       "wind_speed_max": 35.5,
       "wind_direction": 223,
-      "extracted_at": "2026-01-08T21:19:08.809893"
+      "extracted_at": "2026-01-08T21:38:47.761173"
     },
     {
       "date": "2026-01-14",
@@ -120,7 +120,7 @@
       "weather_code": 3,
       "wind_speed_max": 30.0,
       "wind_direction": 302,
-      "extracted_at": "2026-01-08T21:19:08.809897"
+      "extracted_at": "2026-01-08T21:38:47.761176"
     }
   ],
   "forecast_analysis": {
@@ -132,21 +132,22 @@
       "average_low": -2.1
     },
     "precipitation_forecast": {
-      "total_expected": 14.7,
+      "total_expected": 19.0,
       "rainy_days": 5,
-      "heaviest_day": 7.0
+      "heaviest_day": 11.22
     },
     "weather_summary": "2 cloudy days, 5 rainy days, 1 snowy day",
     "alerts": [
+      "Heavy precipitation expected on 2026-01-09: 11.22mm",
       "Very cold weather expected on 2026-01-14: -11.5°C"
     ]
   },
-  "transformation_timestamp": "2026-01-08T21:19:08.811547",
+  "transformation_timestamp": "2026-01-08T21:38:47.762794",
   "data_quality": {
     "current_available": true,
     "forecast_available": true,
     "forecast_days": 7,
     "completeness": "Good"
   },
-  "recorded_at": "2026-01-08T21:19:08.811740"
+  "recorded_at": "2026-01-08T21:38:47.762929"
 }
