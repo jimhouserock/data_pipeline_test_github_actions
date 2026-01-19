@@ -7,161 +7,6 @@
       "longitude": -79.3832
     },
     "extraction_info": {
-      "timestamp": "2026-01-18T23:55:43.850131",
-      "current_available": true,
-      "forecast_days": 7,
-      "source": "Open-Meteo API"
-    },
-    "current_weather": {
-      "timestamp": "2026-01-18T18:45",
-      "city": "Toronto",
-      "country": "Canada",
-      "latitude": 43.6532,
-      "longitude": -79.3832,
-      "temperature": -8.5,
-      "feels_like": -13.8,
-      "humidity": 67,
-      "precipitation": 0.0,
-      "weather_code": 2,
-      "wind_speed": 11.9,
-      "wind_direction": 235,
-      "extracted_at": "2026-01-18T23:55:43.205767"
-    },
-    "current_analysis": {
-      "temperature_celsius": -8.5,
-      "temperature_fahrenheit": 16.7,
-      "feels_like_celsius": -13.8,
-      "feels_like_fahrenheit": 7.2,
-      "humidity_level": "High",
-      "weather_description": "Partly cloudy",
-      "wind_description": "Light breeze",
-      "comfort_index": "Uncomfortable",
-      "precipitation_status": "No"
-    },
-    "forecast_data": [
-      {
-        "date": "2026-01-18",
-        "city": "Toronto",
-        "country": "Canada",
-        "temp_max": -5.1,
-        "temp_min": -9.8,
-        "precipitation": 0.0,
-        "weather_code": 3,
-        "wind_speed_max": 25.2,
-        "wind_direction": 229,
-        "extracted_at": "2026-01-18T23:55:43.849094"
-      },
-      {
-        "date": "2026-01-19",
-        "city": "Toronto",
-        "country": "Canada",
-        "temp_max": -5.9,
-        "temp_min": -11.4,
-        "precipitation": 0.7,
-        "weather_code": 73,
-        "wind_speed_max": 35.2,
-        "wind_direction": 230,
-        "extracted_at": "2026-01-18T23:55:43.849137"
-      },
-      {
-        "date": "2026-01-20",
-        "city": "Toronto",
-        "country": "Canada",
-        "temp_max": -9.3,
-        "temp_min": -15.8,
-        "precipitation": 0.0,
-        "weather_code": 3,
-        "wind_speed_max": 32.0,
-        "wind_direction": 244,
-        "extracted_at": "2026-01-18T23:55:43.849141"
-      },
-      {
-        "date": "2026-01-21",
-        "city": "Toronto",
-        "country": "Canada",
-        "temp_max": 0.2,
-        "temp_min": -8.9,
-        "precipitation": 4.3,
-        "weather_code": 85,
-        "wind_speed_max": 27.1,
-        "wind_direction": 232,
-        "extracted_at": "2026-01-18T23:55:43.849144"
-      },
-      {
-        "date": "2026-01-22",
-        "city": "Toronto",
-        "country": "Canada",
-        "temp_max": -0.7,
-        "temp_min": -9.9,
-        "precipitation": 0.2,
-        "weather_code": 51,
-        "wind_speed_max": 34.3,
-        "wind_direction": 251,
-        "extracted_at": "2026-01-18T23:55:43.849147"
-      },
-      {
-        "date": "2026-01-23",
-        "city": "Toronto",
-        "country": "Canada",
-        "temp_max": -10.2,
-        "temp_min": -17.3,
-        "precipitation": 1.2,
-        "weather_code": 85,
-        "wind_speed_max": 29.7,
-        "wind_direction": 275,
-        "extracted_at": "2026-01-18T23:55:43.849149"
-      },
-      {
-        "date": "2026-01-24",
-        "city": "Toronto",
-        "country": "Canada",
-        "temp_max": -15.5,
-        "temp_min": -22.5,
-        "precipitation": 0.0,
-        "weather_code": 3,
-        "wind_speed_max": 12.6,
-        "wind_direction": 332,
-        "extracted_at": "2026-01-18T23:55:43.849152"
-      }
-    ],
-    "forecast_analysis": {
-      "temperature_trend": "Stable",
-      "temperature_range": {
-        "highest": 0.2,
-        "lowest": -22.5,
-        "average_high": -6.6,
-        "average_low": -13.7
-      },
-      "precipitation_forecast": {
-        "total_expected": 6.4,
-        "rainy_days": 4,
-        "heaviest_day": 4.3
-      },
-      "weather_summary": "3 cloudy days, 2 rainy days, 3 snowy days",
-      "alerts": [
-        "Very cold weather expected on 2026-01-19: -11.4°C",
-        "Very cold weather expected on 2026-01-20: -15.8°C",
-        "Very cold weather expected on 2026-01-23: -17.3°C",
-        "Very cold weather expected on 2026-01-24: -22.5°C"
-      ]
-    },
-    "transformation_timestamp": "2026-01-18T23:55:43.850742",
-    "data_quality": {
-      "current_available": true,
-      "forecast_available": true,
-      "forecast_days": 7,
-      "completeness": "Good"
-    },
-    "recorded_at": "2026-01-18T23:55:43.850863"
-  },
-  {
-    "location": {
-      "city": "Toronto",
-      "country": "Canada",
-      "latitude": 43.6532,
-      "longitude": -79.3832
-    },
-    "extraction_info": {
       "timestamp": "2026-01-19T01:13:34.597996",
       "current_available": true,
       "forecast_days": 7,
@@ -4583,5 +4428,162 @@
       "completeness": "Partial"
     },
     "recorded_at": "2026-01-19T17:44:50.956704"
+  },
+  {
+    "location": {
+      "city": "Toronto",
+      "country": "Canada",
+      "latitude": 43.6532,
+      "longitude": -79.3832
+    },
+    "extraction_info": {
+      "timestamp": "2026-01-19T17:58:17.867262",
+      "current_available": true,
+      "forecast_days": 7,
+      "source": "Open-Meteo API"
+    },
+    "current_weather": {
+      "timestamp": "2026-01-19T12:45",
+      "city": "Toronto",
+      "country": "Canada",
+      "latitude": 43.6532,
+      "longitude": -79.3832,
+      "temperature": -5.3,
+      "feels_like": -12.9,
+      "humidity": 67,
+      "precipitation": 0.0,
+      "weather_code": 3,
+      "wind_speed": 29.5,
+      "wind_direction": 232,
+      "extracted_at": "2026-01-19T17:58:17.378557"
+    },
+    "current_analysis": {
+      "temperature_celsius": -5.3,
+      "temperature_fahrenheit": 22.5,
+      "feels_like_celsius": -12.9,
+      "feels_like_fahrenheit": 8.8,
+      "humidity_level": "High",
+      "weather_description": "Overcast",
+      "wind_description": "Strong wind",
+      "comfort_index": "Uncomfortable",
+      "precipitation_status": "No"
+    },
+    "forecast_data": [
+      {
+        "date": "2026-01-19",
+        "city": "Toronto",
+        "country": "Canada",
+        "temp_max": -4.8,
+        "temp_min": -11.9,
+        "precipitation": 0.2,
+        "weather_code": 71,
+        "wind_speed_max": 34.9,
+        "wind_direction": 232,
+        "extracted_at": "2026-01-19T17:58:17.866299"
+      },
+      {
+        "date": "2026-01-20",
+        "city": "Toronto",
+        "country": "Canada",
+        "temp_max": -10.2,
+        "temp_min": -15.6,
+        "precipitation": 0.0,
+        "weather_code": 3,
+        "wind_speed_max": 29.4,
+        "wind_direction": 236,
+        "extracted_at": "2026-01-19T17:58:17.866313"
+      },
+      {
+        "date": "2026-01-21",
+        "city": "Toronto",
+        "country": "Canada",
+        "temp_max": -0.1,
+        "temp_min": -11.2,
+        "precipitation": 3.2,
+        "weather_code": 73,
+        "wind_speed_max": 31.6,
+        "wind_direction": 221,
+        "extracted_at": "2026-01-19T17:58:17.866316"
+      },
+      {
+        "date": "2026-01-22",
+        "city": "Toronto",
+        "country": "Canada",
+        "temp_max": -0.3,
+        "temp_min": -8.6,
+        "precipitation": 0.7,
+        "weather_code": 85,
+        "wind_speed_max": 31.6,
+        "wind_direction": 260,
+        "extracted_at": "2026-01-19T17:58:17.866320"
+      },
+      {
+        "date": "2026-01-23",
+        "city": "Toronto",
+        "country": "Canada",
+        "temp_max": -9.0,
+        "temp_min": -15.2,
+        "precipitation": 0.5,
+        "weather_code": 85,
+        "wind_speed_max": 32.1,
+        "wind_direction": 278,
+        "extracted_at": "2026-01-19T17:58:17.866323"
+      },
+      {
+        "date": "2026-01-24",
+        "city": "Toronto",
+        "country": "Canada",
+        "temp_max": -10.5,
+        "temp_min": -16.0,
+        "precipitation": 0.0,
+        "weather_code": 3,
+        "wind_speed_max": 17.9,
+        "wind_direction": 273,
+        "extracted_at": "2026-01-19T17:58:17.866326"
+      },
+      {
+        "date": "2026-01-25",
+        "city": "Toronto",
+        "country": "Canada",
+        "temp_max": -10.2,
+        "temp_min": -17.5,
+        "precipitation": 0.1,
+        "weather_code": 51,
+        "wind_speed_max": 15.9,
+        "wind_direction": 289,
+        "extracted_at": "2026-01-19T17:58:17.866330"
+      }
+    ],
+    "forecast_analysis": {
+      "temperature_trend": "Cooling trend",
+      "temperature_range": {
+        "highest": -0.1,
+        "lowest": -17.5,
+        "average_high": -6.4,
+        "average_low": -13.7
+      },
+      "precipitation_forecast": {
+        "total_expected": 4.7,
+        "rainy_days": 5,
+        "heaviest_day": 3.2
+      },
+      "weather_summary": "2 cloudy days, 3 rainy days, 4 snowy days",
+      "alerts": [
+        "Very cold weather expected on 2026-01-19: -11.9°C",
+        "Very cold weather expected on 2026-01-20: -15.6°C",
+        "Very cold weather expected on 2026-01-21: -11.2°C",
+        "Very cold weather expected on 2026-01-23: -15.2°C",
+        "Very cold weather expected on 2026-01-24: -16.0°C",
+        "Very cold weather expected on 2026-01-25: -17.5°C"
+      ]
+    },
+    "transformation_timestamp": "2026-01-19T17:58:17.867899",
+    "data_quality": {
+      "current_available": true,
+      "forecast_available": true,
+      "forecast_days": 7,
+      "completeness": "Good"
+    },
+    "recorded_at": "2026-01-19T17:58:17.868069"
   }
 ]
