@@ -6,33 +6,33 @@
     "longitude": -79.3832
   },
   "extraction_info": {
-    "timestamp": "2026-01-25T19:02:09.322766",
+    "timestamp": "2026-01-25T19:23:45.660176",
     "current_available": true,
     "forecast_days": 7,
     "source": "Open-Meteo API"
   },
   "current_weather": {
-    "timestamp": "2026-01-25T14:00",
+    "timestamp": "2026-01-25T14:15",
     "city": "Toronto",
     "country": "Canada",
     "latitude": 43.6532,
     "longitude": -79.3832,
-    "temperature": -7.2,
-    "feels_like": -14.7,
+    "temperature": -7.7,
+    "feels_like": -15.0,
     "humidity": 85,
-    "precipitation": 0.2,
-    "weather_code": 73,
-    "wind_speed": 29.6,
-    "wind_direction": 87,
-    "extracted_at": "2026-01-25T19:02:08.737588"
+    "precipitation": 0.5,
+    "weather_code": 75,
+    "wind_speed": 27.9,
+    "wind_direction": 61,
+    "extracted_at": "2026-01-25T19:23:44.973372"
   },
   "current_analysis": {
-    "temperature_celsius": -7.2,
-    "temperature_fahrenheit": 19.0,
-    "feels_like_celsius": -14.7,
-    "feels_like_fahrenheit": 5.5,
+    "temperature_celsius": -7.7,
+    "temperature_fahrenheit": 18.1,
+    "feels_like_celsius": -15.0,
+    "feels_like_fahrenheit": 5.0,
     "humidity_level": "Very High (Humid)",
-    "weather_description": "Moderate snow",
+    "weather_description": "Heavy snow",
     "wind_description": "Strong wind",
     "comfort_index": "Uncomfortable",
     "precipitation_status": "Yes"
@@ -42,13 +42,13 @@
       "date": "2026-01-25",
       "city": "Toronto",
       "country": "Canada",
-      "temp_max": -7.1,
-      "temp_min": -12.0,
-      "precipitation": 18.6,
+      "temp_max": -7.2,
+      "temp_min": -12.6,
+      "precipitation": 19.5,
       "weather_code": 75,
-      "wind_speed_max": 31.4,
-      "wind_direction": 65,
-      "extracted_at": "2026-01-25T19:02:09.321737"
+      "wind_speed_max": 32.9,
+      "wind_direction": 57,
+      "extracted_at": "2026-01-25T19:23:45.659155"
     },
     {
       "date": "2026-01-26",
@@ -56,11 +56,11 @@
       "country": "Canada",
       "temp_max": -8.4,
       "temp_min": -14.2,
-      "precipitation": 0.6,
+      "precipitation": 0.3,
       "weather_code": 73,
       "wind_speed_max": 19.9,
-      "wind_direction": 323,
-      "extracted_at": "2026-01-25T19:02:09.321751"
+      "wind_direction": 322,
+      "extracted_at": "2026-01-25T19:23:45.659167"
     },
     {
       "date": "2026-01-27",
@@ -72,7 +72,7 @@
       "weather_code": 51,
       "wind_speed_max": 32.9,
       "wind_direction": 243,
-      "extracted_at": "2026-01-25T19:02:09.321755"
+      "extracted_at": "2026-01-25T19:23:45.659171"
     },
     {
       "date": "2026-01-28",
@@ -84,7 +84,7 @@
       "weather_code": 71,
       "wind_speed_max": 25.4,
       "wind_direction": 257,
-      "extracted_at": "2026-01-25T19:02:09.321758"
+      "extracted_at": "2026-01-25T19:23:45.659174"
     },
     {
       "date": "2026-01-29",
@@ -96,7 +96,7 @@
       "weather_code": 3,
       "wind_speed_max": 17.1,
       "wind_direction": 327,
-      "extracted_at": "2026-01-25T19:02:09.321761"
+      "extracted_at": "2026-01-25T19:23:45.659176"
     },
     {
       "date": "2026-01-30",
@@ -108,7 +108,7 @@
       "weather_code": 3,
       "wind_speed_max": 20.3,
       "wind_direction": 323,
-      "extracted_at": "2026-01-25T19:02:09.321765"
+      "extracted_at": "2026-01-25T19:23:45.659179"
     },
     {
       "date": "2026-01-31",
@@ -120,26 +120,26 @@
       "weather_code": 3,
       "wind_speed_max": 17.3,
       "wind_direction": 337,
-      "extracted_at": "2026-01-25T19:02:09.321768"
+      "extracted_at": "2026-01-25T19:23:45.659182"
     }
   ],
   "forecast_analysis": {
-    "temperature_trend": "Cooling trend",
+    "temperature_trend": "Stable",
     "temperature_range": {
-      "highest": -7.1,
+      "highest": -7.2,
       "lowest": -23.0,
       "average_high": -9.1,
-      "average_low": -16.7
+      "average_low": -16.8
     },
     "precipitation_forecast": {
-      "total_expected": 20.3,
+      "total_expected": 20.9,
       "rainy_days": 4,
-      "heaviest_day": 18.6
+      "heaviest_day": 19.5
     },
     "weather_summary": "3 cloudy days, 4 rainy days, 3 snowy days",
     "alerts": [
-      "Very cold weather expected on 2026-01-25: -12.0°C",
-      "Heavy precipitation expected on 2026-01-25: 18.6mm",
+      "Very cold weather expected on 2026-01-25: -12.6°C",
+      "Heavy precipitation expected on 2026-01-25: 19.5mm",
       "Very cold weather expected on 2026-01-26: -14.2°C",
       "Very cold weather expected on 2026-01-27: -13.6°C",
       "Very cold weather expected on 2026-01-28: -11.2°C",
@@ -148,12 +148,12 @@
       "Very cold weather expected on 2026-01-31: -20.3°C"
     ]
   },
-  "transformation_timestamp": "2026-01-25T19:02:09.323626",
+  "transformation_timestamp": "2026-01-25T19:23:45.660966",
   "data_quality": {
     "current_available": true,
     "forecast_available": true,
     "forecast_days": 7,
     "completeness": "Good"
   },
-  "recorded_at": "2026-01-25T19:02:09.323794"
+  "recorded_at": "2026-01-25T19:23:45.661121"
 }
