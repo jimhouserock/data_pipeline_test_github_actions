@@ -6,33 +6,33 @@
     "longitude": -79.3832
   },
   "extraction_info": {
-    "timestamp": "2026-02-10T02:32:05.075878",
+    "timestamp": "2026-02-10T03:39:58.455405",
     "current_available": true,
     "forecast_days": 7,
     "source": "Open-Meteo API"
   },
   "current_weather": {
-    "timestamp": "2026-02-09T21:30",
+    "timestamp": "2026-02-09T22:30",
     "city": "Toronto",
     "country": "Canada",
     "latitude": 43.6532,
     "longitude": -79.3832,
-    "temperature": -8.5,
-    "feels_like": -14.1,
-    "humidity": 50,
+    "temperature": -8.3,
+    "feels_like": -13.6,
+    "humidity": 56,
     "precipitation": 0.0,
-    "weather_code": 1,
-    "wind_speed": 12.7,
-    "wind_direction": 151,
-    "extracted_at": "2026-02-10T02:32:04.518614"
+    "weather_code": 2,
+    "wind_speed": 11.4,
+    "wind_direction": 152,
+    "extracted_at": "2026-02-10T03:39:57.894627"
   },
   "current_analysis": {
-    "temperature_celsius": -8.5,
-    "temperature_fahrenheit": 16.7,
-    "feels_like_celsius": -14.1,
-    "feels_like_fahrenheit": 6.6,
+    "temperature_celsius": -8.3,
+    "temperature_fahrenheit": 17.1,
+    "feels_like_celsius": -13.6,
+    "feels_like_fahrenheit": 7.5,
     "humidity_level": "Comfortable",
-    "weather_description": "Mainly clear",
+    "weather_description": "Partly cloudy",
     "wind_description": "Light breeze",
     "comfort_index": "Uncomfortable",
     "precipitation_status": "No"
@@ -46,21 +46,21 @@
       "temp_min": -20.6,
       "precipitation": 0.0,
       "weather_code": 3,
-      "wind_speed_max": 11.2,
-      "wind_direction": 226,
-      "extracted_at": "2026-02-10T02:32:05.075037"
+      "wind_speed_max": 10.5,
+      "wind_direction": 233,
+      "extracted_at": "2026-02-10T03:39:58.454825"
     },
     {
       "date": "2026-02-10",
       "city": "Toronto",
       "country": "Canada",
-      "temp_max": 0.9,
-      "temp_min": -10.8,
-      "precipitation": 0.0,
-      "weather_code": 3,
-      "wind_speed_max": 15.8,
-      "wind_direction": 208,
-      "extracted_at": "2026-02-10T02:32:05.075051"
+      "temp_max": 1.5,
+      "temp_min": -9.9,
+      "precipitation": 0.23,
+      "weather_code": 51,
+      "wind_speed_max": 16.3,
+      "wind_direction": 211,
+      "extracted_at": "2026-02-10T03:39:58.454835"
     },
     {
       "date": "2026-02-11",
@@ -72,7 +72,7 @@
       "weather_code": 3,
       "wind_speed_max": 22.0,
       "wind_direction": 288,
-      "extracted_at": "2026-02-10T02:32:05.075054"
+      "extracted_at": "2026-02-10T03:39:58.454838"
     },
     {
       "date": "2026-02-12",
@@ -84,7 +84,7 @@
       "weather_code": 3,
       "wind_speed_max": 16.8,
       "wind_direction": 322,
-      "extracted_at": "2026-02-10T02:32:05.075057"
+      "extracted_at": "2026-02-10T03:39:58.454841"
     },
     {
       "date": "2026-02-13",
@@ -96,7 +96,7 @@
       "weather_code": 3,
       "wind_speed_max": 24.5,
       "wind_direction": 259,
-      "extracted_at": "2026-02-10T02:32:05.075060"
+      "extracted_at": "2026-02-10T03:39:58.454843"
     },
     {
       "date": "2026-02-14",
@@ -108,7 +108,7 @@
       "weather_code": 45,
       "wind_speed_max": 23.2,
       "wind_direction": 256,
-      "extracted_at": "2026-02-10T02:32:05.075063"
+      "extracted_at": "2026-02-10T03:39:58.454845"
     },
     {
       "date": "2026-02-15",
@@ -120,35 +120,34 @@
       "weather_code": 3,
       "wind_speed_max": 16.1,
       "wind_direction": 88,
-      "extracted_at": "2026-02-10T02:32:05.075066"
+      "extracted_at": "2026-02-10T03:39:58.454848"
     }
   ],
   "forecast_analysis": {
     "temperature_trend": "Stable",
     "temperature_range": {
-      "highest": 0.9,
+      "highest": 1.5,
       "lowest": -20.6,
-      "average_high": -1.1,
-      "average_low": -9.2
+      "average_high": -1.0,
+      "average_low": -9.1
     },
     "precipitation_forecast": {
-      "total_expected": 0.0,
-      "rainy_days": 0,
-      "heaviest_day": 0.0
+      "total_expected": 0.2,
+      "rainy_days": 1,
+      "heaviest_day": 0.23
     },
-    "weather_summary": "6 cloudy days",
+    "weather_summary": "5 cloudy days, 1 rainy day",
     "alerts": [
       "Very cold weather expected on 2026-02-09: -20.6°C",
-      "Very cold weather expected on 2026-02-10: -10.8°C",
       "Very cold weather expected on 2026-02-13: -12.7°C"
     ]
   },
-  "transformation_timestamp": "2026-02-10T02:32:05.076571",
+  "transformation_timestamp": "2026-02-10T03:39:58.455974",
   "data_quality": {
     "current_available": true,
     "forecast_available": true,
     "forecast_days": 7,
     "completeness": "Good"
   },
-  "recorded_at": "2026-02-10T02:32:05.076713"
+  "recorded_at": "2026-02-10T03:39:58.456135"
 }
