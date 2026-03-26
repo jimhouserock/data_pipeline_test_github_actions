@@ -6,36 +6,36 @@
     "longitude": -79.3832
   },
   "extraction_info": {
-    "timestamp": "2026-03-26T20:33:02.384357",
+    "timestamp": "2026-03-26T20:56:39.395271",
     "current_available": true,
     "forecast_days": 7,
     "source": "Open-Meteo API"
   },
   "current_weather": {
-    "timestamp": "2026-03-26T16:30",
+    "timestamp": "2026-03-26T16:45",
     "city": "Toronto",
     "country": "Canada",
     "latitude": 43.6532,
     "longitude": -79.3832,
-    "temperature": 4.8,
-    "feels_like": 2.0,
+    "temperature": 4.9,
+    "feels_like": 3.1,
     "humidity": 95,
-    "precipitation": 0.0,
-    "weather_code": 3,
-    "wind_speed": 9.3,
-    "wind_direction": 62,
-    "extracted_at": "2026-03-26T20:33:01.941659"
+    "precipitation": 0.4,
+    "weather_code": 61,
+    "wind_speed": 2.9,
+    "wind_direction": 150,
+    "extracted_at": "2026-03-26T20:56:38.936297"
   },
   "current_analysis": {
-    "temperature_celsius": 4.8,
-    "temperature_fahrenheit": 40.6,
-    "feels_like_celsius": 2.0,
-    "feels_like_fahrenheit": 35.6,
+    "temperature_celsius": 4.9,
+    "temperature_fahrenheit": 40.8,
+    "feels_like_celsius": 3.1,
+    "feels_like_fahrenheit": 37.6,
     "humidity_level": "Very High (Humid)",
-    "weather_description": "Overcast",
-    "wind_description": "Light breeze",
+    "weather_description": "Slight rain",
+    "wind_description": "Calm",
     "comfort_index": "Uncomfortable",
-    "precipitation_status": "No"
+    "precipitation_status": "Yes"
   },
   "forecast_data": [
     {
@@ -48,19 +48,19 @@
       "weather_code": 55,
       "wind_speed_max": 17.0,
       "wind_direction": 296,
-      "extracted_at": "2026-03-26T20:33:02.383327"
+      "extracted_at": "2026-03-26T20:56:39.394183"
     },
     {
       "date": "2026-03-27",
       "city": "Toronto",
       "country": "Canada",
       "temp_max": 2.5,
-      "temp_min": -8.2,
+      "temp_min": -7.9,
       "precipitation": 0.0,
       "weather_code": 3,
-      "wind_speed_max": 27.6,
+      "wind_speed_max": 28.0,
       "wind_direction": 336,
-      "extracted_at": "2026-03-26T20:33:02.383341"
+      "extracted_at": "2026-03-26T20:56:39.394197"
     },
     {
       "date": "2026-03-28",
@@ -72,7 +72,7 @@
       "weather_code": 73,
       "wind_speed_max": 21.7,
       "wind_direction": 281,
-      "extracted_at": "2026-03-26T20:33:02.383344"
+      "extracted_at": "2026-03-26T20:56:39.394201"
     },
     {
       "date": "2026-03-29",
@@ -84,7 +84,7 @@
       "weather_code": 3,
       "wind_speed_max": 28.7,
       "wind_direction": 222,
-      "extracted_at": "2026-03-26T20:33:02.383347"
+      "extracted_at": "2026-03-26T20:56:39.394205"
     },
     {
       "date": "2026-03-30",
@@ -96,7 +96,7 @@
       "weather_code": 3,
       "wind_speed_max": 16.3,
       "wind_direction": 284,
-      "extracted_at": "2026-03-26T20:33:02.383350"
+      "extracted_at": "2026-03-26T20:56:39.394208"
     },
     {
       "date": "2026-03-31",
@@ -108,7 +108,7 @@
       "weather_code": 51,
       "wind_speed_max": 28.1,
       "wind_direction": 74,
-      "extracted_at": "2026-03-26T20:33:02.383353"
+      "extracted_at": "2026-03-26T20:56:39.394211"
     },
     {
       "date": "2026-04-01",
@@ -120,16 +120,16 @@
       "weather_code": 53,
       "wind_speed_max": 25.5,
       "wind_direction": 223,
-      "extracted_at": "2026-03-26T20:33:02.383355"
+      "extracted_at": "2026-03-26T20:56:39.394215"
     }
   ],
   "forecast_analysis": {
     "temperature_trend": "Warming trend",
     "temperature_range": {
       "highest": 16.5,
-      "lowest": -8.2,
+      "lowest": -7.9,
       "average_high": 9.1,
-      "average_low": -0.4
+      "average_low": -0.3
     },
     "precipitation_forecast": {
       "total_expected": 8.5,
@@ -141,12 +141,12 @@
       "No weather alerts"
     ]
   },
-  "transformation_timestamp": "2026-03-26T20:33:02.385152",
+  "transformation_timestamp": "2026-03-26T20:56:39.395938",
   "data_quality": {
     "current_available": true,
     "forecast_available": true,
     "forecast_days": 7,
     "completeness": "Good"
   },
-  "recorded_at": "2026-03-26T20:33:02.385322"
+  "recorded_at": "2026-03-26T20:56:39.396148"
 }
