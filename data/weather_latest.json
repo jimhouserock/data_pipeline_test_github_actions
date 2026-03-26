@@ -6,36 +6,36 @@
     "longitude": -79.3832
   },
   "extraction_info": {
-    "timestamp": "2026-03-26T19:35:54.642900",
+    "timestamp": "2026-03-26T19:58:47.535297",
     "current_available": true,
     "forecast_days": 7,
     "source": "Open-Meteo API"
   },
   "current_weather": {
-    "timestamp": "2026-03-26T15:30",
+    "timestamp": "2026-03-26T15:45",
     "city": "Toronto",
     "country": "Canada",
     "latitude": 43.6532,
     "longitude": -79.3832,
-    "temperature": 7.4,
-    "feels_like": 4.5,
-    "humidity": 74,
-    "precipitation": 0.0,
-    "weather_code": 3,
-    "wind_speed": 9.2,
-    "wind_direction": 121,
-    "extracted_at": "2026-03-26T19:35:54.256142"
+    "temperature": 6.6,
+    "feels_like": 4.1,
+    "humidity": 91,
+    "precipitation": 0.1,
+    "weather_code": 51,
+    "wind_speed": 9.3,
+    "wind_direction": 126,
+    "extracted_at": "2026-03-26T19:58:47.147832"
   },
   "current_analysis": {
-    "temperature_celsius": 7.4,
-    "temperature_fahrenheit": 45.3,
-    "feels_like_celsius": 4.5,
-    "feels_like_fahrenheit": 40.1,
-    "humidity_level": "High",
-    "weather_description": "Overcast",
+    "temperature_celsius": 6.6,
+    "temperature_fahrenheit": 43.9,
+    "feels_like_celsius": 4.1,
+    "feels_like_fahrenheit": 39.4,
+    "humidity_level": "Very High (Humid)",
+    "weather_description": "Light drizzle",
     "wind_description": "Light breeze",
     "comfort_index": "Uncomfortable",
-    "precipitation_status": "No"
+    "precipitation_status": "Yes"
   },
   "forecast_data": [
     {
@@ -48,7 +48,7 @@
       "weather_code": 61,
       "wind_speed_max": 24.2,
       "wind_direction": 300,
-      "extracted_at": "2026-03-26T19:35:54.641887"
+      "extracted_at": "2026-03-26T19:58:47.534374"
     },
     {
       "date": "2026-03-27",
@@ -60,7 +60,7 @@
       "weather_code": 3,
       "wind_speed_max": 27.0,
       "wind_direction": 335,
-      "extracted_at": "2026-03-26T19:35:54.641900"
+      "extracted_at": "2026-03-26T19:58:47.534386"
     },
     {
       "date": "2026-03-28",
@@ -68,11 +68,11 @@
       "country": "Canada",
       "temp_max": 2.8,
       "temp_min": -6.2,
-      "precipitation": 0.1,
+      "precipitation": 0.5,
       "weather_code": 51,
       "wind_speed_max": 21.9,
       "wind_direction": 280,
-      "extracted_at": "2026-03-26T19:35:54.641904"
+      "extracted_at": "2026-03-26T19:58:47.534389"
     },
     {
       "date": "2026-03-29",
@@ -84,7 +84,7 @@
       "weather_code": 3,
       "wind_speed_max": 28.7,
       "wind_direction": 222,
-      "extracted_at": "2026-03-26T19:35:54.641907"
+      "extracted_at": "2026-03-26T19:58:47.534392"
     },
     {
       "date": "2026-03-30",
@@ -96,7 +96,7 @@
       "weather_code": 3,
       "wind_speed_max": 16.3,
       "wind_direction": 284,
-      "extracted_at": "2026-03-26T19:35:54.641911"
+      "extracted_at": "2026-03-26T19:58:47.534394"
     },
     {
       "date": "2026-03-31",
@@ -108,7 +108,7 @@
       "weather_code": 51,
       "wind_speed_max": 28.1,
       "wind_direction": 74,
-      "extracted_at": "2026-03-26T19:35:54.641914"
+      "extracted_at": "2026-03-26T19:58:47.534397"
     },
     {
       "date": "2026-04-01",
@@ -120,7 +120,7 @@
       "weather_code": 53,
       "wind_speed_max": 25.5,
       "wind_direction": 223,
-      "extracted_at": "2026-03-26T19:35:54.641917"
+      "extracted_at": "2026-03-26T19:58:47.534400"
     }
   ],
   "forecast_analysis": {
@@ -132,7 +132,7 @@
       "average_low": -0.3
     },
     "precipitation_forecast": {
-      "total_expected": 8.0,
+      "total_expected": 8.4,
       "rainy_days": 4,
       "heaviest_day": 4.0
     },
@@ -141,12 +141,12 @@
       "No weather alerts"
     ]
   },
-  "transformation_timestamp": "2026-03-26T19:35:54.643560",
+  "transformation_timestamp": "2026-03-26T19:58:47.536076",
   "data_quality": {
     "current_available": true,
     "forecast_available": true,
     "forecast_days": 7,
     "completeness": "Good"
   },
-  "recorded_at": "2026-03-26T19:35:54.643730"
+  "recorded_at": "2026-03-26T19:58:47.536261"
 }
