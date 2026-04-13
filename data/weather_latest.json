@@ -6,49 +6,49 @@
     "longitude": -79.3832
   },
   "extraction_info": {
-    "timestamp": "2026-04-13T13:10:12.633402",
+    "timestamp": "2026-04-13T13:50:59.468063",
     "current_available": true,
     "forecast_days": 7,
     "source": "Open-Meteo API"
   },
   "current_weather": {
-    "timestamp": "2026-04-13T09:00",
+    "timestamp": "2026-04-13T09:45",
     "city": "Toronto",
     "country": "Canada",
     "latitude": 43.6532,
     "longitude": -79.3832,
-    "temperature": 9.2,
-    "feels_like": 7.1,
-    "humidity": 90,
-    "precipitation": 1.3,
-    "weather_code": 63,
-    "wind_speed": 10.1,
-    "wind_direction": 235,
-    "extracted_at": "2026-04-13T13:10:05.520803"
+    "temperature": 11.0,
+    "feels_like": 9.6,
+    "humidity": 93,
+    "precipitation": 0.0,
+    "weather_code": 3,
+    "wind_speed": 9.4,
+    "wind_direction": 223,
+    "extracted_at": "2026-04-13T13:50:58.985309"
   },
   "current_analysis": {
-    "temperature_celsius": 9.2,
-    "temperature_fahrenheit": 48.6,
-    "feels_like_celsius": 7.1,
-    "feels_like_fahrenheit": 44.8,
+    "temperature_celsius": 11.0,
+    "temperature_fahrenheit": 51.8,
+    "feels_like_celsius": 9.6,
+    "feels_like_fahrenheit": 49.3,
     "humidity_level": "Very High (Humid)",
-    "weather_description": "Moderate rain",
+    "weather_description": "Overcast",
     "wind_description": "Light breeze",
-    "comfort_index": "Uncomfortable",
-    "precipitation_status": "Yes"
+    "comfort_index": "Acceptable",
+    "precipitation_status": "No"
   },
   "forecast_data": [
     {
       "date": "2026-04-13",
       "city": "Toronto",
       "country": "Canada",
-      "temp_max": 20.2,
+      "temp_max": 21.4,
       "temp_min": 4.4,
-      "precipitation": 4.5,
-      "weather_code": 63,
-      "wind_speed_max": 26.2,
-      "wind_direction": 259,
-      "extracted_at": "2026-04-13T13:10:12.632621"
+      "precipitation": 1.1,
+      "weather_code": 53,
+      "wind_speed_max": 29.3,
+      "wind_direction": 258,
+      "extracted_at": "2026-04-13T13:50:59.467019"
     },
     {
       "date": "2026-04-14",
@@ -59,8 +59,8 @@
       "precipitation": 11.5,
       "weather_code": 63,
       "wind_speed_max": 19.9,
-      "wind_direction": 32,
-      "extracted_at": "2026-04-13T13:10:12.632632"
+      "wind_direction": 27,
+      "extracted_at": "2026-04-13T13:50:59.467034"
     },
     {
       "date": "2026-04-15",
@@ -72,7 +72,7 @@
       "weather_code": 81,
       "wind_speed_max": 23.0,
       "wind_direction": 229,
-      "extracted_at": "2026-04-13T13:10:12.632635"
+      "extracted_at": "2026-04-13T13:50:59.467037"
     },
     {
       "date": "2026-04-16",
@@ -84,7 +84,7 @@
       "weather_code": 81,
       "wind_speed_max": 19.7,
       "wind_direction": 222,
-      "extracted_at": "2026-04-13T13:10:12.632638"
+      "extracted_at": "2026-04-13T13:50:59.467040"
     },
     {
       "date": "2026-04-17",
@@ -96,7 +96,7 @@
       "weather_code": 3,
       "wind_speed_max": 15.9,
       "wind_direction": 46,
-      "extracted_at": "2026-04-13T13:10:12.632641"
+      "extracted_at": "2026-04-13T13:50:59.467042"
     },
     {
       "date": "2026-04-18",
@@ -108,7 +108,7 @@
       "weather_code": 53,
       "wind_speed_max": 32.1,
       "wind_direction": 140,
-      "extracted_at": "2026-04-13T13:10:12.632644"
+      "extracted_at": "2026-04-13T13:50:59.467045"
     },
     {
       "date": "2026-04-19",
@@ -120,19 +120,19 @@
       "weather_code": 51,
       "wind_speed_max": 37.0,
       "wind_direction": 260,
-      "extracted_at": "2026-04-13T13:10:12.632647"
+      "extracted_at": "2026-04-13T13:50:59.467048"
     }
   ],
   "forecast_analysis": {
     "temperature_trend": "Cooling trend",
     "temperature_range": {
-      "highest": 21.0,
+      "highest": 21.4,
       "lowest": 0.3,
-      "average_high": 17.0,
+      "average_high": 17.2,
       "average_low": 7.3
     },
     "precipitation_forecast": {
-      "total_expected": 48.6,
+      "total_expected": 45.2,
       "rainy_days": 6,
       "heaviest_day": 22.17
     },
@@ -142,12 +142,12 @@
       "Heavy precipitation expected on 2026-04-15: 22.17mm"
     ]
   },
-  "transformation_timestamp": "2026-04-13T13:10:12.634035",
+  "transformation_timestamp": "2026-04-13T13:50:59.468766",
   "data_quality": {
     "current_available": true,
     "forecast_available": true,
     "forecast_days": 7,
     "completeness": "Good"
   },
-  "recorded_at": "2026-04-13T13:10:12.634180"
+  "recorded_at": "2026-04-13T13:50:59.468917"
 }
