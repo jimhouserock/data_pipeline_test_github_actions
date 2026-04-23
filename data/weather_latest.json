@@ -6,35 +6,35 @@
     "longitude": -79.3832
   },
   "extraction_info": {
-    "timestamp": "2026-04-23T22:27:07.494115",
+    "timestamp": "2026-04-23T22:46:58.513257",
     "current_available": true,
     "forecast_days": 7,
     "source": "Open-Meteo API"
   },
   "current_weather": {
-    "timestamp": "2026-04-23T18:15",
+    "timestamp": "2026-04-23T18:45",
     "city": "Toronto",
     "country": "Canada",
     "latitude": 43.6532,
     "longitude": -79.3832,
-    "temperature": 15.7,
-    "feels_like": 13.5,
-    "humidity": 46,
+    "temperature": 14.4,
+    "feels_like": 12.3,
+    "humidity": 54,
     "precipitation": 0.0,
     "weather_code": 0,
-    "wind_speed": 5.1,
-    "wind_direction": 94,
-    "extracted_at": "2026-04-23T22:27:06.868065"
+    "wind_speed": 5.9,
+    "wind_direction": 101,
+    "extracted_at": "2026-04-23T22:46:57.852916"
   },
   "current_analysis": {
-    "temperature_celsius": 15.7,
-    "temperature_fahrenheit": 60.3,
-    "feels_like_celsius": 13.5,
-    "feels_like_fahrenheit": 56.3,
+    "temperature_celsius": 14.4,
+    "temperature_fahrenheit": 57.9,
+    "feels_like_celsius": 12.3,
+    "feels_like_fahrenheit": 54.1,
     "humidity_level": "Comfortable",
     "weather_description": "Clear sky",
     "wind_description": "Light breeze",
-    "comfort_index": "Comfortable",
+    "comfort_index": "Acceptable",
     "precipitation_status": "No"
   },
   "forecast_data": [
@@ -47,20 +47,20 @@
       "precipitation": 0.0,
       "weather_code": 0,
       "wind_speed_max": 22.1,
-      "wind_direction": 45,
-      "extracted_at": "2026-04-23T22:27:07.493238"
+      "wind_direction": 44,
+      "extracted_at": "2026-04-23T22:46:58.512362"
     },
     {
       "date": "2026-04-24",
       "city": "Toronto",
       "country": "Canada",
       "temp_max": 8.1,
-      "temp_min": 3.8,
-      "precipitation": 0.32,
-      "weather_code": 51,
+      "temp_min": 4.2,
+      "precipitation": 0.0,
+      "weather_code": 3,
       "wind_speed_max": 26.0,
       "wind_direction": 67,
-      "extracted_at": "2026-04-23T22:27:07.493250"
+      "extracted_at": "2026-04-23T22:46:58.512374"
     },
     {
       "date": "2026-04-25",
@@ -72,7 +72,7 @@
       "weather_code": 65,
       "wind_speed_max": 29.8,
       "wind_direction": 56,
-      "extracted_at": "2026-04-23T22:27:07.493253"
+      "extracted_at": "2026-04-23T22:46:58.512378"
     },
     {
       "date": "2026-04-26",
@@ -84,7 +84,7 @@
       "weather_code": 3,
       "wind_speed_max": 18.7,
       "wind_direction": 65,
-      "extracted_at": "2026-04-23T22:27:07.493256"
+      "extracted_at": "2026-04-23T22:46:58.512381"
     },
     {
       "date": "2026-04-27",
@@ -96,7 +96,7 @@
       "weather_code": 3,
       "wind_speed_max": 24.6,
       "wind_direction": 77,
-      "extracted_at": "2026-04-23T22:27:07.493259"
+      "extracted_at": "2026-04-23T22:46:58.512384"
     },
     {
       "date": "2026-04-28",
@@ -108,7 +108,7 @@
       "weather_code": 55,
       "wind_speed_max": 23.5,
       "wind_direction": 139,
-      "extracted_at": "2026-04-23T22:27:07.493265"
+      "extracted_at": "2026-04-23T22:46:58.512387"
     },
     {
       "date": "2026-04-29",
@@ -120,33 +120,33 @@
       "weather_code": 3,
       "wind_speed_max": 19.3,
       "wind_direction": 270,
-      "extracted_at": "2026-04-23T22:27:07.493268"
+      "extracted_at": "2026-04-23T22:46:58.512390"
     }
   ],
   "forecast_analysis": {
     "temperature_trend": "Stable",
     "temperature_range": {
       "highest": 16.6,
-      "lowest": 3.8,
+      "lowest": 4.2,
       "average_high": 10.8,
-      "average_low": 5.7
+      "average_low": 5.8
     },
     "precipitation_forecast": {
-      "total_expected": 31.3,
-      "rainy_days": 3,
+      "total_expected": 31.0,
+      "rainy_days": 2,
       "heaviest_day": 25.92
     },
-    "weather_summary": "1 clear day, 3 cloudy days, 3 rainy days",
+    "weather_summary": "1 clear day, 4 cloudy days, 2 rainy days",
     "alerts": [
       "Heavy precipitation expected on 2026-04-25: 25.92mm"
     ]
   },
-  "transformation_timestamp": "2026-04-23T22:27:07.494704",
+  "transformation_timestamp": "2026-04-23T22:46:58.514014",
   "data_quality": {
     "current_available": true,
     "forecast_available": true,
     "forecast_days": 7,
     "completeness": "Good"
   },
-  "recorded_at": "2026-04-23T22:27:07.494843"
+  "recorded_at": "2026-04-23T22:46:58.514173"
 }
