@@ -6,49 +6,49 @@
     "longitude": -79.3832
   },
   "extraction_info": {
-    "timestamp": "2026-05-24T17:33:33.728044",
+    "timestamp": "2026-05-24T18:01:27.529146",
     "current_available": true,
     "forecast_days": 7,
     "source": "Open-Meteo API"
   },
   "current_weather": {
-    "timestamp": "2026-05-24T13:30",
+    "timestamp": "2026-05-24T14:00",
     "city": "Toronto",
     "country": "Canada",
     "latitude": 43.6532,
     "longitude": -79.3832,
-    "temperature": 10.9,
-    "feels_like": 10.0,
-    "humidity": 98,
-    "precipitation": 0.1,
-    "weather_code": 51,
-    "wind_speed": 7.6,
-    "wind_direction": 65,
-    "extracted_at": "2026-05-24T17:33:33.082426"
+    "temperature": 11.0,
+    "feels_like": 10.2,
+    "humidity": 100,
+    "precipitation": 0.0,
+    "weather_code": 45,
+    "wind_speed": 7.5,
+    "wind_direction": 73,
+    "extracted_at": "2026-05-24T18:01:25.663475"
   },
   "current_analysis": {
-    "temperature_celsius": 10.9,
-    "temperature_fahrenheit": 51.6,
-    "feels_like_celsius": 10.0,
-    "feels_like_fahrenheit": 50.0,
+    "temperature_celsius": 11.0,
+    "temperature_fahrenheit": 51.8,
+    "feels_like_celsius": 10.2,
+    "feels_like_fahrenheit": 50.4,
     "humidity_level": "Very High (Humid)",
-    "weather_description": "Light drizzle",
+    "weather_description": "Fog",
     "wind_description": "Light breeze",
     "comfort_index": "Acceptable",
-    "precipitation_status": "Yes"
+    "precipitation_status": "No"
   },
   "forecast_data": [
     {
       "date": "2026-05-24",
       "city": "Toronto",
       "country": "Canada",
-      "temp_max": 14.0,
+      "temp_max": 13.6,
       "temp_min": 8.1,
-      "precipitation": 0.0,
-      "weather_code": 3,
+      "precipitation": 0.4,
+      "weather_code": 51,
       "wind_speed_max": 25.1,
       "wind_direction": 72,
-      "extracted_at": "2026-05-24T17:33:33.727169"
+      "extracted_at": "2026-05-24T18:01:27.528242"
     },
     {
       "date": "2026-05-25",
@@ -59,8 +59,8 @@
       "precipitation": 0.0,
       "weather_code": 3,
       "wind_speed_max": 13.7,
-      "wind_direction": 309,
-      "extracted_at": "2026-05-24T17:33:33.727183"
+      "wind_direction": 307,
+      "extracted_at": "2026-05-24T18:01:27.528256"
     },
     {
       "date": "2026-05-26",
@@ -70,9 +70,9 @@
       "temp_min": 10.2,
       "precipitation": 0.0,
       "weather_code": 45,
-      "wind_speed_max": 21.1,
-      "wind_direction": 229,
-      "extracted_at": "2026-05-24T17:33:33.727185"
+      "wind_speed_max": 20.3,
+      "wind_direction": 231,
+      "extracted_at": "2026-05-24T18:01:27.528259"
     },
     {
       "date": "2026-05-27",
@@ -82,9 +82,9 @@
       "temp_min": 13.8,
       "precipitation": 0.8,
       "weather_code": 53,
-      "wind_speed_max": 14.5,
-      "wind_direction": 309,
-      "extracted_at": "2026-05-24T17:33:33.727191"
+      "wind_speed_max": 14.3,
+      "wind_direction": 323,
+      "extracted_at": "2026-05-24T18:01:27.528261"
     },
     {
       "date": "2026-05-28",
@@ -94,9 +94,9 @@
       "temp_min": 12.0,
       "precipitation": 0.0,
       "weather_code": 3,
-      "wind_speed_max": 15.3,
-      "wind_direction": 347,
-      "extracted_at": "2026-05-24T17:33:33.727193"
+      "wind_speed_max": 14.5,
+      "wind_direction": 1,
+      "extracted_at": "2026-05-24T18:01:27.528263"
     },
     {
       "date": "2026-05-29",
@@ -107,8 +107,8 @@
       "precipitation": 0.0,
       "weather_code": 3,
       "wind_speed_max": 27.9,
-      "wind_direction": 311,
-      "extracted_at": "2026-05-24T17:33:33.727195"
+      "wind_direction": 306,
+      "extracted_at": "2026-05-24T18:01:27.528266"
     },
     {
       "date": "2026-05-30",
@@ -120,7 +120,7 @@
       "weather_code": 3,
       "wind_speed_max": 19.0,
       "wind_direction": 9,
-      "extracted_at": "2026-05-24T17:33:33.727199"
+      "extracted_at": "2026-05-24T18:01:27.528271"
     }
   ],
   "forecast_analysis": {
@@ -128,25 +128,25 @@
     "temperature_range": {
       "highest": 25.2,
       "lowest": 6.6,
-      "average_high": 19.1,
+      "average_high": 19.0,
       "average_low": 10.3
     },
     "precipitation_forecast": {
-      "total_expected": 0.8,
-      "rainy_days": 1,
+      "total_expected": 1.2,
+      "rainy_days": 2,
       "heaviest_day": 0.8
     },
-    "weather_summary": "5 cloudy days, 1 rainy day",
+    "weather_summary": "4 cloudy days, 2 rainy days",
     "alerts": [
       "No weather alerts"
     ]
   },
-  "transformation_timestamp": "2026-05-24T17:33:33.728590",
+  "transformation_timestamp": "2026-05-24T18:01:27.529661",
   "data_quality": {
     "current_available": true,
     "forecast_available": true,
     "forecast_days": 7,
     "completeness": "Good"
   },
-  "recorded_at": "2026-05-24T17:33:33.728697"
+  "recorded_at": "2026-05-24T18:01:27.529782"
 }
