@@ -6,29 +6,29 @@
     "longitude": -79.3832
   },
   "extraction_info": {
-    "timestamp": "2026-06-09T03:35:50.150794",
+    "timestamp": "2026-06-09T05:02:51.847846",
     "current_available": true,
     "forecast_days": 7,
     "source": "Open-Meteo API"
   },
   "current_weather": {
-    "timestamp": "2026-06-08T23:30",
+    "timestamp": "2026-06-09T01:00",
     "city": "Toronto",
     "country": "Canada",
     "latitude": 43.6532,
     "longitude": -79.3832,
-    "temperature": 14.5,
+    "temperature": 14.2,
     "feels_like": 13.7,
     "humidity": 86,
     "precipitation": 0.0,
     "weather_code": 0,
-    "wind_speed": 10.2,
-    "wind_direction": 51,
-    "extracted_at": "2026-06-09T03:35:49.677626"
+    "wind_speed": 7.6,
+    "wind_direction": 25,
+    "extracted_at": "2026-06-09T05:02:51.450012"
   },
   "current_analysis": {
-    "temperature_celsius": 14.5,
-    "temperature_fahrenheit": 58.1,
+    "temperature_celsius": 14.2,
+    "temperature_fahrenheit": 57.6,
     "feels_like_celsius": 13.7,
     "feels_like_fahrenheit": 56.7,
     "humidity_level": "Very High (Humid)",
@@ -39,28 +39,16 @@
   },
   "forecast_data": [
     {
-      "date": "2026-06-08",
-      "city": "Toronto",
-      "country": "Canada",
-      "temp_max": 20.5,
-      "temp_min": 13.5,
-      "precipitation": 0.0,
-      "weather_code": 3,
-      "wind_speed_max": 17.0,
-      "wind_direction": 62,
-      "extracted_at": "2026-06-09T03:35:50.149812"
-    },
-    {
       "date": "2026-06-09",
       "city": "Toronto",
       "country": "Canada",
-      "temp_max": 23.7,
-      "temp_min": 14.5,
+      "temp_max": 21.2,
+      "temp_min": 13.7,
       "precipitation": 0.0,
       "weather_code": 3,
       "wind_speed_max": 11.0,
-      "wind_direction": 61,
-      "extracted_at": "2026-06-09T03:35:50.149827"
+      "wind_direction": 59,
+      "extracted_at": "2026-06-09T05:02:51.846848"
     },
     {
       "date": "2026-06-10",
@@ -72,7 +60,7 @@
       "weather_code": 45,
       "wind_speed_max": 28.8,
       "wind_direction": 253,
-      "extracted_at": "2026-06-09T03:35:50.149831"
+      "extracted_at": "2026-06-09T05:02:51.846863"
     },
     {
       "date": "2026-06-11",
@@ -84,7 +72,7 @@
       "weather_code": 55,
       "wind_speed_max": 14.4,
       "wind_direction": 236,
-      "extracted_at": "2026-06-09T03:35:50.149834"
+      "extracted_at": "2026-06-09T05:02:51.846867"
     },
     {
       "date": "2026-06-12",
@@ -96,7 +84,7 @@
       "weather_code": 51,
       "wind_speed_max": 20.2,
       "wind_direction": 246,
-      "extracted_at": "2026-06-09T03:35:50.149836"
+      "extracted_at": "2026-06-09T05:02:51.846870"
     },
     {
       "date": "2026-06-13",
@@ -108,7 +96,7 @@
       "weather_code": 51,
       "wind_speed_max": 23.5,
       "wind_direction": 263,
-      "extracted_at": "2026-06-09T03:35:50.149839"
+      "extracted_at": "2026-06-09T05:02:51.846873"
     },
     {
       "date": "2026-06-14",
@@ -120,16 +108,28 @@
       "weather_code": 3,
       "wind_speed_max": 14.7,
       "wind_direction": 301,
-      "extracted_at": "2026-06-09T03:35:50.149844"
+      "extracted_at": "2026-06-09T05:02:51.846876"
+    },
+    {
+      "date": "2026-06-15",
+      "city": "Toronto",
+      "country": "Canada",
+      "temp_max": 18.3,
+      "temp_min": 12.9,
+      "precipitation": 0.0,
+      "weather_code": 3,
+      "wind_speed_max": 19.4,
+      "wind_direction": 73,
+      "extracted_at": "2026-06-09T05:02:51.846882"
     }
   ],
   "forecast_analysis": {
-    "temperature_trend": "Stable",
+    "temperature_trend": "Cooling trend",
     "temperature_range": {
       "highest": 27.5,
       "lowest": 12.0,
-      "average_high": 24.1,
-      "average_low": 15.8
+      "average_high": 23.4,
+      "average_low": 15.6
     },
     "precipitation_forecast": {
       "total_expected": 4.3,
@@ -141,12 +141,12 @@
       "No weather alerts"
     ]
   },
-  "transformation_timestamp": "2026-06-09T03:35:50.151383",
+  "transformation_timestamp": "2026-06-09T05:02:51.848450",
   "data_quality": {
     "current_available": true,
     "forecast_available": true,
     "forecast_days": 7,
     "completeness": "Good"
   },
-  "recorded_at": "2026-06-09T03:35:50.151517"
+  "recorded_at": "2026-06-09T05:02:51.848573"
 }
