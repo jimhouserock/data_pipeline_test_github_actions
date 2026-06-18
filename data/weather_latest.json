@@ -6,49 +6,49 @@
     "longitude": -79.3832
   },
   "extraction_info": {
-    "timestamp": "2026-06-18T08:39:12.840112",
+    "timestamp": "2026-06-18T10:06:43.163886",
     "current_available": true,
     "forecast_days": 7,
     "source": "Open-Meteo API"
   },
   "current_weather": {
-    "timestamp": "2026-06-18T04:30",
+    "timestamp": "2026-06-18T06:00",
     "city": "Toronto",
     "country": "Canada",
     "latitude": 43.6532,
     "longitude": -79.3832,
-    "temperature": 14.6,
-    "feels_like": 14.4,
+    "temperature": 15.6,
+    "feels_like": 16.5,
     "humidity": 99,
-    "precipitation": 1.2,
-    "weather_code": 63,
-    "wind_speed": 11.8,
-    "wind_direction": 63,
-    "extracted_at": "2026-06-18T08:39:12.188406"
+    "precipitation": 0.0,
+    "weather_code": 3,
+    "wind_speed": 6.9,
+    "wind_direction": 141,
+    "extracted_at": "2026-06-18T10:06:42.490043"
   },
   "current_analysis": {
-    "temperature_celsius": 14.6,
-    "temperature_fahrenheit": 58.3,
-    "feels_like_celsius": 14.4,
-    "feels_like_fahrenheit": 57.9,
+    "temperature_celsius": 15.6,
+    "temperature_fahrenheit": 60.1,
+    "feels_like_celsius": 16.5,
+    "feels_like_fahrenheit": 61.7,
     "humidity_level": "Very High (Humid)",
-    "weather_description": "Moderate rain",
+    "weather_description": "Overcast",
     "wind_description": "Light breeze",
     "comfort_index": "Acceptable",
-    "precipitation_status": "Yes"
+    "precipitation_status": "No"
   },
   "forecast_data": [
     {
       "date": "2026-06-18",
       "city": "Toronto",
       "country": "Canada",
-      "temp_max": 21.1,
+      "temp_max": 21.3,
       "temp_min": 13.8,
-      "precipitation": 21.7,
-      "weather_code": 65,
-      "wind_speed_max": 30.9,
-      "wind_direction": 242,
-      "extracted_at": "2026-06-18T08:39:12.839073"
+      "precipitation": 9.8,
+      "weather_code": 63,
+      "wind_speed_max": 34.3,
+      "wind_direction": 248,
+      "extracted_at": "2026-06-18T10:06:43.162904"
     },
     {
       "date": "2026-06-19",
@@ -60,7 +60,7 @@
       "weather_code": 3,
       "wind_speed_max": 25.8,
       "wind_direction": 270,
-      "extracted_at": "2026-06-18T08:39:12.839088"
+      "extracted_at": "2026-06-18T10:06:43.162923"
     },
     {
       "date": "2026-06-20",
@@ -72,7 +72,7 @@
       "weather_code": 51,
       "wind_speed_max": 19.2,
       "wind_direction": 288,
-      "extracted_at": "2026-06-18T08:39:12.839092"
+      "extracted_at": "2026-06-18T10:06:43.162927"
     },
     {
       "date": "2026-06-21",
@@ -84,7 +84,7 @@
       "weather_code": 3,
       "wind_speed_max": 13.4,
       "wind_direction": 234,
-      "extracted_at": "2026-06-18T08:39:12.839102"
+      "extracted_at": "2026-06-18T10:06:43.162931"
     },
     {
       "date": "2026-06-22",
@@ -96,7 +96,7 @@
       "weather_code": 3,
       "wind_speed_max": 22.8,
       "wind_direction": 343,
-      "extracted_at": "2026-06-18T08:39:12.839106"
+      "extracted_at": "2026-06-18T10:06:43.162934"
     },
     {
       "date": "2026-06-23",
@@ -108,7 +108,7 @@
       "weather_code": 3,
       "wind_speed_max": 15.7,
       "wind_direction": 336,
-      "extracted_at": "2026-06-18T08:39:12.839109"
+      "extracted_at": "2026-06-18T10:06:43.162937"
     },
     {
       "date": "2026-06-24",
@@ -120,7 +120,7 @@
       "weather_code": 51,
       "wind_speed_max": 21.2,
       "wind_direction": 323,
-      "extracted_at": "2026-06-18T08:39:12.839116"
+      "extracted_at": "2026-06-18T10:06:43.162942"
     }
   ],
   "forecast_analysis": {
@@ -128,25 +128,25 @@
     "temperature_range": {
       "highest": 24.2,
       "lowest": 12.7,
-      "average_high": 22.2,
+      "average_high": 22.3,
       "average_low": 13.7
     },
     "precipitation_forecast": {
-      "total_expected": 22.4,
+      "total_expected": 10.5,
       "rainy_days": 3,
-      "heaviest_day": 21.7
+      "heaviest_day": 9.8
     },
     "weather_summary": "4 cloudy days, 3 rainy days",
     "alerts": [
-      "Heavy precipitation expected on 2026-06-18: 21.7mm"
+      "No weather alerts"
     ]
   },
-  "transformation_timestamp": "2026-06-18T08:39:12.840810",
+  "transformation_timestamp": "2026-06-18T10:06:43.164570",
   "data_quality": {
     "current_available": true,
     "forecast_available": true,
     "forecast_days": 7,
     "completeness": "Good"
   },
-  "recorded_at": "2026-06-18T08:39:12.840961"
+  "recorded_at": "2026-06-18T10:06:43.164721"
 }
