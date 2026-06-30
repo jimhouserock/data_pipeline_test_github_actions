@@ -7,166 +7,6 @@
       "longitude": -79.3832
     },
     "extraction_info": {
-      "timestamp": "2026-06-29T02:20:25.553036",
-      "current_available": true,
-      "forecast_days": 7,
-      "source": "Open-Meteo API"
-    },
-    "current_weather": {
-      "timestamp": "2026-06-28T22:15",
-      "city": "Toronto",
-      "country": "Canada",
-      "latitude": 43.6532,
-      "longitude": -79.3832,
-      "temperature": 20.6,
-      "feels_like": 19.6,
-      "humidity": 53,
-      "precipitation": 0.0,
-      "weather_code": 0,
-      "wind_speed": 8.7,
-      "wind_direction": 17,
-      "extracted_at": "2026-06-29T02:20:24.924785"
-    },
-    "current_analysis": {
-      "temperature_celsius": 20.6,
-      "temperature_fahrenheit": 69.1,
-      "feels_like_celsius": 19.6,
-      "feels_like_fahrenheit": 67.3,
-      "humidity_level": "Comfortable",
-      "weather_description": "Clear sky",
-      "wind_description": "Light breeze",
-      "comfort_index": "Very Comfortable",
-      "precipitation_status": "No"
-    },
-    "forecast_data": [
-      {
-        "date": "2026-06-28",
-        "city": "Toronto",
-        "country": "Canada",
-        "temp_max": 26.0,
-        "temp_min": 15.2,
-        "precipitation": 0.0,
-        "weather_code": 1,
-        "wind_speed_max": 13.7,
-        "wind_direction": 59,
-        "extracted_at": "2026-06-29T02:20:25.552078"
-      },
-      {
-        "date": "2026-06-29",
-        "city": "Toronto",
-        "country": "Canada",
-        "temp_max": 27.3,
-        "temp_min": 16.2,
-        "precipitation": 0.0,
-        "weather_code": 3,
-        "wind_speed_max": 17.7,
-        "wind_direction": 62,
-        "extracted_at": "2026-06-29T02:20:25.552093"
-      },
-      {
-        "date": "2026-06-30",
-        "city": "Toronto",
-        "country": "Canada",
-        "temp_max": 26.7,
-        "temp_min": 17.4,
-        "precipitation": 0.7,
-        "weather_code": 95,
-        "wind_speed_max": 25.4,
-        "wind_direction": 128,
-        "extracted_at": "2026-06-29T02:20:25.552097"
-      },
-      {
-        "date": "2026-07-01",
-        "city": "Toronto",
-        "country": "Canada",
-        "temp_max": 34.5,
-        "temp_min": 23.6,
-        "precipitation": 0.0,
-        "weather_code": 95,
-        "wind_speed_max": 20.2,
-        "wind_direction": 258,
-        "extracted_at": "2026-06-29T02:20:25.552101"
-      },
-      {
-        "date": "2026-07-02",
-        "city": "Toronto",
-        "country": "Canada",
-        "temp_max": 35.6,
-        "temp_min": 24.0,
-        "precipitation": 0.0,
-        "weather_code": 95,
-        "wind_speed_max": 22.7,
-        "wind_direction": 256,
-        "extracted_at": "2026-06-29T02:20:25.552104"
-      },
-      {
-        "date": "2026-07-03",
-        "city": "Toronto",
-        "country": "Canada",
-        "temp_max": 34.5,
-        "temp_min": 25.8,
-        "precipitation": 0.0,
-        "weather_code": 95,
-        "wind_speed_max": 16.7,
-        "wind_direction": 264,
-        "extracted_at": "2026-06-29T02:20:25.552108"
-      },
-      {
-        "date": "2026-07-04",
-        "city": "Toronto",
-        "country": "Canada",
-        "temp_max": 33.5,
-        "temp_min": 23.0,
-        "precipitation": 0.0,
-        "weather_code": 95,
-        "wind_speed_max": 16.9,
-        "wind_direction": 213,
-        "extracted_at": "2026-06-29T02:20:25.552115"
-      }
-    ],
-    "forecast_analysis": {
-      "temperature_trend": "Warming trend",
-      "temperature_range": {
-        "highest": 35.6,
-        "lowest": 15.2,
-        "average_high": 31.2,
-        "average_low": 20.7
-      },
-      "precipitation_forecast": {
-        "total_expected": 0.7,
-        "rainy_days": 1,
-        "heaviest_day": 0.7
-      },
-      "weather_summary": "1 clear day, 1 cloudy day",
-      "alerts": [
-        "Thunderstorm possible on 2026-06-30",
-        "Hot weather expected on 2026-07-01: 34.5°C",
-        "Thunderstorm possible on 2026-07-01",
-        "Hot weather expected on 2026-07-02: 35.6°C",
-        "Thunderstorm possible on 2026-07-02",
-        "Hot weather expected on 2026-07-03: 34.5°C",
-        "Thunderstorm possible on 2026-07-03",
-        "Hot weather expected on 2026-07-04: 33.5°C",
-        "Thunderstorm possible on 2026-07-04"
-      ]
-    },
-    "transformation_timestamp": "2026-06-29T02:20:25.553779",
-    "data_quality": {
-      "current_available": true,
-      "forecast_available": true,
-      "forecast_days": 7,
-      "completeness": "Good"
-    },
-    "recorded_at": "2026-06-29T02:20:25.553923"
-  },
-  {
-    "location": {
-      "city": "Toronto",
-      "country": "Canada",
-      "latitude": 43.6532,
-      "longitude": -79.3832
-    },
-    "extraction_info": {
       "timestamp": "2026-06-29T03:37:20.661820",
       "current_available": true,
       "forecast_days": 7,
@@ -4790,5 +4630,163 @@
       "completeness": "Good"
     },
     "recorded_at": "2026-06-30T10:07:32.407642"
+  },
+  {
+    "location": {
+      "city": "Toronto",
+      "country": "Canada",
+      "latitude": 43.6532,
+      "longitude": -79.3832
+    },
+    "extraction_info": {
+      "timestamp": "2026-06-30T11:16:37.687544",
+      "current_available": true,
+      "forecast_days": 7,
+      "source": "Open-Meteo API"
+    },
+    "current_weather": {
+      "timestamp": "2026-06-30T07:15",
+      "city": "Toronto",
+      "country": "Canada",
+      "latitude": 43.6532,
+      "longitude": -79.3832,
+      "temperature": 19.0,
+      "feels_like": 20.9,
+      "humidity": 92,
+      "precipitation": 0.0,
+      "weather_code": 3,
+      "wind_speed": 5.9,
+      "wind_direction": 43,
+      "extracted_at": "2026-06-30T11:16:37.069639"
+    },
+    "current_analysis": {
+      "temperature_celsius": 19.0,
+      "temperature_fahrenheit": 66.2,
+      "feels_like_celsius": 20.9,
+      "feels_like_fahrenheit": 69.6,
+      "humidity_level": "Very High (Humid)",
+      "weather_description": "Overcast",
+      "wind_description": "Light breeze",
+      "comfort_index": "Acceptable",
+      "precipitation_status": "No"
+    },
+    "forecast_data": [
+      {
+        "date": "2026-06-30",
+        "city": "Toronto",
+        "country": "Canada",
+        "temp_max": 31.0,
+        "temp_min": 18.1,
+        "precipitation": 0.0,
+        "weather_code": 3,
+        "wind_speed_max": 19.7,
+        "wind_direction": 186,
+        "extracted_at": "2026-06-30T11:16:37.686623"
+      },
+      {
+        "date": "2026-07-01",
+        "city": "Toronto",
+        "country": "Canada",
+        "temp_max": 34.5,
+        "temp_min": 21.2,
+        "precipitation": 0.0,
+        "weather_code": 95,
+        "wind_speed_max": 28.9,
+        "wind_direction": 239,
+        "extracted_at": "2026-06-30T11:16:37.686636"
+      },
+      {
+        "date": "2026-07-02",
+        "city": "Toronto",
+        "country": "Canada",
+        "temp_max": 35.0,
+        "temp_min": 23.0,
+        "precipitation": 0.0,
+        "weather_code": 95,
+        "wind_speed_max": 21.9,
+        "wind_direction": 244,
+        "extracted_at": "2026-06-30T11:16:37.686640"
+      },
+      {
+        "date": "2026-07-03",
+        "city": "Toronto",
+        "country": "Canada",
+        "temp_max": 34.6,
+        "temp_min": 21.9,
+        "precipitation": 2.9,
+        "weather_code": 95,
+        "wind_speed_max": 22.5,
+        "wind_direction": 255,
+        "extracted_at": "2026-06-30T11:16:37.686642"
+      },
+      {
+        "date": "2026-07-04",
+        "city": "Toronto",
+        "country": "Canada",
+        "temp_max": 27.2,
+        "temp_min": 21.3,
+        "precipitation": 2.1,
+        "weather_code": 53,
+        "wind_speed_max": 20.9,
+        "wind_direction": 297,
+        "extracted_at": "2026-06-30T11:16:37.686645"
+      },
+      {
+        "date": "2026-07-05",
+        "city": "Toronto",
+        "country": "Canada",
+        "temp_max": 23.6,
+        "temp_min": 18.3,
+        "precipitation": 0.0,
+        "weather_code": 3,
+        "wind_speed_max": 15.6,
+        "wind_direction": 72,
+        "extracted_at": "2026-06-30T11:16:37.686648"
+      },
+      {
+        "date": "2026-07-06",
+        "city": "Toronto",
+        "country": "Canada",
+        "temp_max": 26.0,
+        "temp_min": 18.2,
+        "precipitation": 0.0,
+        "weather_code": 3,
+        "wind_speed_max": 13.0,
+        "wind_direction": 88,
+        "extracted_at": "2026-06-30T11:16:37.686656"
+      }
+    ],
+    "forecast_analysis": {
+      "temperature_trend": "Cooling trend",
+      "temperature_range": {
+        "highest": 35.0,
+        "lowest": 18.1,
+        "average_high": 30.3,
+        "average_low": 20.3
+      },
+      "precipitation_forecast": {
+        "total_expected": 5.0,
+        "rainy_days": 2,
+        "heaviest_day": 2.9
+      },
+      "weather_summary": "3 cloudy days, 1 rainy day",
+      "alerts": [
+        "Hot weather expected on 2026-06-30: 31.0°C",
+        "Hot weather expected on 2026-07-01: 34.5°C",
+        "Thunderstorm possible on 2026-07-01",
+        "Hot weather expected on 2026-07-02: 35.0°C",
+        "Thunderstorm possible on 2026-07-02",
+        "Hot weather expected on 2026-07-03: 34.6°C",
+        "Thunderstorm possible on 2026-07-03"
+      ]
+    },
+    "transformation_timestamp": "2026-06-30T11:16:37.688132",
+    "data_quality": {
+      "current_available": true,
+      "forecast_available": true,
+      "forecast_days": 7,
+      "completeness": "Good"
+    },
+    "recorded_at": "2026-06-30T11:16:37.688304"
   }
 ]
