@@ -6,31 +6,31 @@
     "longitude": -79.3832
   },
   "extraction_info": {
-    "timestamp": "2026-07-18T16:08:24.652852",
+    "timestamp": "2026-07-18T17:10:09.175205",
     "current_available": true,
     "forecast_days": 7,
     "source": "Open-Meteo API"
   },
   "current_weather": {
-    "timestamp": "2026-07-18T12:00",
+    "timestamp": "2026-07-18T13:00",
     "city": "Toronto",
     "country": "Canada",
     "latitude": 43.6532,
     "longitude": -79.3832,
-    "temperature": 25.4,
-    "feels_like": 31.0,
-    "humidity": 88,
+    "temperature": 23.2,
+    "feels_like": 29.1,
+    "humidity": 96,
     "precipitation": 0.0,
     "weather_code": 3,
-    "wind_speed": 9.1,
-    "wind_direction": 198,
-    "extracted_at": "2026-07-18T16:08:24.255652"
+    "wind_speed": 6.6,
+    "wind_direction": 68,
+    "extracted_at": "2026-07-18T17:10:08.774472"
   },
   "current_analysis": {
-    "temperature_celsius": 25.4,
-    "temperature_fahrenheit": 77.7,
-    "feels_like_celsius": 31.0,
-    "feels_like_fahrenheit": 87.8,
+    "temperature_celsius": 23.2,
+    "temperature_fahrenheit": 73.8,
+    "feels_like_celsius": 29.1,
+    "feels_like_fahrenheit": 84.4,
     "humidity_level": "Very High (Humid)",
     "weather_description": "Overcast",
     "wind_description": "Light breeze",
@@ -42,13 +42,13 @@
       "date": "2026-07-18",
       "city": "Toronto",
       "country": "Canada",
-      "temp_max": 26.5,
-      "temp_min": 19.5,
-      "precipitation": 0.4,
-      "weather_code": 51,
-      "wind_speed_max": 23.7,
-      "wind_direction": 260,
-      "extracted_at": "2026-07-18T16:08:24.651865"
+      "temp_max": 25.5,
+      "temp_min": 18.8,
+      "precipitation": 137.2,
+      "weather_code": 65,
+      "wind_speed_max": 29.3,
+      "wind_direction": 259,
+      "extracted_at": "2026-07-18T17:10:09.174270"
     },
     {
       "date": "2026-07-19",
@@ -59,8 +59,8 @@
       "precipitation": 0.0,
       "weather_code": 2,
       "wind_speed_max": 17.3,
-      "wind_direction": 318,
-      "extracted_at": "2026-07-18T16:08:24.651880"
+      "wind_direction": 315,
+      "extracted_at": "2026-07-18T17:10:09.174284"
     },
     {
       "date": "2026-07-20",
@@ -72,7 +72,7 @@
       "weather_code": 3,
       "wind_speed_max": 19.4,
       "wind_direction": 184,
-      "extracted_at": "2026-07-18T16:08:24.651883"
+      "extracted_at": "2026-07-18T17:10:09.174287"
     },
     {
       "date": "2026-07-21",
@@ -84,7 +84,7 @@
       "weather_code": 96,
       "wind_speed_max": 25.4,
       "wind_direction": 239,
-      "extracted_at": "2026-07-18T16:08:24.651886"
+      "extracted_at": "2026-07-18T17:10:09.174290"
     },
     {
       "date": "2026-07-22",
@@ -96,7 +96,7 @@
       "weather_code": 3,
       "wind_speed_max": 23.1,
       "wind_direction": 331,
-      "extracted_at": "2026-07-18T16:08:24.651889"
+      "extracted_at": "2026-07-18T17:10:09.174293"
     },
     {
       "date": "2026-07-23",
@@ -108,7 +108,7 @@
       "weather_code": 0,
       "wind_speed_max": 22.2,
       "wind_direction": 220,
-      "extracted_at": "2026-07-18T16:08:24.651892"
+      "extracted_at": "2026-07-18T17:10:09.174296"
     },
     {
       "date": "2026-07-24",
@@ -120,7 +120,7 @@
       "weather_code": 3,
       "wind_speed_max": 15.6,
       "wind_direction": 174,
-      "extracted_at": "2026-07-18T16:08:24.651894"
+      "extracted_at": "2026-07-18T17:10:09.174298"
     }
   ],
   "forecast_analysis": {
@@ -128,26 +128,27 @@
     "temperature_range": {
       "highest": 30.6,
       "lowest": 14.1,
-      "average_high": 25.7,
-      "average_low": 16.6
+      "average_high": 25.6,
+      "average_low": 16.5
     },
     "precipitation_forecast": {
-      "total_expected": 7.5,
+      "total_expected": 144.3,
       "rainy_days": 2,
-      "heaviest_day": 7.1
+      "heaviest_day": 137.2
     },
     "weather_summary": "1 clear day, 4 cloudy days, 1 rainy day",
     "alerts": [
+      "Heavy precipitation expected on 2026-07-18: 137.2mm",
       "Hot weather expected on 2026-07-21: 30.6°C",
       "Thunderstorm possible on 2026-07-21"
     ]
   },
-  "transformation_timestamp": "2026-07-18T16:08:24.653539",
+  "transformation_timestamp": "2026-07-18T17:10:09.175803",
   "data_quality": {
     "current_available": true,
     "forecast_available": true,
     "forecast_days": 7,
     "completeness": "Good"
   },
-  "recorded_at": "2026-07-18T16:08:24.653675"
+  "recorded_at": "2026-07-18T17:10:09.176009"
 }
