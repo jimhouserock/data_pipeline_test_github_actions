@@ -6,31 +6,31 @@
     "longitude": -79.3832
   },
   "extraction_info": {
-    "timestamp": "2026-07-20T07:47:57.858776",
+    "timestamp": "2026-07-20T10:33:40.089902",
     "current_available": true,
     "forecast_days": 7,
     "source": "Open-Meteo API"
   },
   "current_weather": {
-    "timestamp": "2026-07-20T03:45",
+    "timestamp": "2026-07-20T06:30",
     "city": "Toronto",
     "country": "Canada",
     "latitude": 43.6532,
     "longitude": -79.3832,
-    "temperature": 13.4,
-    "feels_like": 12.4,
-    "humidity": 77,
+    "temperature": 12.6,
+    "feels_like": 11.5,
+    "humidity": 79,
     "precipitation": 0.0,
     "weather_code": 0,
-    "wind_speed": 5.9,
-    "wind_direction": 346,
-    "extracted_at": "2026-07-20T07:47:57.405974"
+    "wind_speed": 6.1,
+    "wind_direction": 3,
+    "extracted_at": "2026-07-20T10:33:39.491396"
   },
   "current_analysis": {
-    "temperature_celsius": 13.4,
-    "temperature_fahrenheit": 56.1,
-    "feels_like_celsius": 12.4,
-    "feels_like_fahrenheit": 54.3,
+    "temperature_celsius": 12.6,
+    "temperature_fahrenheit": 54.7,
+    "feels_like_celsius": 11.5,
+    "feels_like_fahrenheit": 52.7,
     "humidity_level": "High",
     "weather_description": "Clear sky",
     "wind_description": "Light breeze",
@@ -42,25 +42,25 @@
       "date": "2026-07-20",
       "city": "Toronto",
       "country": "Canada",
-      "temp_max": 26.0,
-      "temp_min": 12.6,
+      "temp_max": 25.8,
+      "temp_min": 12.5,
       "precipitation": 0.0,
       "weather_code": 3,
-      "wind_speed_max": 18.4,
-      "wind_direction": 162,
-      "extracted_at": "2026-07-20T07:47:57.858171"
+      "wind_speed_max": 19.9,
+      "wind_direction": 171,
+      "extracted_at": "2026-07-20T10:33:40.088909"
     },
     {
       "date": "2026-07-21",
       "city": "Toronto",
       "country": "Canada",
-      "temp_max": 25.8,
-      "temp_min": 16.2,
-      "precipitation": 0.95,
-      "weather_code": 51,
-      "wind_speed_max": 34.7,
-      "wind_direction": 217,
-      "extracted_at": "2026-07-20T07:47:57.858179"
+      "temp_max": 23.9,
+      "temp_min": 17.9,
+      "precipitation": 23.1,
+      "weather_code": 65,
+      "wind_speed_max": 27.9,
+      "wind_direction": 207,
+      "extracted_at": "2026-07-20T10:33:40.088925"
     },
     {
       "date": "2026-07-22",
@@ -72,7 +72,7 @@
       "weather_code": 51,
       "wind_speed_max": 22.8,
       "wind_direction": 292,
-      "extracted_at": "2026-07-20T07:47:57.858183"
+      "extracted_at": "2026-07-20T10:33:40.088929"
     },
     {
       "date": "2026-07-23",
@@ -84,7 +84,7 @@
       "weather_code": 3,
       "wind_speed_max": 20.9,
       "wind_direction": 276,
-      "extracted_at": "2026-07-20T07:47:57.858185"
+      "extracted_at": "2026-07-20T10:33:40.088932"
     },
     {
       "date": "2026-07-24",
@@ -96,7 +96,7 @@
       "weather_code": 3,
       "wind_speed_max": 21.2,
       "wind_direction": 220,
-      "extracted_at": "2026-07-20T07:47:57.858188"
+      "extracted_at": "2026-07-20T10:33:40.088934"
     },
     {
       "date": "2026-07-25",
@@ -108,7 +108,7 @@
       "weather_code": 3,
       "wind_speed_max": 12.4,
       "wind_direction": 142,
-      "extracted_at": "2026-07-20T07:47:57.858191"
+      "extracted_at": "2026-07-20T10:33:40.088937"
     },
     {
       "date": "2026-07-26",
@@ -120,33 +120,34 @@
       "weather_code": 53,
       "wind_speed_max": 21.6,
       "wind_direction": 217,
-      "extracted_at": "2026-07-20T07:47:57.858194"
+      "extracted_at": "2026-07-20T10:33:40.088940"
     }
   ],
   "forecast_analysis": {
     "temperature_trend": "Warming trend",
     "temperature_range": {
       "highest": 30.3,
-      "lowest": 12.6,
-      "average_high": 26.1,
-      "average_low": 16.2
+      "lowest": 12.5,
+      "average_high": 25.8,
+      "average_low": 16.4
     },
     "precipitation_forecast": {
-      "total_expected": 4.2,
+      "total_expected": 26.3,
       "rainy_days": 3,
-      "heaviest_day": 2.7
+      "heaviest_day": 23.1
     },
     "weather_summary": "4 cloudy days, 3 rainy days",
     "alerts": [
+      "Heavy precipitation expected on 2026-07-21: 23.1mm",
       "Hot weather expected on 2026-07-26: 30.3°C"
     ]
   },
-  "transformation_timestamp": "2026-07-20T07:47:57.859426",
+  "transformation_timestamp": "2026-07-20T10:33:40.090471",
   "data_quality": {
     "current_available": true,
     "forecast_available": true,
     "forecast_days": 7,
     "completeness": "Good"
   },
-  "recorded_at": "2026-07-20T07:47:57.859588"
+  "recorded_at": "2026-07-20T10:33:40.090594"
 }
