@@ -6,35 +6,35 @@
     "longitude": -79.3832
   },
   "extraction_info": {
-    "timestamp": "2026-08-01T00:15:05.681671",
+    "timestamp": "2026-08-01T03:53:55.185252",
     "current_available": true,
     "forecast_days": 7,
     "source": "Open-Meteo API"
   },
   "current_weather": {
-    "timestamp": "2026-07-31T20:15",
+    "timestamp": "2026-07-31T23:45",
     "city": "Toronto",
     "country": "Canada",
     "latitude": 43.6532,
     "longitude": -79.3832,
-    "temperature": 24.0,
-    "feels_like": 24.8,
-    "humidity": 53,
+    "temperature": 21.1,
+    "feels_like": 23.1,
+    "humidity": 76,
     "precipitation": 0.0,
-    "weather_code": 1,
-    "wind_speed": 3.0,
-    "wind_direction": 194,
-    "extracted_at": "2026-08-01T00:15:05.173615"
+    "weather_code": 3,
+    "wind_speed": 2.5,
+    "wind_direction": 45,
+    "extracted_at": "2026-08-01T03:53:54.747639"
   },
   "current_analysis": {
-    "temperature_celsius": 24.0,
-    "temperature_fahrenheit": 75.2,
-    "feels_like_celsius": 24.8,
-    "feels_like_fahrenheit": 76.6,
-    "humidity_level": "Comfortable",
-    "weather_description": "Mainly clear",
+    "temperature_celsius": 21.1,
+    "temperature_fahrenheit": 70.0,
+    "feels_like_celsius": 23.1,
+    "feels_like_fahrenheit": 73.6,
+    "humidity_level": "High",
+    "weather_description": "Overcast",
     "wind_description": "Calm",
-    "comfort_index": "Very Comfortable",
+    "comfort_index": "Acceptable",
     "precipitation_status": "No"
   },
   "forecast_data": [
@@ -45,34 +45,34 @@
       "temp_max": 28.1,
       "temp_min": 15.3,
       "precipitation": 0.0,
-      "weather_code": 3,
+      "weather_code": 2,
       "wind_speed_max": 14.7,
-      "wind_direction": 195,
-      "extracted_at": "2026-08-01T00:15:05.680624"
+      "wind_direction": 208,
+      "extracted_at": "2026-08-01T03:53:55.184270"
     },
     {
       "date": "2026-08-01",
       "city": "Toronto",
       "country": "Canada",
-      "temp_max": 28.4,
-      "temp_min": 19.3,
+      "temp_max": 28.2,
+      "temp_min": 18.5,
       "precipitation": 0.0,
       "weather_code": 3,
-      "wind_speed_max": 15.3,
-      "wind_direction": 80,
-      "extracted_at": "2026-08-01T00:15:05.680640"
+      "wind_speed_max": 17.3,
+      "wind_direction": 77,
+      "extracted_at": "2026-08-01T03:53:55.184286"
     },
     {
       "date": "2026-08-02",
       "city": "Toronto",
       "country": "Canada",
-      "temp_max": 21.8,
+      "temp_max": 22.4,
       "temp_min": 18.7,
-      "precipitation": 10.3,
+      "precipitation": 15.33,
       "weather_code": 63,
-      "wind_speed_max": 16.9,
-      "wind_direction": 47,
-      "extracted_at": "2026-08-01T00:15:05.680644"
+      "wind_speed_max": 17.4,
+      "wind_direction": 25,
+      "extracted_at": "2026-08-01T03:53:55.184290"
     },
     {
       "date": "2026-08-03",
@@ -84,7 +84,7 @@
       "weather_code": 61,
       "wind_speed_max": 14.4,
       "wind_direction": 359,
-      "extracted_at": "2026-08-01T00:15:05.680650"
+      "extracted_at": "2026-08-01T03:53:55.184293"
     },
     {
       "date": "2026-08-04",
@@ -96,7 +96,7 @@
       "weather_code": 3,
       "wind_speed_max": 12.4,
       "wind_direction": 84,
-      "extracted_at": "2026-08-01T00:15:05.680653"
+      "extracted_at": "2026-08-01T03:53:55.184296"
     },
     {
       "date": "2026-08-05",
@@ -108,7 +108,7 @@
       "weather_code": 3,
       "wind_speed_max": 18.4,
       "wind_direction": 75,
-      "extracted_at": "2026-08-01T00:15:05.680656"
+      "extracted_at": "2026-08-01T03:53:55.184299"
     },
     {
       "date": "2026-08-06",
@@ -120,7 +120,7 @@
       "weather_code": 3,
       "wind_speed_max": 24.6,
       "wind_direction": 199,
-      "extracted_at": "2026-08-01T00:15:05.680659"
+      "extracted_at": "2026-08-01T03:53:55.184302"
     }
   ],
   "forecast_analysis": {
@@ -128,25 +128,25 @@
     "temperature_range": {
       "highest": 29.0,
       "lowest": 15.3,
-      "average_high": 26.2,
-      "average_low": 18.2
+      "average_high": 26.3,
+      "average_low": 18.1
     },
     "precipitation_forecast": {
-      "total_expected": 12.7,
+      "total_expected": 17.7,
       "rainy_days": 2,
-      "heaviest_day": 10.3
+      "heaviest_day": 15.33
     },
     "weather_summary": "5 cloudy days, 2 rainy days",
     "alerts": [
-      "Heavy precipitation expected on 2026-08-02: 10.3mm"
+      "Heavy precipitation expected on 2026-08-02: 15.33mm"
     ]
   },
-  "transformation_timestamp": "2026-08-01T00:15:05.682367",
+  "transformation_timestamp": "2026-08-01T03:53:55.185910",
   "data_quality": {
     "current_available": true,
     "forecast_available": true,
     "forecast_days": 7,
     "completeness": "Good"
   },
-  "recorded_at": "2026-08-01T00:15:05.682510"
+  "recorded_at": "2026-08-01T03:53:55.186047"
 }
