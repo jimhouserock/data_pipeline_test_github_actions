@@ -6,31 +6,31 @@
     "longitude": -79.3832
   },
   "extraction_info": {
-    "timestamp": "2026-08-15T03:44:32.512482",
+    "timestamp": "2026-08-15T04:16:05.774988",
     "current_available": true,
     "forecast_days": 7,
     "source": "Open-Meteo API"
   },
   "current_weather": {
-    "timestamp": "2026-08-14T23:30",
+    "timestamp": "2026-08-15T00:15",
     "city": "Toronto",
     "country": "Canada",
     "latitude": 43.6532,
     "longitude": -79.3832,
-    "temperature": 20.2,
-    "feels_like": 22.3,
-    "humidity": 90,
+    "temperature": 20.0,
+    "feels_like": 22.2,
+    "humidity": 91,
     "precipitation": 0.0,
     "weather_code": 0,
-    "wind_speed": 6.9,
-    "wind_direction": 62,
-    "extracted_at": "2026-08-15T03:44:31.838023"
+    "wind_speed": 6.4,
+    "wind_direction": 63,
+    "extracted_at": "2026-08-15T04:16:05.244576"
   },
   "current_analysis": {
-    "temperature_celsius": 20.2,
-    "temperature_fahrenheit": 68.4,
-    "feels_like_celsius": 22.3,
-    "feels_like_fahrenheit": 72.1,
+    "temperature_celsius": 20.0,
+    "temperature_fahrenheit": 68.0,
+    "feels_like_celsius": 22.2,
+    "feels_like_fahrenheit": 72.0,
     "humidity_level": "Very High (Humid)",
     "weather_description": "Clear sky",
     "wind_description": "Light breeze",
@@ -38,18 +38,6 @@
     "precipitation_status": "No"
   },
   "forecast_data": [
-    {
-      "date": "2026-08-14",
-      "city": "Toronto",
-      "country": "Canada",
-      "temp_max": 26.8,
-      "temp_min": 16.1,
-      "precipitation": 0.0,
-      "weather_code": 2,
-      "wind_speed_max": 12.1,
-      "wind_direction": 178,
-      "extracted_at": "2026-08-15T03:44:32.511719"
-    },
     {
       "date": "2026-08-15",
       "city": "Toronto",
@@ -60,7 +48,7 @@
       "weather_code": 2,
       "wind_speed_max": 20.3,
       "wind_direction": 61,
-      "extracted_at": "2026-08-15T03:44:32.511731"
+      "extracted_at": "2026-08-15T04:16:05.774062"
     },
     {
       "date": "2026-08-16",
@@ -72,7 +60,7 @@
       "weather_code": 3,
       "wind_speed_max": 17.7,
       "wind_direction": 73,
-      "extracted_at": "2026-08-15T03:44:32.511735"
+      "extracted_at": "2026-08-15T04:16:05.774075"
     },
     {
       "date": "2026-08-17",
@@ -84,7 +72,7 @@
       "weather_code": 51,
       "wind_speed_max": 22.0,
       "wind_direction": 331,
-      "extracted_at": "2026-08-15T03:44:32.511738"
+      "extracted_at": "2026-08-15T04:16:05.774078"
     },
     {
       "date": "2026-08-18",
@@ -96,7 +84,7 @@
       "weather_code": 3,
       "wind_speed_max": 25.2,
       "wind_direction": 202,
-      "extracted_at": "2026-08-15T03:44:32.511741"
+      "extracted_at": "2026-08-15T04:16:05.774081"
     },
     {
       "date": "2026-08-19",
@@ -108,7 +96,7 @@
       "weather_code": 51,
       "wind_speed_max": 20.5,
       "wind_direction": 236,
-      "extracted_at": "2026-08-15T03:44:32.511744"
+      "extracted_at": "2026-08-15T04:16:05.774084"
     },
     {
       "date": "2026-08-20",
@@ -120,15 +108,27 @@
       "weather_code": 3,
       "wind_speed_max": 18.8,
       "wind_direction": 23,
-      "extracted_at": "2026-08-15T03:44:32.511747"
+      "extracted_at": "2026-08-15T04:16:05.774087"
+    },
+    {
+      "date": "2026-08-21",
+      "city": "Toronto",
+      "country": "Canada",
+      "temp_max": 21.3,
+      "temp_min": 16.0,
+      "precipitation": 0.0,
+      "weather_code": 3,
+      "wind_speed_max": 17.1,
+      "wind_direction": 75,
+      "extracted_at": "2026-08-15T04:16:05.774089"
     }
   ],
   "forecast_analysis": {
     "temperature_trend": "Stable",
     "temperature_range": {
       "highest": 27.1,
-      "lowest": 16.1,
-      "average_high": 25.1,
+      "lowest": 16.0,
+      "average_high": 24.4,
       "average_low": 18.1
     },
     "precipitation_forecast": {
@@ -141,12 +141,12 @@
       "No weather alerts"
     ]
   },
-  "transformation_timestamp": "2026-08-15T03:44:32.513162",
+  "transformation_timestamp": "2026-08-15T04:16:05.775782",
   "data_quality": {
     "current_available": true,
     "forecast_available": true,
     "forecast_days": 7,
     "completeness": "Good"
   },
-  "recorded_at": "2026-08-15T03:44:32.513308"
+  "recorded_at": "2026-08-15T04:16:05.775954"
 }
