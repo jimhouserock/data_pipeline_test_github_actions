@@ -6,33 +6,33 @@
     "longitude": -79.3832
   },
   "extraction_info": {
-    "timestamp": "2026-08-25T12:51:07.443226",
+    "timestamp": "2026-08-25T13:39:04.972869",
     "current_available": true,
     "forecast_days": 7,
     "source": "Open-Meteo API"
   },
   "current_weather": {
-    "timestamp": "2026-08-25T08:45",
+    "timestamp": "2026-08-25T09:30",
     "city": "Toronto",
     "country": "Canada",
     "latitude": 43.6532,
     "longitude": -79.3832,
-    "temperature": 18.6,
-    "feels_like": 19.1,
-    "humidity": 85,
+    "temperature": 19.3,
+    "feels_like": 19.5,
+    "humidity": 81,
     "precipitation": 0.0,
-    "weather_code": 1,
-    "wind_speed": 11.0,
-    "wind_direction": 308,
-    "extracted_at": "2026-08-25T12:51:06.962790"
+    "weather_code": 0,
+    "wind_speed": 12.5,
+    "wind_direction": 319,
+    "extracted_at": "2026-08-25T13:39:04.434443"
   },
   "current_analysis": {
-    "temperature_celsius": 18.6,
-    "temperature_fahrenheit": 65.5,
-    "feels_like_celsius": 19.1,
-    "feels_like_fahrenheit": 66.4,
+    "temperature_celsius": 19.3,
+    "temperature_fahrenheit": 66.7,
+    "feels_like_celsius": 19.5,
+    "feels_like_fahrenheit": 67.1,
     "humidity_level": "Very High (Humid)",
-    "weather_description": "Mainly clear",
+    "weather_description": "Clear sky",
     "wind_description": "Light breeze",
     "comfort_index": "Acceptable",
     "precipitation_status": "No"
@@ -48,7 +48,7 @@
       "weather_code": 3,
       "wind_speed_max": 15.3,
       "wind_direction": 280,
-      "extracted_at": "2026-08-25T12:51:07.442361"
+      "extracted_at": "2026-08-25T13:39:04.971948"
     },
     {
       "date": "2026-08-26",
@@ -60,7 +60,7 @@
       "weather_code": 3,
       "wind_speed_max": 14.9,
       "wind_direction": 78,
-      "extracted_at": "2026-08-25T12:51:07.442377"
+      "extracted_at": "2026-08-25T13:39:04.971964"
     },
     {
       "date": "2026-08-27",
@@ -72,7 +72,7 @@
       "weather_code": 80,
       "wind_speed_max": 21.3,
       "wind_direction": 243,
-      "extracted_at": "2026-08-25T12:51:07.442380"
+      "extracted_at": "2026-08-25T13:39:04.971967"
     },
     {
       "date": "2026-08-28",
@@ -84,7 +84,7 @@
       "weather_code": 2,
       "wind_speed_max": 21.0,
       "wind_direction": 323,
-      "extracted_at": "2026-08-25T12:51:07.442382"
+      "extracted_at": "2026-08-25T13:39:04.971969"
     },
     {
       "date": "2026-08-29",
@@ -96,7 +96,7 @@
       "weather_code": 3,
       "wind_speed_max": 15.0,
       "wind_direction": 174,
-      "extracted_at": "2026-08-25T12:51:07.442384"
+      "extracted_at": "2026-08-25T13:39:04.971972"
     },
     {
       "date": "2026-08-30",
@@ -108,7 +108,7 @@
       "weather_code": 3,
       "wind_speed_max": 22.0,
       "wind_direction": 204,
-      "extracted_at": "2026-08-25T12:51:07.442387"
+      "extracted_at": "2026-08-25T13:39:04.971974"
     },
     {
       "date": "2026-08-31",
@@ -117,10 +117,10 @@
       "temp_max": 29.4,
       "temp_min": 21.4,
       "precipitation": 11.4,
-      "weather_code": 61,
+      "weather_code": 95,
       "wind_speed_max": 22.2,
       "wind_direction": 250,
-      "extracted_at": "2026-08-25T12:51:07.442389"
+      "extracted_at": "2026-08-25T13:39:04.971976"
     }
   ],
   "forecast_analysis": {
@@ -136,17 +136,18 @@
       "rainy_days": 2,
       "heaviest_day": 11.4
     },
-    "weather_summary": "5 cloudy days, 2 rainy days, 1 snowy day",
+    "weather_summary": "5 cloudy days, 1 rainy day, 1 snowy day",
     "alerts": [
-      "Heavy precipitation expected on 2026-08-31: 11.4mm"
+      "Heavy precipitation expected on 2026-08-31: 11.4mm",
+      "Thunderstorm possible on 2026-08-31"
     ]
   },
-  "transformation_timestamp": "2026-08-25T12:51:07.443794",
+  "transformation_timestamp": "2026-08-25T13:39:04.973609",
   "data_quality": {
     "current_available": true,
     "forecast_available": true,
     "forecast_days": 7,
     "completeness": "Good"
   },
-  "recorded_at": "2026-08-25T12:51:07.443933"
+  "recorded_at": "2026-08-25T13:39:04.973802"
 }
